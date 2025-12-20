@@ -1,0 +1,65 @@
+base_url = "https://gist.uz"
+title = "GIST"
+description = "Gist.uz — ilm-fan, dasturlash, startaplar va tanqidiy fikrlash haqida tahliliy maqolalar platformasi. O‘zbek tilida sifatli kontent."
+default_language = "en"
+build_search_index = true
+generate_feeds = true
+compile_sass = true
+minify_html = true
+taxonomies = [{ name = "tags" },{ name = "authors" }]
+
+[search]
+include_title = true
+include_description = true
+include_path = true
+include_content = true
+index_format = "elasticlunr_json"
+
+[markdown]
+highlight_code = true
+highlight_theme = "css"
+highlight_themes_css = [
+  { theme = "ayu-dark", filename = "syntax-theme-dark.css" },
+  { theme = "ayu-light", filename = "syntax-theme-light.css" },
+]
+
+[extra]
+toc = true
+use_cdn = false
+favicon = "/icons/favicon.svg"
+theme = "toggle"              # light, dark, auto, toggle
+fancy_code = true
+dynamic_note = true           # a note that can be toggled
+mathjax = true
+mathjax_dollar_inline_enable = true
+
+repo_url = "https://github.com/gist-uz/gist/"
+
+fediverse = false    # author attribution
+fediverse_creator = ""    # e.g. @user@instance
+
+menu = [
+    { name = "/maqolalar", url = "/posts", weight = 1 },
+    { name = "/loyihalar", url = "/projects", weight = 2 },
+    { name = "/videolar", url = "/talks", weight = 3 },
+    { name = "/teg", url = "/tags", weight = 4 },
+]
+
+socials = [
+    { name = "linkedin", url = "https://www.linkedin.com/company/gist-uz/", icon = "linkedin" },
+    { name = "github", url = "https://github.com/gist-uz/", icon = "github" },
+]
+
+stylesheets = [
+    # "custom.css"    # at /static/custom.css
+]
+
+[extra.taxonomies]
+sort_by = "page_count"         # e.g. name, page_count
+reverse = true
+
+[extra.analytics]
+enabled = true
+
+[extra.analytics.google]
+tracking_id = "G-KXPQ7JB6VV"  # Your Google Analytics tracking ID

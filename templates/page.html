@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+
+{% macro content(page) %}
+    <div class="visible-element-observer-root" data-selector="main article p">
+        <main>
+            <article>
+                <div class="title">
+                    {{ post_macros::page_header(title=page.title) }}
+
+                    <div class="meta">
+                        {% if page.date %}
+                            Sana: <time>{{ page.date | date(format="%Y-%m-%d") }}</time>
+                        {% endif %}
+
+                        {% if page.updated %}
+                            :: Yangilandi: <time>{{ page.updated | date(format="%Y-%m-%d") }}</time>
+                        {% endif %}
+
+                        {% if page.extra.read_time %}
+                            :: <time>{{ page.reading_time }}</time> daqiqa o‘qish
+                        {% endif %}
+
+                        {% if config.extra.word_count and page.word_count %}
+                            :: {{ page.word_count }} so‘z
+                        {% endif %}
+
+                        {# GitHub manbasi #}
+                        {% if page.extra.repo_view | default(value=config.extra.repo_view) | default(value=false) %}
+                            {% if page.extra.repo_url is defined %}
+                                {% set repo_url = page.extra.repo_url %}
+                            {% elif config.extra.repo_url is defined %}
+                                {% set repo_url = config.extra.repo_url %}
+                            {% else %}
+                                {% set repo_url = false %}
+                            {% endif %}
+
+                            {% if repo_url %}
+                                {% set final_url = repo_url ~ page.relative_path %}
+                                :: <a href="{{ final_url }}" target="_blank" rel="noopener noreferrer">Manba kodi</a>
+                            {% endif %}
+                        {% endif %}
+
+                        {# Mualliflar #}
+                        {% if page.taxonomies and page.taxonomies.authors %}
+                            <span class="authors-label">:: Muallif:</span>
+                            <span class="authors">
+                                {%- for author in page.taxonomies.authors %}
+                                    <a href="{{ get_taxonomy_url(kind='authors', name=author, lang=page.lang) }}"
+                                       class="post-authors">{{ author }}</a>
+                                {% endfor %}
+                            </span>
+                        {% endif %}
+
+                        {# Teglar #}
+                        {% if page.taxonomies and page.taxonomies.tags %}
+                            <span class="tags-label">::</span>
+                            <span class="tags">
+                                {%- for tag in page.taxonomies.tags %}
+                                    <a href="{{ get_taxonomy_url(kind='tags', name=tag, lang=page.lang) }}"
+                                       class="post-tag">#{{ tag }}</a>
+                                {% endfor %}
+                            </span>
+                        {% endif %}
+
+                        {% if page.draft %}
+                            <span class="draft-label">QORALAMA</span>
+                        {% endif %}
+                    </div>
+                </div>
+
+                {% if page.extra.tldr %}
+                    <div class="tldr">
+                        <strong>Qisqacha:</strong>
+                        {{ page.extra.tldr }}
+                    </div>
+                {% endif %}
+
+                <section class="body">
+                    {{ page.content | safe }}
+                </section>
+            </article>
+        </main>
+    </div>
+{% endmacro content %}
+
+{% block main_content %}
+    {{ self::content(page=page) }}
+{% endblock main_content %}
+
+{% block right_content %}
+    {% if config.extra.toc | default(value=false) and page.toc %}
+        {% include "partials/toc.html" %}
+    {% endif %}
+{% endblock right_content %}

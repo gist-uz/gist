@@ -1,0 +1,32 @@
+{% import "macros/macros.html" as post_macros %}
+
+<!DOCTYPE html>
+<html lang="uz" class="dark light">
+
+    {% include "partials/header.html" %}
+
+    <body>
+        <div class="left-content">
+            {% block left_content %}
+            {% endblock left_content %}
+        </div>
+
+        <div class="content">
+            {% include "partials/nav.html" %}
+
+            {# Post page is the default #}
+            {% block main_content %}
+                Hozircha bu yerda hech narsa yo'q.
+            {% endblock main_content %}
+
+
+    
+        </div>
+
+        <div class="right-content">
+            {% block right_content %}
+            {% endblock right_content %}
+        </div>
+    </body>
+
+</html>
