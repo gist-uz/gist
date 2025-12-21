@@ -7,7 +7,7 @@ weight = 1
 tags = ["ui-design", "css", "javascript", "opensource"]
 [extra]
 demo = "http://vipshakh.github.io/clock"
-local_image = "images/ac.jpg"
+local_image = "images/cd.jpg"
 +++
 
 **AllClock** — bu shunchaki soat emas, balki Frontend dasturchilar uchun vaqt va dizayn bilan ishlash bo'yicha kichik laboratoriyadir. Loyiha Open Source (ochiq manba) sifatida tarqatiladi va har kim o'z dizaynini qo'shishi mumkin.
