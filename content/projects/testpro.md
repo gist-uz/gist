@@ -1,13 +1,12 @@
 +++
-title = "TestPro — Interaktiv test tizimi arxitekturasi"
-description = "JavaScript yordamida dinamik test topshirish platformasini qurish, natijalarni hisoblash va AI integratsiyasi tahlili.
-weight = 1
-"
+title = "TestPro — Interaktiv test tizimi"
+date = 2025-12-20
+description = "JavaScript yordamida dinamik test topshirish platformasini qurish, natijalarni hisoblash va AI integratsiyasi tahlili."
 [taxonomies]
 tags = ["javascript", "education", "open-source", "frontend"]
 [extra]
-link_to = "https://vipshakh.github.io/leveltest/"
-local_imaga = "images/tp.jpg"
+demo = "https://vipshakh.github.io/leveltest/"
+local_image = "images/tp.jpg"
 +++
 
 **TestPro** — bu oddiy savol-javob o'yinidan ko'ra murakkabroq, foydalanuvchi bilim darajasini aniqlab beruvchi **Web Application**. Ushbu loyiha ochiq kodli bo'lib, yangi o'rganuvchilar uchun "Quiz App" logikasini tushunishda qo'llanma bo'la oladi.
