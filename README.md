@@ -1,77 +1,65 @@
-# apollo
+# Gist.uz — Ochiq Kodli Texnologik Blog
 
-Modern and minimalistic blog theme powered by [Zola](https://getzola.org). See a live preview [here](https://not-matthias.github.io/apollo).
+Ushbu loyiha **Gist.uz** saytining manba kodi hisoblanadi. Sayt **Zola** statik sayt generatori yordamida qurilgan va **Cloudflare Pages** orqali ishlaydi.
 
-<sub><sup>Named after the greek god of knowledge, wisdom and intellect</sup></sub>
+Maqsadimiz — o‘zbek tilida sifatli texnik kontent yaratish va dasturchilar hamjamiyatini rivojlantirish. Loyiha ochiq (open-source) bo‘lib, har kim o‘z hissasini qo‘shishi mumkin.
 
-<details open>
-  <summary>Dark theme</summary>
+## 🚀 Loyihani mahalliy kompyuterda ishga tushirish
 
-![blog-dark](./screenshot-dark.png)
+O‘zgarish kiritishdan oldin saytni o‘z kompyuteringizda ko‘rishni istasangiz, quyidagi qadamlarni bajaring:
 
-</details>
+### 1. Zola-ni o‘rnatish
+Sayt ishlashi uchun **Zola** dasturi kerak bo‘ladi.
+* **macOS:** `brew install zola`
+* **Windows:** `choco install zola`
+* **Linux:** Paket menejeringiz orqali yoki [GitHub Release](https://github.com/getzola/zola/releases) sahifasidan yuklab oling.
 
-<details>
-  <summary>Light theme</summary>
-
-![blog-light](./screenshot.png)
-
-</details>
-
-## Features
-
-- [x] Pagination
-- [x] Themes (light, dark, auto)
-- [x] Projects page
-- [x] Analytics using [GoatCounter](https://www.goatcounter.com/) / [Umami](https://umami.is/) / [Google Analytics](https://analytics.google.com/)
-- [x] Social Links
-- [x] MathJax Rendering
-- [x] Taxonomies
-- [x] Meta Tags For Individual Pages
-- [x] Custom homepage
-- [x] Comments
-- [x] Search
-- [x] RSS feeds
-- [x] Mermaid diagram support
-- [x] Table of Contents
-- [x] Configurable cards layout
-
-## Installation
-
-1. Download the theme
-
-```
-git submodule add https://github.com/not-matthias/apollo themes/apollo
+### 2. Loyihani ko‘chirib olish (Clone)
+```bash
+git clone [https://github.com/gist-uz/gist.git](https://github.com/gist-uz/gist.git)
+cd gist
 ```
 
-2. Add the following to the top of your `config.toml`
-
-```toml
-theme = "apollo"
-taxonomies = [{ name = "tags" }]
-
-[extra]
-theme = "auto"
-socials = [
-  # Configure socials here
-]
-menu = [
-  # Configure menu bar here
-]
-
-# See this for more options: https://github.com/not-matthias/apollo/blob/main/config.toml#L14
+### 3. Serverni ishga tushirish
+Terminalda quyidagi buyruqni bering:
+```bash
+zola serve
 ```
+Sayt `http://127.0.0.1:1111` manzilida ochiladi.
 
-3. Copy the example content
+---
 
-```
-cp -r themes/apollo/content/* content/
-```
+## ✍️ Qanday qilib maqola qo‘shish mumkin?
 
-## Configuration
+Biz hamjamiyat a'zolarining maqolalarini kutib qolamiz! Yangi post qo‘shish uchun quyidagi tartibda ishlang:
 
-Checkout all the [options you can configure](./content/posts/configuration.md) and the [example pages](./content/posts/).
+1.  **Fork qiling:** Ushbu repository-ni o‘z profilingizga "Fork" tugmasi orqali nusxalab oling.
+2.  **Fayl yarating:** `content/` papkasi ichida yangi `.md` (Markdown) fayl yarating (masalan: `content/blog/yangi-maqola.md`).
+3.  **Front Matter yozing:** Faylning eng yuqori qismiga quyidagi sozlamalarni kiriting:
 
-## References
+    ```toml
+    +++
+    title = "Maqola Sarlavhasi"
+    date = 2025-12-21
+    description = "Maqola haqida qisqacha ta'rif (meta description uchun)"
+    [taxonomies]
+    tags = ["dasturlash", "tutorial", "zola"]
+    +++
+    ```
 
-This theme is based on [archie-zola](https://github.com/XXXMrG/archie-zola/).
+4.  **Maqolani yozing:** "+++" belgisidan pastga maqola matnini yozing. Markdown formatidan foydalaning (sarlavhalar uchun `#`, rasmlar uchun `![]()`, kodlar uchun ` ``` `).
+5.  **Pull Request (PR) yuboring:** O‘zgarishlarni saqlang, GitHub-ga yuklang va bizning asosiy repository-ga **Pull Request** yuboring.
+
+Biz sizning PR-ingizni ko‘rib chiqamiz va agar hammasi joyida bo‘lsa, u saytda e'lon qilinadi!
+
+---
+
+## 🛠 Texnologiyalar
+
+* **Engine:** [Zola](https://www.getzola.org/) (Rust tilida yozilgan tezkor SSG)
+* **Hosting:** Cloudflare Pages
+* **Theme:** Apollo (moslashtirilgan)
+
+## 📄 Litsenziya
+
+Ushbu loyiha ochiq manba bo'lib, [MIT License](LICENSE) ostida tarqatiladi.
