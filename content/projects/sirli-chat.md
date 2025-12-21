@@ -7,7 +7,7 @@ weight = 2
 tags = ["telegram-bot", "backend", "security", "python"]
 [extra]
 demo = "https://t.me/sirlichat_bot"
-local_image = "images/sc.jpg"
+local_image = "images/ac.jpg"
 +++
 
 **Sirli Chat Bot** — bu foydalanuvchilarning shaxsiy ma'lumotlarini yashirgan holda o'zaro muloqot qilishini ta'minlovchi vosita. Loyiha Telegram Bot API imkoniyatlaridan maksimal darajada foydalanishga qaratilgan.
