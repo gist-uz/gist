@@ -28,17 +28,8 @@ template = "homepage.html"
 
 # Mashhur maqolalar
 
-- [Light, dark, and auto themes](@/posts/configuration.md#theme-mode-theme)
-- [Projects page](@/projects/_index.md)
-- [Talks page](https://not-matthias.github.io/talks/)
-- [Analytics (GoatCounter, Umami)](@/posts/configuration.md#analytics)
-- [Social media links](@/posts/configuration.md#socials)
-- [MathJax rendering](@/posts/math-symbol.md)
-- [Taxonomies](/apollo/tags)
-- [Custom homepage](@/posts/custom-homepage.md)
-- [Comments](@/posts/configuration.md#comments-comment)
-- [Search functionality](@/posts/configuration.md#search-build-search-index)
-- [Characters](@/posts/configuration.md#character-shortcodes)
+- [Startup](@/posts/startup.md)
+
 
 [Hamma maqolalarni ko‘rish →](@/posts/_index.md)
 
