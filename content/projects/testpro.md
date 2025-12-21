@@ -1,11 +1,12 @@
 +++
 title = "TestPro — Interaktiv test tizimi arxitekturasi"
-date = 2025-12-20
-description = "JavaScript yordamida dinamik test topshirish platformasini qurish, natijalarni hisoblash va AI integratsiyasi tahlili."
+description = "JavaScript yordamida dinamik test topshirish platformasini qurish, natijalarni hisoblash va AI integratsiyasi tahlili.
+weight = 1
+"
 [taxonomies]
 tags = ["javascript", "education", "open-source", "frontend"]
 [extra]
-link = "https://vipshakh.github.io/leveltest/"
+link_to = "https://vipshakh.github.io/leveltest/"
 local_imaga = "images/tp.jpg"
 +++
 
