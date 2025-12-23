@@ -1,4 +1,4 @@
-# Gist.uz — Ochiq Kodli Texnologik Blog
+# Gist.uz — ochiq kodli texnologik blog
 
 Ushbu loyiha **Gist.uz** saytining manba kodi hisoblanadi. Sayt **Zola** statik sayt generatori yordamida qurilgan va **Cloudflare Pages** orqali ishlaydi.
 
