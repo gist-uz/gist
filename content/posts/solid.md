@@ -7,7 +7,7 @@ tags = ["python", "solid", "clean-code", "architecture", "senior-level"]
 
 ### Kirish: OOP ni bilish yetarli emasmi? 🏗️
 
-Biz avvalgi **[OOP haqidagi maqolamizda](https://gist.uz/posts/oop/)** Class va Obyektlar nima ekanligini, ularni o‘yinlar misolida qanday ishlatishni ko‘rib chiqqan edik.
+Biz avvalgi **[OOP haqidagi maqolamizda](https://gist.uz/posts/opp/)** Class va Obyektlar nima ekanligini, ularni o‘yinlar misolida qanday ishlatishni ko‘rib chiqqan edik.
 
 Lekin... OOP ni bilish — bu g‘isht terishni bilish degani. Chiroyli va mustahkam bino qurish uchun esa sizga **Arxitektura** kerak. Agar qoidalarga amal qilmasangiz, kodingiz vaqt o‘tishi bilan **Makaron Monster** ga aylanadi: bir joyni tuzatsangiz, boshqa joyi sinib ketaveradi.
 
