@@ -1,7 +1,11 @@
----
-name: orchestration
-description: MAJBURIY - Boshqa har qanday ishni qilishdan oldin ushbu ko'nikmani yuklashingiz shart. Bu sizning qanday ishlashingizni belgilaydi.
----
++++
+title = "Orkestr Dirijyori (The Orchestrator)"
+slug = "orchestration"
+date = 2026-01-08
+draft = false
+description = "MAJBURIY - Boshqa har qanday ishni qilishdan oldin ushbu ko'nikmani yuklashingiz shart. Bu sizning qanday ishlashingizni belgilaydi."
+tags = ["skill", "orchestration", "ai-agent", "guide"]
++++
 
 # Orkestr Dirijyori (The Orchestrator)
 
