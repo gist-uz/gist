@@ -4,7 +4,6 @@ date = 2026-01-08
 description = "Nega insoniyat reallikdan voz kechmoqda? Supernormal stimullar, kognitiv infantilizm va Bodriyyarning 'Giperreallik' nazariyasi prizmasida chuqur tahlil."
 [taxonomies]
 tags = ["falsafa", "neyrobiologiya", "jamiyat", "kognitiv-fan", "tanqidiy-fikrlash"]
-extra = { author = "Raqamli Biznes", read_time = "12 min" }
 +++
 
 Insoniyat tarixida ilk bor biz paradoksal davrni boshdan kechirmoqdamiz: jismoniy qulayliklarning eng yuqori cho'qqisida turibmiz, ammo ruhiy va kognitiv salohiyatimiz misli ko'rilmagan darajada zaiflashib bormoqda. Texnologik progress bizga vaqtni tejash imkonini berdi, biroq biz bu vaqtni o'zimizni rivojlantirishga emas, balki reallikdan qochishga (**Eskapizm**) sarflamoqdamiz.
