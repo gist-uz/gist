@@ -115,10 +115,12 @@ for (let section of sections) {
   console.log(`\n${section}: ${files.length} ta fayl topildi`)
   
   for (let file of files) {
-    let slug = path.basename(file, ".md")
+    let fileSlug = path.basename(file, ".md")
     let content = fs.readFileSync(path.join(dir, file), "utf-8")
     let fm = parseFrontmatter(content)
     
+    // Frontmatter'dagi slug yoki fayl nomi
+    let slug = fm.slug || fileSlug
     let title = fm.title || slug
     let desc = fm.description || ""
     
