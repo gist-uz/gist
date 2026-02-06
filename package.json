@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "scripts": {
+    "og": "node tools/og.mjs",
+    "build": "node tools/og.mjs && zola build"
+  },
+  "dependencies": {
+    "satori": "latest",
+    "@resvg/resvg-js": "latest"
+  }
+}

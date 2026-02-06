@@ -66,6 +66,12 @@
         {% endif %}
     {% endif %}
 
+    {# OG Image & Twitter Card for posts #}
+    {% if page.slug %}
+        <meta property="og:image" content="https://gist.uz/og/{{ page.slug }}.png">
+        <meta name="twitter:card" content="summary_large_image">
+    {% endif %}
+
     {# Favicon #}
     {% if config.extra.favicon %}
         <link rel="icon"
