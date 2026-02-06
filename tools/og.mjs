@@ -52,7 +52,7 @@ async function generateOG(slug, title, desc, section) {
   let el = {
     type: "div",
     props: {
-      style: { width: 1200, height: 630, background: "#fff", display: "flex", flexDirection: "column", justifyContent: "space-between", padding: 72 },
+      style: { width: 1200, height: 630, background: "#fff", display: "flex", flexDirection: "column", justifyContent: "space-between", padding: 64 },
       children: [
         // Header: Logo va sayt nomi
         {
@@ -63,10 +63,10 @@ async function generateOG(slug, title, desc, section) {
               {
                 type: "div",
                 props: {
-                  style: { display: "flex", flexDirection: "column", gap: 18 },
+                  style: { display: "flex", flexDirection: "column", gap: 12 },
                   children: [
-                    { type: "div", props: { style: { display: "flex", fontSize: 76, fontWeight: 700, color: "#1f2937", letterSpacing: -1 }, children: `GIST.UZ/${sectionLabel}` } },
-                    { type: "div", props: { style: { display: "flex", fontSize: 34, color: "#6b7280", fontWeight: 400 }, children: sectionDesc } }
+                    { type: "div", props: { style: { display: "flex", fontSize: 56, fontWeight: 700, color: "#1f2937", letterSpacing: -1 }, children: `GIST.UZ/${sectionLabel}` } },
+                    { type: "div", props: { style: { display: "flex", fontSize: 28, color: "#6b7280", fontWeight: 400 }, children: sectionDesc } }
                   ]
                 }
               },
@@ -74,25 +74,28 @@ async function generateOG(slug, title, desc, section) {
                 type: "div",
                 props: {
                   style: { display: "flex", alignItems: "center", justifyContent: "center" },
-                  children: { type: "img", props: { src: logo, width: 140, height: 140 } }
+                  children: { type: "img", props: { src: logo, width: 100, height: 100 } }
                 }
               }
             ]
           }
         },
-        // Kontent: Title, description, link va chiziq
+        // Kontent: Title, description, link
         {
           type: "div",
           props: {
-            style: { display: "flex", flexDirection: "column", gap: 18, maxWidth: 980 },
+            style: { display: "flex", flexDirection: "column", gap: 20, maxWidth: 1000 },
             children: [
-              { type: "div", props: { style: { display: "flex", fontSize: 58, lineHeight: 1.12, fontWeight: 700, color: "#111827", letterSpacing: -.6 }, children: title } },
-              desc ? { type: "div", props: { style: { display: "flex", fontSize: 30, lineHeight: 1.35, color: "#6b7280", fontWeight: 400 }, children: desc } } : null,
-              { type: "div", props: { style: { display: "flex", marginTop: 8, fontSize: 24, color: "#9ca3af" }, children: `gist.uz/${section}/${slug}/` } },
-              // Qizil chiziq - link ostida
-              { type: "div", props: { style: { display: "flex", height: 10, background: "#EF5350", borderRadius: 8, marginTop: 20, width: "100%" } } }
+              { type: "div", props: { style: { display: "flex", fontSize: 46, lineHeight: 1.2, fontWeight: 700, color: "#111827", letterSpacing: -.5 }, children: title } },
+              desc ? { type: "div", props: { style: { display: "flex", fontSize: 26, lineHeight: 1.4, color: "#6b7280", fontWeight: 400 }, children: desc } } : null,
+              { type: "div", props: { style: { display: "flex", marginTop: 4, fontSize: 22, color: "#9ca3af" }, children: `gist.uz/${section}/${slug}/` } }
             ].filter(Boolean)
           }
+        },
+        // Qizil chiziq - eng pastda
+        {
+          type: "div",
+          props: { style: { display: "flex", height: 8, background: "#EF5350", borderRadius: 4, width: "100%" } }
         }
       ]
     }
@@ -124,9 +127,9 @@ for (let section of sections) {
     let title = fm.title || slug
     let desc = fm.description || ""
     
-    // Titleni qisqartirish (juda uzun bo'lsa)
-    if (title.length > 80) title = title.slice(0, 77) + "..."
-    if (desc.length > 120) desc = desc.slice(0, 117) + "..."
+    // Matnlarni qisqartirish (juda uzun bo'lsa)
+    if (title.length > 90) title = title.slice(0, 87) + "..."
+    if (desc.length > 160) desc = desc.slice(0, 157) + "..."
 
     await generateOG(slug, title, desc, section)
   }
