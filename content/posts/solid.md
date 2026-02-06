@@ -1,8 +1,7 @@
 +++
 title = "SOLID: Kodingizni \"Musor\"dan \"San’at asari\"ga aylantirish sirlari"
 date = 2026-01-08
-draft = false
-tags = ["python", "solid", "clean-code", "architecture", "senior-level"]
+draft = falsedescription = "5 ta oltin qoida: Single Responsibility, Open-Closed, Liskov, Interface Segregation, Dependency Inversion — Python misollarida."tags = ["python", "solid", "clean-code", "architecture", "senior-level"]
 +++
 
 ### Kirish: OOP ni bilish yetarli emasmi? 🏗️
