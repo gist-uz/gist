@@ -1,7 +1,7 @@
 +++
 title = "Saroblar asiri: Bugungi tafakkur tanazzuli va voqelikdan qochish"
 date = 2026-01-08
-description = "Odamzod nega asl borliqdan yuz o‘girmoqda? Sun’iy joziba, tafakkur zaifligi va Bodriyyarning "Soxta dunyo" nazariyasi tahlili"
+description = "Odamzod nega asl borliqdan yuz o‘girmoqda? Sun’iy joziba, tafakkur zaifligi va Bodriyyarning 'Soxta dunyo' nazariyasi tahlili"
 [taxonomies]
 tags = ["falsafa", "neyrobiologiya", "jamiyat", "kognitiv-fan", "tanqidiy-fikrlash"]
 +++
