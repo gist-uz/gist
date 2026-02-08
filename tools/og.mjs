@@ -44,8 +44,8 @@ async function generateOG(slug, title, desc, section) {
   // Seksiya nomini formatlash
   let sectionLabel = section.toUpperCase()
   let sectionDesc = {
-    posts: "Ochiq kodli tex blog",
-    talks: "Konferensiya ma'ruzalari",
+    posts: "Hamjamiyat maqolalari",
+    talks: "Hamjamiyat kontentlari",
     projects: "Ochiq manbali loyihalar"
   }[section] || "Gist.uz"
 
@@ -54,7 +54,6 @@ async function generateOG(slug, title, desc, section) {
     props: {
       style: { width: 1200, height: 630, background: "#fff", display: "flex", flexDirection: "column", justifyContent: "space-between", padding: 64 },
       children: [
-        // Header: Logo va sayt nomi
         {
           type: "div",
           props: {
@@ -80,7 +79,6 @@ async function generateOG(slug, title, desc, section) {
             ]
           }
         },
-        // Kontent: Title, description, link
         {
           type: "div",
           props: {
@@ -92,7 +90,6 @@ async function generateOG(slug, title, desc, section) {
             ].filter(Boolean)
           }
         },
-        // Qizil chiziq - eng pastda
         {
           type: "div",
           props: { style: { display: "flex", height: 8, background: "#EF5350", borderRadius: 4, width: "100%" } }
@@ -107,7 +104,6 @@ async function generateOG(slug, title, desc, section) {
   console.log(`✓ ${slug}.png`)
 }
 
-// Seksiyalarni qayta ishlash
 const sections = ["posts", "talks", "projects"]
 
 for (let section of sections) {
@@ -122,12 +118,10 @@ for (let section of sections) {
     let content = fs.readFileSync(path.join(dir, file), "utf-8")
     let fm = parseFrontmatter(content)
     
-    // Frontmatter'dagi slug yoki fayl nomi
     let slug = fm.slug || fileSlug
     let title = fm.title || slug
     let desc = fm.description || ""
     
-    // Matnlarni qisqartirish (juda uzun bo'lsa)
     if (title.length > 90) title = title.slice(0, 87) + "..."
     if (desc.length > 160) desc = desc.slice(0, 157) + "..."
 
