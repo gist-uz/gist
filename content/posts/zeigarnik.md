@@ -1,6 +1,6 @@
 +++
 title = "Zeigarnik Effekti: Nima uchun tugallanmagan ishlar bizni tinch qo'ymaydi?"
-date = 2026-04-27
+date = 2026-07-18
 description = "Ushbu maqolada biz Zeigarnik effektining psixologiyadagi oddiy izohini va nima uchun tugallangan vazifalarga qaraganda tugallanmagan vazifalarni yaxshiroq eslab qolishingiz haqida ga[...]
 [taxonomies]
 tags = ["falsafa", "samaradorlik", "Zeigarnik"]
