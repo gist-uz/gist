@@ -44,3 +44,12 @@ jobs:
           git add content/posts/
           git commit -m "chore: auto-generate daily AI article" || exit 0
           git push
+
+      - name: Wait for Cloudflare deployment
+        run: sleep 60
+
+      - name: Send Telegram Notification
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: node tools/notify_telegram.mjs

@@ -206,50 +206,17 @@ MUHIM: slug maydonida FAQAT 1-2 so'zdan iborat juda qisqa nom yozing. Masalan: "
   fs.writeFileSync(filePath, finalMarkdown, 'utf-8');
   console.log(`✅ Maqola muvaffaqiyatli saqlandi: content/posts/${slug}.md\n`);
   
-  // Phase 3: Telegram Notification
-  const tgToken = process.env.TELEGRAM_BOT_TOKEN;
-  const tgChatId = process.env.TELEGRAM_CHAT_ID;
-  
-  if (tgToken && tgChatId) {
-      console.log("Bosqich 3: Telegramga e'lon yuborish...");
-      const articleUrl = `https://gist.uz/posts/${slug}/`;
-      
-      const message = `![🔥](tg://emoji?id=5197460222628624076) *Yangi maqola Gist\\.uz'da\\!*\n\n` +
-                      `![📖](tg://emoji?id=5422884098010030326) *Sarlavha:* ${title.replace(/([_*\[\]()~`>#+\-=|{}.!])/g, '\\$1')}\n` +
-                      `![💡](tg://emoji?id=5422677162190742205) *Qisqacha:* _${description.replace(/([_*\[\]()~`>#+\-=|{}.!])/g, '\\$1')}_`;
-      
-      const inlineKeyboard = {
-          inline_keyboard: [
-              [{ text: "📖 Maqolani o'qish", url: articleUrl }]
-          ]
-      };
-                      
-      try {
-          const res = await fetch(`https://api.telegram.org/bot${tgToken}/sendMessage`, {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({
-                  chat_id: tgChatId,
-                  text: message,
-                  parse_mode: 'MarkdownV2',
-                  reply_markup: inlineKeyboard,
-                  link_preview_options: {
-                      url: articleUrl,
-                      show_above_text: true
-                  }
-              })
-          });
-          if (res.ok) {
-              console.log("✅ Telegramga xabar yuborildi!");
-          } else {
-              console.error("❌ Telegram xabar jo'natishda xatolik:", await res.text());
-          }
-      } catch (err) {
-          console.error("❌ Telegram qismida tarmoq xatosi:", err);
-      }
-  } else {
-      console.log("⚠️ TELEGRAM_BOT_TOKEN yoki TELEGRAM_CHAT_ID yo'q, Telegram e'lon o'tkazib yuborildi.");
-  }
+  // Phase 3: Save Telegram notification data for later (after git push + Cloudflare deploy)
+  const articleUrl = `https://gist.uz/posts/${slug}/`;
+  const notificationData = {
+      title,
+      description,
+      slug,
+      url: articleUrl
+  };
+  const notifPath = path.join(__dirname, '..', '.telegram-notification.json');
+  fs.writeFileSync(notifPath, JSON.stringify(notificationData, null, 2), 'utf-8');
+  console.log("📋 Telegram xabar ma'lumotlari saqlandi (.telegram-notification.json)\n");
 }
 
 generateArticle();
