@@ -26,7 +26,7 @@ function escapeMarkdownV2(text) {
     return text.replace(/([_*\[\]()~`>#+\-=|{}.!])/g, '\\$1');
 }
 
-const message = `![#️⃣](tg://emoji?id=5197460222628624076) *Yangi maqola Gist\\.uz'da\\!*\n\n` +
+const message = `![\\#️⃣](tg://emoji?id=5197460222628624076) *Yangi maqola Gist\\.uz'da\\!*\n\n` +
     `![📖](tg://emoji?id=5422884098010030326) *Sarlavha:* ${escapeMarkdownV2(data.title)}\n` +
     `![💡](tg://emoji?id=5422677162190742205) *Qisqacha:* _${escapeMarkdownV2(data.description)}_`;
 
