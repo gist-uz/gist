@@ -32,17 +32,44 @@ const categories = [
 const getRandomCategory = () => categories[Math.floor(Math.random() * categories.length)];
 
 function slugify(text) {
-  return text.toString().toLowerCase()
+  let slug = text.toString().toLowerCase()
     .replace(/\s+/g, '-')           // Replace spaces with -
     .replace(/[^\w\-]+/g, '')       // Remove all non-word chars
     .replace(/\-\-+/g, '-')         // Replace multiple - with single -
     .replace(/^-+/, '')             // Trim - from start of text
     .replace(/-+$/, '');            // Trim - from end of text
+    
+  if (slug.length > 50) {
+    slug = slug.substring(0, 50).replace(/-+$/, '');
+  }
+  
+  return slug;
+}
+
+function getExistingTopics() {
+  const postsDir = path.join(__dirname, '..', 'content', 'posts');
+  let topics = [];
+  if (fs.existsSync(postsDir)) {
+    const files = fs.readdirSync(postsDir).filter(file => file.endsWith('.md') && file !== '_index.md');
+    for (const file of files) {
+      const content = fs.readFileSync(path.join(postsDir, file), 'utf-8');
+      const titleMatch = content.match(/title\s*=\s*"([^"]+)"/);
+      if (titleMatch && titleMatch[1]) {
+        topics.push(titleMatch[1]);
+      }
+    }
+  }
+  return topics;
 }
 
 async function generateArticle() {
   const selectedCategory = getRandomCategory();
   console.log(`\n🤖 Seçilgan mavzu yo'nalishi: ${selectedCategory}\n`);
+  
+  const existingTopics = getExistingTopics();
+  const excludePrompt = existingTopics.length > 0 
+    ? `\nDiqqat! Saytda quyidagi mavzularda maqolalar ALLAQACHON yozilgan. Iltimos, mutlaqo YANGI, avval yozilmagan mavzu tanlang:\n- ${existingTopics.join('\n- ')}\n` 
+    : "";
 
   // Phase 1: Drafting with Gemini
   console.log("Bosqich 1: Gemini orqali dastlabki qoralamani yozish...");
@@ -50,30 +77,37 @@ async function generateArticle() {
   const draftPrompt = `
 Siz "Gist.uz" - ilm-fan, dasturlash, startaplar va tanqidiy fikrlash haqida tahliliy maqolalar platformasi uchun tajribali avtorsiz.
 Bugungi maqola mavzusi quyidagi yo'nalishda bo'lishi kerak: ${selectedCategory}
+${excludePrompt}
 O'zingiz aniq va qiziqarli, o'quvchini jalb qiladigan, zamonaviy va biroz provokatsion sarlavha o'ylab toping.
-Keyin shu mavzuda keng qamrovli, tahliliy, mantiqiy ketma-ketlikka ega bo'lgan maqola yozing (kamida 800-1000 so'z).
+Keyin shu mavzuda keng qamrovli, tahliliy, mantiqiy ketma-ketlikka ega bo'lgan maqola yozing. Matn hajmi juda katta va batafsil (kamida 1200-1500 so'z) bo'lishi SHART. Har bir paragrafda chuqur fikrlar va hayotiy misollar keltiring.
 Matn faqat o'zbek tilida (kirill yozuvidan qochib, lotin alifbosida) bo'lishi shart.
 `;
 
   let draftText = "";
-  try {
-    const draftResponse = await ai.models.generateContent({
-      model: 'gemini-3.5-flash',
-      contents: draftPrompt,
-    });
-    draftText = draftResponse.text;
-    console.log("Gemini qoralamani muvaffaqiyatli yakunladi!\n");
-  } catch (error) {
-    console.error("Gemini API da xatolik yuz berdi:", error);
-    process.exit(1);
+  const geminiModels = ['gemini-3.5-flash', 'gemini-2.5-flash', 'gemini-1.5-flash'];
+  
+  for (const modelName of geminiModels) {
+      try {
+        console.log(`Gemini modeli orqali urinish: ${modelName}`);
+        const draftResponse = await ai.models.generateContent({
+          model: modelName,
+          contents: draftPrompt,
+        });
+        draftText = draftResponse.text;
+        console.log(`Gemini (${modelName}) qoralamani muvaffaqiyatli yakunladi!\n`);
+        break; // Successfully generated, exit loop
+      } catch (error) {
+        console.warn(`⚠️ ${modelName} modelida xatolik:`, error.message);
+      }
   }
 
   // Phase 2: Review and formatting with OpenAI
-  console.log("Bosqich 2: OpenAI (GPT-4o) orqali matnni sayqallash va formatlash...");
-  
   const today = new Date().toISOString().split('T')[0];
+  let reviewPrompt = "";
 
-  const reviewPrompt = `
+  if (draftText) {
+      console.log("Bosqich 2: OpenAI (GPT-4o) orqali matnni sayqallash va formatlash...");
+      reviewPrompt = `
 Quyida sizga "Gist.uz" sayti uchun yozilgan maqola qoralamasi taqdim etiladi. Sizning vazifangiz:
 1. Matn sifatini juda yuqori darajaga ko'tarish, xatolarni to'g'rilash va tilni yanada boy, professional va tahliliy (lekin tushunarli) qilish.
 2. Zola static site generator talablariga mos keladigan TO'LIQ Markdown faylini yaratish.
@@ -81,6 +115,7 @@ Quyida sizga "Gist.uz" sayti uchun yozilgan maqola qoralamasi taqdim etiladi. Si
 Faylning eng yuqori qismida quyidagi kabi Frontmatter bo'lishi SHART:
 +++
 title = "Maqolaning zo'r sarlavhasi"
+slug = "maqola-uchun-qisqa-va-manoli-nom"
 date = ${today}
 description = "Maqola haqida 1-2 gapdan iborat qisqacha, qiziqarli ta'rif"
 [taxonomies]
@@ -92,6 +127,31 @@ Frontmatterdan keyin esa darhol maqolaning o'zi, markdown formatida (## sarlavha
 Mana qoralama:
 ${draftText}
 `;
+  } else {
+      console.log("Bosqich 1: Barcha Gemini modellari band yoki xato berdi.");
+      console.log("Bosqich 2: OpenAI (GPT-4o) butun maqolani noldan o'zi yozmoqda...");
+      reviewPrompt = `
+Siz "Gist.uz" - ilm-fan, dasturlash, startaplar va tanqidiy fikrlash haqida tahliliy maqolalar platformasi uchun tajribali avtorsiz.
+Bugungi maqola mavzusi quyidagi yo'nalishda bo'lishi kerak: ${selectedCategory}
+${excludePrompt}
+O'zingiz aniq va qiziqarli, o'quvchini jalb qiladigan, zamonaviy va biroz provokatsion sarlavha o'ylab toping.
+Keyin shu mavzuda keng qamrovli, tahliliy, mantiqiy ketma-ketlikka ega bo'lgan maqola yozing. Matn hajmi juda katta va batafsil (kamida 1200-1500 so'z) bo'lishi SHART. Har bir paragrafda chuqur fikrlar va hayotiy misollar keltiring.
+Matn faqat o'zbek tilida (kirill yozuvidan qochib, lotin alifbosida) bo'lishi shart.
+Zola static site generator talablariga mos keladigan TO'LIQ Markdown faylini yarating.
+
+Faylning eng yuqori qismida quyidagi kabi Frontmatter bo'lishi SHART:
++++
+title = "Maqolaning zo'r sarlavhasi"
+slug = "maqola-uchun-qisqa-va-manoli-nom"
+date = ${today}
+description = "Maqola haqida 1-2 gapdan iborat qisqacha, qiziqarli ta'rif"
+[taxonomies]
+tags = ["tag1", "tag2", "tag3", "tag4"]
++++
+
+Frontmatterdan keyin esa darhol maqolaning o'zi, markdown formatida (## sarlavhalar, *qalin yozuvlar*, ro'yxatlar) kelishi kerak. Matn uzun, batafsil va sifatli bo'lsin. Hech qanday markdown kod bloklari ichiga olmang, to'g'ridan to'g'ri fayl matnini bering (ya'ni \`\`\`markdown deb boshlamang).
+`;
+  }
 
   let finalMarkdown = "";
   try {
@@ -120,14 +180,18 @@ ${draftText}
     process.exit(1);
   }
 
-  // Extract title for slug
+  // Extract title and slug
   let slug = `maqola-${Date.now()}`;
+  const slugMatch = finalMarkdown.match(/slug\s*=\s*"([^"]+)"/);
   const titleMatch = finalMarkdown.match(/title\s*=\s*"([^"]+)"/);
-  let title = "Yangi Maqola";
-  if (titleMatch && titleMatch[1]) {
-      title = titleMatch[1];
+  
+  if (slugMatch && slugMatch[1]) {
+      slug = slugify(slugMatch[1]);
+  } else if (titleMatch && titleMatch[1]) {
       slug = slugify(titleMatch[1]);
   }
+  
+  let title = titleMatch && titleMatch[1] ? titleMatch[1] : "Yangi Maqola";
   
   const descMatch = finalMarkdown.match(/description\s*=\s*"([^"]+)"/);
   const description = descMatch && descMatch[1] ? descMatch[1] : "";
