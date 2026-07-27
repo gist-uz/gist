@@ -115,7 +115,7 @@ Quyida sizga "Gist.uz" sayti uchun yozilgan maqola qoralamasi taqdim etiladi. Si
 Faylning eng yuqori qismida quyidagi kabi Frontmatter bo'lishi SHART:
 +++
 title = "Maqolaning zo'r sarlavhasi"
-slug = "maqola-uchun-qisqa-va-manoli-nom"
+slug = "qisqa-nom"
 date = ${today}
 description = "Maqola haqida 1-2 gapdan iborat qisqacha, qiziqarli ta'rif"
 [taxonomies]
@@ -123,6 +123,8 @@ tags = ["tag1", "tag2", "tag3", "tag4"]
 +++
 
 Frontmatterdan keyin esa darhol maqolaning o'zi, markdown formatida (## sarlavhalar, *qalin yozuvlar*, ro'yxatlar) kelishi kerak. Matn uzun, batafsil va sifatli bo'lsin. Hech qanday markdown kod bloklari ichiga olmang, to'g'ridan to'g'ri fayl matnini bering (ya'ni \`\`\`markdown deb boshlamang).
+
+MUHIM: slug maydonida FAQAT 1-2 so'zdan iborat juda qisqa nom yozing. Masalan: "etika-dilemma", "kvant-kompyuter", "startap-xato". HECH QACHON uzun slug yozmang!
 
 Mana qoralama:
 ${draftText}
@@ -142,7 +144,7 @@ Zola static site generator talablariga mos keladigan TO'LIQ Markdown faylini yar
 Faylning eng yuqori qismida quyidagi kabi Frontmatter bo'lishi SHART:
 +++
 title = "Maqolaning zo'r sarlavhasi"
-slug = "maqola-uchun-qisqa-va-manoli-nom"
+slug = "qisqa-nom"
 date = ${today}
 description = "Maqola haqida 1-2 gapdan iborat qisqacha, qiziqarli ta'rif"
 [taxonomies]
@@ -150,6 +152,8 @@ tags = ["tag1", "tag2", "tag3", "tag4"]
 +++
 
 Frontmatterdan keyin esa darhol maqolaning o'zi, markdown formatida (## sarlavhalar, *qalin yozuvlar*, ro'yxatlar) kelishi kerak. Matn uzun, batafsil va sifatli bo'lsin. Hech qanday markdown kod bloklari ichiga olmang, to'g'ridan to'g'ri fayl matnini bering (ya'ni \`\`\`markdown deb boshlamang).
+
+MUHIM: slug maydonida FAQAT 1-2 so'zdan iborat juda qisqa nom yozing. Masalan: "etika-dilemma", "kvant-kompyuter", "startap-xato". HECH QACHON uzun slug yozmang!
 `;
   }
 
@@ -208,12 +212,17 @@ Frontmatterdan keyin esa darhol maqolaning o'zi, markdown formatida (## sarlavha
   
   if (tgToken && tgChatId) {
       console.log("Bosqich 3: Telegramga e'lon yuborish...");
-      const articleUrl = `https://gist.uz/posts/${slug}/`; // Based on your site structure
+      const articleUrl = `https://gist.uz/posts/${slug}/`;
       
-      const message = `🔥 **Yangi maqola Gist.uz'da!**\n\n` + 
-                      `📖 **Sarlavha:** ${title}\n` +
-                      `💡 **Qisqacha:** ${description}\n\n` +
-                      `👉 To'liq o'qish uchun havola: ${articleUrl}`;
+      const message = `![🔥](tg://emoji?id=5197460222628624076) *Yangi maqola Gist\\.uz'da\\!*\n\n` +
+                      `![📖](tg://emoji?id=5422884098010030326) *Sarlavha:* ${title.replace(/([_*\[\]()~`>#+\-=|{}.!])/g, '\\$1')}\n` +
+                      `![💡](tg://emoji?id=5422677162190742205) *Qisqacha:* _${description.replace(/([_*\[\]()~`>#+\-=|{}.!])/g, '\\$1')}_`;
+      
+      const inlineKeyboard = {
+          inline_keyboard: [
+              [{ text: "📖 Maqolani o'qish", url: articleUrl }]
+          ]
+      };
                       
       try {
           const res = await fetch(`https://api.telegram.org/bot${tgToken}/sendMessage`, {
@@ -222,7 +231,12 @@ Frontmatterdan keyin esa darhol maqolaning o'zi, markdown formatida (## sarlavha
               body: JSON.stringify({
                   chat_id: tgChatId,
                   text: message,
-                  parse_mode: 'Markdown'
+                  parse_mode: 'MarkdownV2',
+                  reply_markup: inlineKeyboard,
+                  link_preview_options: {
+                      url: articleUrl,
+                      show_above_text: true
+                  }
               })
           });
           if (res.ok) {
