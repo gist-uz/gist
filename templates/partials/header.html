@@ -68,8 +68,11 @@
 
     {# OG Image & Twitter Card for posts #}
     {% if page.slug %}
+        <meta property="og:type" content="article">
         <meta property="og:image" content="https://gist.uz/og/{{ page.slug }}.png">
         <meta name="twitter:card" content="summary_large_image">
+    {% else %}
+        <meta property="og:type" content="website">
     {% endif %}
 
     {# Favicon #}

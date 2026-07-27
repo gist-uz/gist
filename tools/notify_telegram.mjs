@@ -32,25 +32,27 @@ const EMOJI = {
 };
 
 // Xabar matni — oddiy emoji placeholder bilan
+const urlLine = `${data.url}\n\n`;
 const line1 = `#️⃣ Yangi maqola Gist.uz'da!\n\n`;
 const line2 = `📖 Sarlavha: ${data.title}\n`;
 const line3 = `💡 Qisqacha: ${data.description}`;
-const text = line1 + line2 + line3;
+const text = urlLine + line1 + line2 + line3;
 
 // Custom emoji entities — har bir emoji uchun offset va length hisoblash
 function buildEntities(text) {
     const entities = [];
     
-    // #️⃣ emoji — birinchi belgi (offset 0)
+    // #️⃣ emoji — line1 boshida
+    const hashOffset = urlLine.length;
     entities.push({
         type: "custom_emoji",
-        offset: 0,
+        offset: hashOffset,
         length: EMOJI.HASH.char.length,
         custom_emoji_id: EMOJI.HASH.id
     });
 
     // 📖 emoji — line2 boshida
-    const bookOffset = line1.length;
+    const bookOffset = urlLine.length + line1.length;
     entities.push({
         type: "custom_emoji",
         offset: bookOffset,
@@ -59,7 +61,7 @@ function buildEntities(text) {
     });
 
     // 💡 emoji — line3 boshida
-    const bulbOffset = line1.length + line2.length;
+    const bulbOffset = urlLine.length + line1.length + line2.length;
     entities.push({
         type: "custom_emoji",
         offset: bulbOffset,
@@ -68,7 +70,7 @@ function buildEntities(text) {
     });
 
     // Bold: "Yangi maqola Gist.uz'da!" 
-    const boldStart = EMOJI.HASH.char.length + 1; // after emoji + space
+    const boldStart = hashOffset + EMOJI.HASH.char.length + 1; // after emoji + space
     const boldText = "Yangi maqola Gist.uz'da!";
     entities.push({
         type: "bold",
@@ -102,6 +104,31 @@ const inlineKeyboard = {
         [{ text: "📖 Maqolani o'qish", url: data.url }]
     ]
 };
+
+console.log(`Checking if ${data.url} is live...`);
+const maxRetries = 20;
+const retryDelayMs = 15000; // 15 seconds
+let isReady = false;
+
+for (let i = 0; i < maxRetries; i++) {
+    try {
+        const checkRes = await fetch(data.url);
+        if (checkRes.ok) {
+            isReady = true;
+            console.log("✅ Sahifa tayyor! Cloudflare keshi to'liq yangilanishi uchun yana 15 soniya kutilmoqda...");
+            await new Promise(r => setTimeout(r, 15000));
+            break;
+        }
+    } catch (e) {
+        // ignore fetch errors
+    }
+    console.log(`Sahifa hali tayyor emas (urinish ${i+1}/${maxRetries}). Kutilyapti...`);
+    await new Promise(r => setTimeout(r, retryDelayMs));
+}
+
+if (!isReady) {
+    console.log("⚠️ Sahifa uzoq vaqt davomida tayyor bo'lmadi, lekin baribir Telegramga yuboramiz...");
+}
 
 try {
     const res = await fetch(`https://api.telegram.org/bot${tgToken}/sendMessage`, {

@@ -45,8 +45,6 @@ jobs:
           git commit -m "chore: auto-generate daily AI article" || exit 0
           git push
 
-      - name: Wait for Cloudflare deployment
-        run: sleep 60
 
       - name: Send Telegram Notification
         env:
