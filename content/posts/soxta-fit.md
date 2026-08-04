@@ -1,4 +1,4 @@
-+++  
++++
 title = "Soxta Product-Market Fit: Mavjudligi, Sabablari va Yechimlari"  
 slug = "soxta-fit"  
 date = 2026-07-31  
