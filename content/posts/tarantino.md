@@ -1,5 +1,5 @@
 +++
-title = "Tarantino metodi: kontentni filmdek o‘qitish"
+title = "Tarantino metodi: Kontentni filmdek o‘qitish"
 date = 2026-02-09
 description = "Nolinear kirish, bo‘lim-bo‘lim portlash va dialog ritmi: Tarantino metodi bilan blog, pitch va dokumentatsiyani zerikarli bo‘lmasdan yozing."
 [taxonomies]
@@ -31,9 +31,9 @@ Chunki internetda siz kitob bilan emas, **scroll** bilan raqobatlashasiz. Scroll
 
 Shu yerda Tarantino metodi “hustle culture”ga o‘xshab ketadi: hamma “ko‘proq yoz” deydi. Tarantino esa teskarisini qiladi: **kamroq tushuntiradi, ko‘proq majbur qiladi**. Majbur qilish — o‘quvchini o‘ylashga, taxmin qilishga, ichidan gapirishga majbur qilish.
 
-## 7 ta prinsip: kontent uchun Tarantino skeleti
+## 7 ta prinsip: Kontent uchun tarantino skeleti
 
-### 1) Cold open: izohsiz voqea
+### 1) cold open: Izohsiz voqea
 
 Maqolani definitsiyadan boshlamang. **Natija** yoki **muammo** bilan boshlang.
 
@@ -45,7 +45,7 @@ Yaxshi:
 
 * “Eng yaxshi texnik maqolalar ham o‘qilmaydi. Sababi: siz hammasini darrov aytib qo‘yasiz.”
 
-### 2) Kechiktirilgan kontekst: “Nega?”ni keyinga qoldiring
+### 2) kechiktirilgan kontekst: “nega?”ni keyinga qoldiring
 
 O‘quvchi birinchi bo‘lib “Nima bo‘lyapti?”ni ko‘rsin. “Nega?” — keyingi sahifa uchun benzin.
 
@@ -54,7 +54,7 @@ Praktika:
 * Birinchi 10–15 qatorda faqat **vaziyat** va **risk**.
 * Kontekstni keyin “flashback” qilib berasiz.
 
-### 3) Bo‘limlar — modul arxitektura
+### 3) bo‘limlar — modul arxitektura
 
 Tarantinoda “chapter”lar nafaqat bezak, balki boshqaruv pulti. Kontentda ham bo‘limlar:
 
@@ -62,7 +62,7 @@ Tarantinoda “chapter”lar nafaqat bezak, balki boshqaruv pulti. Kontentda ham
 * qayta kirishni osonlashtiradi,
 * “yana bitta bo‘lim” effektini beradi.
 
-### 4) Dialog ritmi: monolog o‘rniga qarama-qarshi fikr
+### 4) dialog ritmi: Monolog o‘rniga qarama-qarshi fikr
 
 Blog postni “men sizga tushuntiraman”dan chiqarib, “men siz bilan tortishaman”ga aylantiring.
 
@@ -71,11 +71,11 @@ Usul:
 * Har muhim tezisga qarshi tezis yozing.
 * So‘ng isbot bilan “yutib” qo‘ying.
 
-### 5) Detal tashlash: keyin qaytib uradigan mayda narsa
+### 5) detal tashlash: Keyin qaytib uradigan mayda narsa
 
 Boshida kichkina detail tashlang: fakt, metafora, qoidabuzarlik. Keyin o‘sha detailni yechim bo‘lib qaytaring. Bu o‘quvchiga “bu bekorga emas ekan” hissini beradi.
 
-### 6) Kontrast: tinchlik + bezovtalik
+### 6) kontrast: Tinchlik + bezovtalik
 
 Faqat jiddiy yozsangiz — akademik uyqu. Faqat hazil qilsangiz — shou. Kontrast qiling:
 
@@ -83,13 +83,13 @@ Faqat jiddiy yozsangiz — akademik uyqu. Faqat hazil qilsangiz — shou. Kontra
 * keyingi paragraf yumshoq (metafora, pop-culture),
 * so‘ng yana qattiq (amaliy qadam).
 
-### 7) Payoff: yakun — “aha!” emas, “endilikda boshqacha ko‘raman”
+### 7) payoff: Yakun — “aha!” emas, “endilikda boshqacha ko‘raman”
 
 Tarantino yakunlari ko‘pincha “to‘g‘ri” emas, lekin esda qoladi. Siz ham “hammasi yaxshi bo‘ldi” demang. O‘quvchining fikrlash ramkasini suring.
 
-## Texnik yozuvga ko‘chirish: blogdan tashqari joylar
+## Texnik yozuvga ko‘chirish: Blogdan tashqari joylar
 
-### README va dokumentatsiya
+### Readme va dokumentatsiya
 
 Odatda README:
 
@@ -103,7 +103,7 @@ Tarantinocha README esa avval **og‘riq**ni ko‘rsatadi:
 * Keyin: “Nega?” (kechiktirilgan kontekst)
 * Keyin: “Qanday?” (install)
 
-### RFC / dizayn hujjati
+### Rfc / dizayn hujjati
 
 RFC’lar ko‘pincha “background” bilan cho‘ziladi. Tarantino metodida:
 
@@ -119,7 +119,7 @@ Investorga “bizning jamoa…” deb kirish — bu “opening credits”ni majb
 * yechim qanday farq qilyapti,
 * keyin jamoa.
 
-## Amaliy shablon: maqolani filmdek montaj qilish
+## Amaliy shablon: Maqolani filmdek montaj qilish
 
 Quyidagi skeletni ko‘chirib ishlating:
 
@@ -128,14 +128,14 @@ Quyidagi skeletni ko‘chirib ishlating:
 - Natija / muammo / risk
 - “Agar buni qilmasangiz, nima yo‘qotasiz?”
 
-## Flashback: asl sabab
+## Flashback: Asl sabab
 - Nega odatdagi yondashuv ishlamaydi?
 - Bitta kuchli metafora (Matrix, Fight Club, tarix)
 
 ## Qoidalar (3–7 ta)
 - Har bir qoida: 1 gap + 1 misol
 
-## Sahna: real-case
+## Sahna: Real-case
 - “Oldin” va “Keyin” (kontrast)
 - Mayda detal tashlang
 
@@ -144,7 +144,7 @@ Quyidagi skeletni ko‘chirib ishlating:
 - O‘quvchiga bitta o‘tkir savol qoldiring
 ```
 
-## Mini-misol: “Oddiy” kirishni Tarantinocha qilish
+## Mini-misol: “oddiy” kirishni tarantinocha qilish
 
 Oddiy:
 

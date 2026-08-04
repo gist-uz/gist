@@ -1,5 +1,5 @@
 +++
-title = "Debugging Kernel Drivers: Tools and Techniques"
+title = "Debugging kernel drivers: Tools and techniques"
 description = "An exploration of debugging techniques for kernel-level code, including WinDbg, GDB, and custom debugging tools for driver development."
 date = 2024-03-10
 

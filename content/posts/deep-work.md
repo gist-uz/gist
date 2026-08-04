@@ -1,5 +1,5 @@
 +++
-title = "Deep Work: Chalg‘itishlar asrida haqiqiy ish qilish san‘ati"
+title = "Deep work: Chalg‘itishlar asrida haqiqiy ish qilish san‘ati"
 date = 2026-04-28
 description = "Raqamli dunyoda diqqatni qanday saqlash mumkin? Cal Newport falsafasi, dasturchilar uchun amaliy strategiyalar va 'strategik dangasalik'ning ikkinchi bosqichi."
 [taxonomies]
@@ -12,7 +12,7 @@ Do‘stlar, o‘ylab ko‘ring: bugun sizning eng muhim loyihangiz — masalan, 
 
 Mana shu yerda **Deep Work** (chuqur ish) falsafasi kirib keladi. Bu shunchaki “diqqatni jamlang” degan oddiy maslahat emas. Bu butunlay boshqacha hayot tarzi, ayniqsa biz dasturchilar uchun.
 
-## Deep Work nima va nima uchun u bugun oltindan qimmat?
+## Deep work nima va nima uchun u bugun oltindan qimmat?
 
 2016-yilda Cal Newport o‘zining mashhur “Deep Work” kitobida bu tushunchani dunyoga taqdim etdi. Uning ta’rificha, **Deep Work** — bu chalg‘itishlardan butunlay uzilib, chuqur konsentratsiya holatida qimmatli va murakkab intellektual ishni bajarish qobiliyatidir. Bu holatda miya haqiqiy “flow”ga (oqim holatiga) kiradi: vaqt o‘tganini sezmay qolasiz, g‘oyalar o‘z-o‘zidan oqib keladi va ish sifati keskin yuqori bo‘ladi.
 
@@ -34,25 +34,25 @@ Google, Microsoft va boshqa top kompaniyalarda eng kuchli muhandislarning sirlar
 
 Men o‘zim ko‘p marta sinab ko‘rganman: agar men ertalab soat 7 dan 10 gacha telefonni “Do Not Disturb” rejimida, Slackni butunlay yopib, faqat kod yozsam — o‘sha 3 soat ichida bir kunlik odatdagi “band” kunimdagi ish hajmini qilib qo‘yaman.
 
-## Chuqur ishlashni qanday o‘rganish mumkin? Amaliy strategiyalar
+## Chuqur ishlashni qanday o‘rganish mumkin? amaliy strategiyalar
 
 Deep Work — bu tug‘ma qobiliyat emas, bu ko‘nikma. Va uni rivojlantirish mumkin. Mana dasturchilar uchun eng samarali usullar (men o‘zim qo‘llab, natijasini ko‘rganlarim):
 
-### 1. Time Blocking — vaqtni “devor bilan” ajrating
+### 1. time blocking — vaqtni “devor bilan” ajrating
 Har kuni ertalab birinchi qiladigan ishingiz — kalendaringizda “Deep Work” bloklarini belgilang. Masalan:  
 - 08:00 – 11:00 → Deep Work (telefon samolyot rejimida, Slack yopiq)  
 Bu vaqt ichida faqat bitta vazifa. Hech qanday “tezroq” narsa yo‘q.
 
-### 2. “Ritual” yarating
+### 2. “ritual” yarating
 Cal Newportning o‘zi har kuni Deep Work boshlashdan oldin bir xil ritual bajaradi: kofe ichadi, ma’lum bir pleylistni qo‘yadi, eshikni yopadi. Siz ham shunday qiling. Masalan, kod muharririni ochgandan keyin faqat bitta brauzer oynasini oching (faqat dokumentatsiya uchun). Miqya bu ritualni “chuqur ish vaqti” deb taniy boshlaydi.
 
-### 3. Internetni “dozali” qiling
+### 3. internetni “dozali” qiling
 Kuniga ikki marta (masalan, tushlikdan keyin va kechqurun) “Shallow Work” blokini oching: email, Slack, xabarlar. Qolgan vaqt internetni butunlay o‘chirib qo‘ying yoki Freedom, Cold Turkey kabi ilovalardan foydalaning.
 
-### 4. “Attention Residue”dan qutuling
+### 4. “attention residue”dan qutuling
 Bir ishni tugatmay turib ikkinchisiga o‘tish — miyangizda “diqqat qoldig‘i” hosil qiladi. Shuning uchun har bir Deep Work sessiyasini aniq bir vazifa bilan tugating va keyingi sessiyaga toza bosh bilan kiring.
 
-### 5. “Dangasa” qoida: 4 soatdan ortiq emas
+### 5. “dangasa” qoida: 4 soatdan ortiq emas
 Paradoks shundaki, haqiqiy Deep Work 3-4 soatdan ortiq davom etmaydi (yuqori darajadagi mutaxassislar uchun). Qolgan vaqtni dam olish va yuzaki ishlar uchun qoldiring. Bu “strategik dangasalik”ning eng go‘zal tomoni.
 
 > **Haqiqiy samaradorlik — ko‘p ishlashda emas, balki to‘g‘ri vaqtda chuqur ishlashda.**

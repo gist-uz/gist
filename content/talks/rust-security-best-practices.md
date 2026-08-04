@@ -1,5 +1,5 @@
 +++
-title = "Rust Security Best Practices"
+title = "Rust security best practices"
 description = "A deep dive into security considerations when writing Rust applications, covering memory safety, dependency management, and common pitfalls."
 date = 2024-09-15
 

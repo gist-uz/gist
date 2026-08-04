@@ -1,5 +1,5 @@
 +++
-title = "Introduction to WebAssembly"
+title = "Introduction to webassembly"
 description = "Getting started with WebAssembly: compiling Rust to WASM, integrating with JavaScript, and building high-performance web applications."
 date = 2023-11-05
 

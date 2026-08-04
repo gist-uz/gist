@@ -10,7 +10,7 @@ Ushbu blog — **ochiq kodli** (open-source) loyiha. Bu degani, har bir dasturch
 
 Sizga murakkab dasturlarni o‘rnatish shart emas. Barchasini to‘g‘ridan-to‘g‘ri **GitHub saytining o‘zida** amalga oshirishingiz mumkin. Quyida buni qanday qilishni o‘rganamiz.
 
-## 1-qadam: Loyihadan nusxa olish (Fork)
+## 1-qadam: Loyihadan nusxa olish (fork)
 
 Avvalo, bizning loyihamizni o‘zingizning GitHub profilingizga nusxalab olishingiz kerak.
 
@@ -29,7 +29,7 @@ Endi maqolangiz uchun fayl yaratamiz.
 3. O‘ng tomondagi **Add file** tugmasini bosib, **Create new file** ni tanlang.
 4. Faylga nom bering. Nom lotin harflarida va bo‘sh joylarsiz bo‘lishi kerak (masalan: `docker-ornatish-qollanmasi.md`). Oxiri albatta `.md` bilan tugasin.
 
-## 3-qadam: Maqolani yozish (Eng muhim qismi)
+## 3-qadam: Maqolani yozish (eng muhim qismi)
 
 Zola tizimi maqolani to‘g‘ri o‘qishi uchun faylning eng boshiga maxsus sozlamalar (**Front Matter**) yozilishi shart.
 

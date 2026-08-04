@@ -1,5 +1,5 @@
 +++
-title = "Chalg‘ituvchi Texnologiya: Sun'iy Intellekt Davrida Dasturchining Etika Dilemmasi"
+title = "Chalg‘ituvchi texnologiya: Sun'iy intellekt davrida dasturchining etika dilemmasi"
 slug = "chalg‘ituvchi-texnologiya-sun‘iy-intellekt-davrida-dasturchining-etika-dilemmasi"
 date = 2026-07-27
 description = "Sun'iy intellektning keskin rivojlanishi bilan dasturchilar qanday etika dilemmalariga duch kelishyapti va bu dilemmalar IT sohasiga qanday ta'sir qiladi?"
@@ -11,11 +11,11 @@ tags = ["dasturchi", "sun'iy intellekt", "etika", "texnologiya"]
 
 Bugungi kunda sun'iy intellekt (SI) dunyoning turli sohalariga ta'sir ko'rsatmoqda: tibbiyotdan tortib moliyaviy sektorgacha. Ammo bu rivojlanish jarayonida dasturchilar va IT mutaxassislari sun'iy intellekt sababli etika dilemmasiga duch kelmoqda. Bu maqolada biz sun'iy intellekt davrida dasturchilarning qanday etika muammolariga duch kelayotganligini va bu dilemmalar qanday qilib ularning ishiga ta'sir qilayotganini chuqur tahlil qilmoqchimiz.
 
-## Sun'iy Intellektning Rivojlanishi
+## Sun'iy intellektning rivojlanishi
 
 Sun'iy intellekt (SI) texnologiyasi oxirgi yillarda shiddat bilan rivojlanib, hayot tarzimizi o'zgartirib yuboradi. Bu texnologiya nafaqat qo'shimcha imkoniyatlar yaratadi, balki hal qilinishi kerak bo'lgan bir qator murakkab etika muammolarini ham o'z ichiga oladi. Bir tomondan, sun'iy intellekt bizni turli vazifalarni tez va samarali bajarishga imkon beradi. Misol uchun, tibbiy diagnostika yoki yirik ma'lumotlar tahlilida SI odam faoliyatini keskin yengillashtiradi. Ammo boshqa tomondan, sun'iy intellekt sayqa rivojlansa, insoniyat uchun xavf-xatarlar va axloqiy mojarolarni yuzaga keltirishi mumkin.
 
-## Dasturchining Etika Dilemmasi
+## Dasturchining etika dilemmasi
 
 Dasturchilar, sun'iy intellekt tizimlarini ishlab chiqishda va o'zgartirishda muhim rol o'ynaganligi sababli, etika dilemmasiga duch kelishi ajablanarli emas. **Bu mavjud dilemmaning asosiy jihatlari quyidagichadir**:
 
@@ -25,17 +25,17 @@ Dasturchilar, sun'iy intellekt tizimlarini ishlab chiqishda va o'zgartirishda mu
 
 3. **Nazorat va mas'uliyat**: Dasturlangan sun'iy intellekt tizimlari o'z harakatlari uchun kim javobgar bo'lishi kerakligini aniqlash masalasini kun tartibiga olib chiqadi. Dasturchilar o'z ishlab chiqqan tizimlarining qanday ishlatilishi mumkinligi va ularga nisbatan qanday javobgarlik borligini aniqlashda mas’uliyatni olishadi.
 
-## Hayotiy Misollar
+## Hayotiy misollar
 
-### Misol 1: Facebook va Maxfiylik Mojorolari
+### Misol 1: Facebook va maxfiylik mojorolari
 
 Facebook doimiy ravishda sun'iy intellekt yordamida foydalanuvchilarni kuzatish va ma'lumotlarni yig'ishda kuchli vositaga aylandi. 2018 yilda Cambridge Analytica mojarosi dunyo bo'ylab ma'lumotlarning maxfiyligi masalasini ko'tarib chiqdi. Shaxsiy ma'lumotlarning noqonuniy ravishda to'planishi va ulardan foydalangan holda siyosat va tijorat maqsadlarida foydalanilishi axloqiy masalalar qanchalik muhim ekanligini ko'rsatdi.
 
-### Misol 2: Amazon va Tenglik Masalalari
+### Misol 2: Amazon va tenglik masalalari
 
 Amazonning ishchilarni qabul qilish sun'iy intellekt tizimi jinsiy tenglikni buzishi mumkinligi aniqlanganidan keyin bekor qilindi. Tizim dasturlash sohasida erkaklar hukmronligi sababli, qabul qilish jarayonida ayollarga nisbatan tomonidan tarafkashlik qilgan. Bu holat SI asosida ishlaydigan tizimlarning mustaqilligiga qaramasdan, mualliflarining tarafkashligi va adolatsizligini qanday aks etishi mumkinligini ochib beradi.
 
-## Texnologik Chalg'itish
+## Texnologik chalg'itish
 
 Sun'iy intellekt texnologiyalari nafaqat texnik chalg'itishlar, balki axloqiy savollarni ham keltirib chiqarmoqda. Bu kelajakda qanday choralarga rioya qilishimiz kerakligini ko'rsatuvchi uchinchi yo'nalishdir:
 

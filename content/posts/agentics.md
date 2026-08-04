@@ -1,11 +1,11 @@
 +++
-title = "Agentic Engineer: Kelajakni Qurayotgan Kasb"
+title = "Agentic engineer: Kelajakni qurayotgan kasb"
 date = 2026-05-11
 description = "Prompt yozish davri tugayapti. Agentic Engineering qanday qilib sun’iy intellektni oddiy chatbotdan haqiqiy ishchi tizimga aylantirmoqda?"
 [taxonomies]
 tags = ["ai", "agentic-engineering", "llm", "automation", "future", "software-engineering"]
 +++
-## Kelajak Kasbi: Nima uchun "Agentic Engineer"lar dunyoni o'zgartiradi?
+## Kelajak kasbi: Nima uchun "agentic engineer"lar dunyoni o'zgartiradi?
 
 So'nggi ikki yil ichida deyarli barchamiz sun'iy intellekt (SI) bilan qanday "gaplashishni" o'rganib oldik. Yaxshiroq promptlar (buyruqlar) yozdik, to'g'ri kontekst berdik, so'rovlarimizni tizimlashtirdik va o'zimizga kerakli javoblarni oldik. Ammo bu jarayonning barchasi faqat bitta narsaga – **modellar bizga javob berishiga** qaratilgan edi.
 
@@ -15,7 +15,7 @@ Aynan mana shu ulkan o'zgarish texnologiya olamida **Agentic Engineering** (Agen
 
 ---
 
-### Agentic Engineering o'zi nima?
+### Agentic engineering o'zi nima?
 
 **Agentic Engineering** – bu sun'iy intellekt agentlari (dasturlari) mustaqil ravishda reja tuza oladigan, turli vositalardan foydalanadigan, bosqichma-bosqich qarorlar qabul qilib, inson nazorati ostida yakuniy natijani yetkazib beradigan tizimlarni yaratish san'atidir.
 
@@ -55,7 +55,7 @@ Siz bu vazifani bajarmaysiz. Siz **bu vazifani bajaradigan tizimni dizayn qilasi
 
 ---
 
-### Agentic Engineer aslida nima bilan shug'ullanadi?
+### Agentic engineer aslida nima bilan shug'ullanadi?
 
 Hech qanday agent o'z-o'zidan, sehrli tarzda ishlab ketmaydi. Unga tuzilma (struktura) kerak. Muhandis agentning qanday harakat qilishi, qanday qurollardan foydalanishi va muvaffaqiyat yoki muvaffaqiyatsizlikni qanday aniqlashini belgilab beradi.
 
@@ -71,7 +71,7 @@ Siz endi shunchaki matn yoki rasm generatsiya qildirmayapsiz, siz **xulq-atvorni
 
 ---
 
-### Context Engineering va Agentic Engineering: Ularni adashtirmang!
+### Context engineering va agentic engineering: Ularni adashtirmang!
 
 Ko'pchilik bu ikki tushunchani chalkashtirib yuboradi. Garchi ular bir-biriga bog'liq bo'lsa-da, mutlaqo turli xil muammolarni hal qiladi.
 
@@ -82,7 +82,7 @@ Oddiy tilda aytganda: *Context engineering sun'iy intellektning "miyasi"ni tayyo
 
 ---
 
-### Nima uchun endi faqat "Prompt yozish"ning o'zi kamlik qiladi?
+### Nima uchun endi faqat "prompt yozish"ning o'zi kamlik qiladi?
 
 Prompt engineering (buyruqlar yozish) "bitta savol - bitta javob" modeliga asoslangan edi. Ammo real hayotdagi muammolar deyarli hech qachon bir qadamda hal bo'lmaydi. Ular qayta urinishni, tekshirishni, tashqi ma'lumotlarni va o'zaro muvofiqlashtirishni talab qiladi.
 

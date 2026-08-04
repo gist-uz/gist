@@ -1,5 +1,5 @@
 +++
-title = "Zeigarnik Effekti: Nima uchun tugallanmagan ishlar bizni tinch qo'ymaydi?"
+title = "Zeigarnik effekti: Nima uchun tugallanmagan ishlar bizni tinch qo'ymaydi?"
 date = 2026-07-18
 description = "Ushbu maqolada biz Zeigarnik effektining psixologiyadagi oddiy izohini va nima uchun tugallangan vazifalarga qaraganda tugallanmagan vazifalarni yaxshiroq eslab qolishingiz haqida gaplashamiz."
 tags = ["falsafa", "samaradorlik", "Zeigarnik"]

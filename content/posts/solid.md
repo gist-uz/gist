@@ -1,12 +1,12 @@
 +++
-title = "SOLID: Kodingizni \"Musor\"dan \"San’at asari\"ga aylantirish sirlari"
+title = "Solid: Kodingizni \"musor\"dan \"san’at asari\"ga aylantirish sirlari"
 date = 2026-01-08
 draft = false
 description = "5 ta oltin qoida: Single Responsibility, Open-Closed, Liskov, Interface Segregation, Dependency Inversion — Python misollarida."
 tags = ["python", "solid", "clean-code", "architecture", "senior-level"]
 +++
 
-### Kirish: OOP ni bilish yetarli emasmi? 🏗️
+### Kirish: Oop ni bilish yetarli emasmi? 🏗️
 
 Biz avvalgi **[OOP haqidagi maqolamizda](https://gist.uz/posts/opp/)** Class va Obyektlar nima ekanligini, ularni o‘yinlar misolida qanday ishlatishni ko‘rib chiqqan edik.
 
@@ -16,7 +16,7 @@ Buning oldini olish uchun 5 ta oltin qoida bor. Ularning bosh harflari **SOLID**
 
 ---
 
-### 1. S — Single Responsibility Principle (Yagona Mas’uliyat) 🎯
+### 1. s — single responsibility principle (yagona mas’uliyat) 🎯
 
 **Qoida:** "Har bir Class yoki Funksiya faqat BITTA ishni qilishi kerak."
 
@@ -58,7 +58,7 @@ Endi agar email tizimi o‘zgarsa, bazaga yozish kodi buzilib ketmaydi.
 
 ---
 
-### 2. O — Open/Closed Principle (Ochiq/Yopiq) 🚪
+### 2. o — open/closed principle (ochiq/yopiq) 🚪
 
 **Qoida:** "Kodingiz kengaytirish uchun OCHIQ, lekin o‘zgartirish uchun YOPIQ bo‘lishi kerak."
 
@@ -93,14 +93,14 @@ class Click(Payment):
 class Payme(Payment):
     def pay(self): print("Payme to'lov.")
 
-# Yangi to'lov kerakmi? Shunchaki yangi Class ochasiz.
+# Yangi to'lov kerakmi? shunchaki yangi class ochasiz.
 class Uzum(Payment):
     def pay(self): print("Uzum to'lov.")
 ```
 
 ---
 
-### 3. L — Liskov Substitution Principle (Liskov O‘rnini Bosish) 🧩
+### 3. l — liskov substitution principle (liskov o‘rnini bosish) 🧩
 
 **Qoida:** "Agar kod Ota klass bilan ishlasa, u hech qanday muammosiz Bola klass bilan ham ishlashi shart."
 
@@ -141,7 +141,7 @@ class Penguin(Bird):
 
 ---
 
-### 4. I — Interface Segregation Principle (Interfeyslarni Ajratish) 🔌
+### 4. i — interface segregation principle (interfeyslarni ajratish) 🔌
 
 **Qoida:** "Keraksiz narsalarni majburlab tiqishtirmang."
 
@@ -178,7 +178,7 @@ class OldPrinter(Printer):
 
 ---
 
-### 5. D — Dependency Inversion Principle (Bog‘liqlikni Teskarilash) 🙃
+### 5. d — dependency inversion principle (bog‘liqlikni teskarilash) 🙃
 
 **Qoida:** "Yuqori darajadagi modullar past darajadagi detallarga bog‘lanib qolmasligi kerak. Ikkalasi ham Abstraksiyaga bog‘lanishi kerak."
 
@@ -218,14 +218,14 @@ class Store:
     def __init__(self, db: DatabaseInterface):
         self.db = db # Endi farqi yo'q, qaysi baza kelishi
 
-# Xohlasak MySQL, xohlasak Postgres ulaymiz
+# Xohlasak mysql, xohlasak postgres ulaymiz
 shop = Store(Postgres()) 
 shop.show_products()
 ```
 
 ---
 
-### Xulosa: Junior va Senior farqi 👨‍💻
+### Xulosa: Junior va senior farqi 👨‍💻
 
 Junior dasturchi shunchaki kodning ishlashini o‘ylaydi.
 Senior dasturchi esa kodning **ertaga ham yashab qolishini** o‘ylaydi.

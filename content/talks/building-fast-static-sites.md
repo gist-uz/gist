@@ -1,5 +1,5 @@
 +++
-title = "Building Lightning-Fast Static Sites with Zola"
+title = "Building lightning-fast static sites with zola"
 description = "Learn how to create performant static websites using Zola, a Rust-powered static site generator that compiles your content in milliseconds."
 date = 2024-06-22
 

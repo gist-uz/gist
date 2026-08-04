@@ -24,7 +24,7 @@ Miya sizga oldindan dofamin (zavq gormoni) beryapti. Siz hali hech narsa qilmadi
 
 Ammo bu — aldov. Haqiqiy startap hali boshlanmadi.
 
-## "Cho'l": O'lik sukunat zonasi
+## "cho'l": O'lik sukunat zonasi
 
 Oradan 3-4 oy o'tdi. Logotip bor, sayt ishga tushdi, MVP tayyor.
 Va... hech narsa sodir bo'lmaydi.
@@ -41,7 +41,7 @@ Ko'pchilik bu bosqichda: *"Menimcha, bu g'oya o'xshamadi. Menda ishtiyoq qolmadi
 
 To'xtang. Gap g'oyada emas. Gap shundaki, siz startapni **sarguzasht** deb o'ylagandingiz, u esa **qora mehnat** bo'lib chiqdi. Siz "Ilhom parisi"ni kutyapsiz, professional esa tishini tishiga qo'yib ishlayapti.
 
-## "Yaltiroq Obyekt" Sindromi (Yangi g'oya tuzog'i)
+## "yaltiroq obyekt" sindromi (yangi g'oya tuzog'i)
 
 Inson psixologiyasi qiziq: qiyinchilikka duch kelganda, miya darrov "qochish rejasi"ni tuzadi.
 Siz joriy loyihangizda muammoga duch kelishingiz bilan, xayolingizga "bundan ham zo'r" yangi g'oya keladi.
@@ -52,7 +52,7 @@ Bu sizning ambitsiyangiz emas, bu — sizning **qo'rquvingiz**.
 Siz muammoni yechishdan qochyapsiz. Yangi g'oya har doim jozibali ko'rinadi, chunki uning "kirlari" va qiyinchiliklarini hali bilmaysiz.
 Agar siz bitta quduqni suv chiqquncha qazimay, har joydan 1 metrlik 10 ta chuqur qazib ketaversangiz, oxirida chanqoqdan o'lasiz.
 
-## Tizim > Motivatsiya
+## Tizim > motivatsiya
 
 Motivatsiya — bu axlat. U bugun bor, ertaga yo'q. Ob-havoga o'xshaydi.
 Siz qachondir fermerni ko'rganmisiz: *"Bugun ilhomim yo'q, sigirni sog'mayman, dalaga chiqmayman,"* — deganini? U chiqmasa, och qoladi.
@@ -64,7 +64,7 @@ Biznesda ham shunday. Sizni manzilga "yonib turgan ko'zlar" emas, balki **temir 
 
 Agar siz startapni faqat "kayfiyat bo'lganda" qilsangiz, bu biznes emas, bu — qimmatbaho xobbi.
 
-## Jamoa: Do'stlik boshqa, Pishloq boshqa
+## Jamoa: Do'stlik boshqa, pishloq boshqa
 
 Yana bir achchiq haqiqat: "Do'stlar bilan biznes qilamiz, mazza bo'ladi!"
 Yo'q, mazza bo'lmaydi. Do'stingiz bilan choyxonada o'tirish boshqa, krizis paytida javobgarlikni bo'lishish boshqa.

@@ -1,14 +1,14 @@
 +++
-title = "OOP: Dasturlashning haqiqiy kuchi"
+title = "Oop: Dasturlashning haqiqiy kuchi"
 date = 2026-01-26
 draft = false
 description = "Class, Object, Inheritance, Polymorphism — Python misolida OOP asoslarini o'rganing va professional kod yozishni boshlang."
 tags = ["python", "oop", "advanced", "professional", "best-practices"]
 +++
 
-# OOP: Dasturlashning Haqiqiy Kuchi 🚀
+# Oop: Dasturlashning haqiqiy kuchi 🚀
 
-## Kirish: Nima uchun OOP?
+## Kirish: Nima uchun oop?
 
 Tasavvur qiling, siz 10,000 qator kodli dastur yozdingiz. Keyin mijoz dedi: "Mahsulotga chegirma funksiyasini qo'shing." 
 
@@ -20,9 +20,9 @@ OOP - bu faqat kod yozish usuli emas, bu **kod arxitekturasi**, **kelajakka inve
 
 ---
 
-## Bo'lim 1: Asoslar - Class va Object 🏗️
+## Bo'lim 1: Asoslar - class va object 🏗️
 
-### 1.1 Class - Bu Qolip, Object - Bu Mahsulot
+### 1.1 class - bu qolip, object - bu mahsulot
 
 Boshqa tillardan farqli o'laroq, Python'da **hamma narsa obyekt**. Hatto `5` raqami ham `int` klassining obyekti.
 
@@ -70,7 +70,7 @@ class Smartphone:
         else:
             print("Avval yoqing!")
 
-# OBYEKTLAR YARATISH
+# Obyektlar yaratish
 phone1 = Smartphone("Galaxy S24", 999)
 phone2 = Smartphone("iPhone 15", 1199, "white")
 
@@ -87,7 +87,7 @@ phone2.power_on()  # phone2 alohida yonadi
 print(phone2.battery)  # 100 (ta'sirlanmadi)
 ```
 
-### 1.2 `self` - Eng Katta Jumboq va Uning Yechimi 🤔
+### 1.2 `self` - eng katta jumboq va uning yechimi 🤔
 
 **Savol:** Nega `self` kerak? Va nega Python uni avtomatik qo'shmaydi?
 
@@ -118,7 +118,7 @@ c2.increment()
 print(c2.get_value())  # 1
 
 # Python orqada shuni qiladi:
-# c1.increment() → Counter.increment(c1)
+# C1.increment() → counter.increment(c1)
 # Ya'ni, increment funksiyasiga c1 obyekti argument sifatida beriladi
 ```
 
@@ -126,13 +126,13 @@ print(c2.get_value())  # 1
 
 ---
 
-## Bo'lim 2: OOP ning 4 Ta Ustuni 🏛️
+## Bo'lim 2: Oop ning 4 ta ustuni 🏛️
 
-### 2.1 Encapsulation (Inkapsulyatsiya) - Ma'lumotlarni Himoya Qilish 🔒
+### 2.1 encapsulation (inkapsulyatsiya) - ma'lumotlarni himoya qilish 🔒
 
 Encapsulation - bu ma'lumotlarni va metodlarni bir joyga to'plash va tashqaridan noto'g'ri kirishdan himoya qilish.
 
-#### Python'da Encapsulation Darajalari:
+#### Python'da encapsulation darajalari:
 
 ```python
 class BankAccount:
@@ -197,26 +197,26 @@ class BankAccount:
 # Ishlatish
 account = BankAccount("Ali", 1000)
 
-# PUBLIC - muammo yo'q
+# Public - muammo yo'q
 print(account.owner)  # Ali
 
-# PROTECTED - texnik jihatdan kirish mumkin, lekin QILMANG!
+# Protected - texnik jihatdan kirish mumkin, lekin qilmang!
 print(account._account_number)  # ACC12345
 
-# PRIVATE - to'g'ridan kirish mumkin emas
-# print(account.__balance)  # AttributeError!
+# Private - to'g'ridan kirish mumkin emas
+# Print(account.__balance)  # attributeerror!
 
 # To'g'ri yo'l - getter orqali
 print(account.balance)  # 1000
 
 # Setter orqali o'zgartirishga urinish
-# account.balance = 5000  # AttributeError!
+# Account.balance = 5000  # attributeerror!
 
 # To'g'ri yo'l - metodlar orqali
 account.deposit(500)  # 1500
 account.withdraw(200, "0000")  # 1300
 
-# Noto'g'ri PIN
+# Noto'g'ri pin
 try:
     account.withdraw(100, "1234")  # PermissionError!
 except PermissionError as e:
@@ -226,22 +226,22 @@ except PermissionError as e:
 **MUHIM NUANSA:** Python'da "private" atribut ham aslida to'liq yashirin emas. Python uni `_ClassName__attribute` ga o'zgartiradi (name mangling). Lekin bu konventsiya - agar biror kishi `account._BankAccount__balance` deb yozsa, u qoidani buzayapti va oqibatlar uning zimmasida.
 
 ```python
-# Texnik jihatdan mumkin, lekin PROFESSIONAL KOD EMAS!
+# Texnik jihatdan mumkin, lekin professional kod emas!
 print(account._BankAccount__balance)  # 1300
 ```
 
-#### Nega Encapsulation Kerak?
+#### Nega encapsulation kerak?
 
 1. **Xavfsizlik:** Noto'g'ri qiymatlar berilishini oldini oladi
 2. **Validatsiya:** Har bir o'zgarish tekshiriladi
 3. **Kelajakdagi o'zgarishlar:** Ichki implementatsiyani o'zgartirsangiz, tashqi kod buzilmaydi
 4. **API nazorati:** Foydalanuvchilar faqat ruxsat berilgan metodlardan foydalanadi
 
-### 2.2 Inheritance (Vorislik) - Kodni Qayta Ishlatish 🧬
+### 2.2 inheritance (vorislik) - kodni qayta ishlatish 🧬
 
 Inheritance - bu mavjud klassdan yangi klass yaratish orqali kodni qayta ishlatish mexanizmi.
 
-#### Oddiy Vorislik:
+#### Oddiy vorislik:
 
 ```python
 class Employee:
@@ -309,7 +309,7 @@ class Manager(Employee):
 dev = Developer("Sardor", "D001", 3000, ["Python", "JavaScript"])
 manager = Manager("Dilnoza", "M001", 4000, 5)
 
-# Umumiy xususiyatlar (Employee'dan)
+# Umumiy xususiyatlar (employee'dan)
 print(dev.company_name)  # TechCorp
 print(manager.is_active)  # True
 
@@ -326,7 +326,7 @@ print(f"Developer bonus: ${dev.get_annual_bonus()}")  # 300 + 1000 = 1300
 print(f"Manager bonus: ${manager.get_annual_bonus()}")  # 400 + 1000 = 1400
 ```
 
-#### Multiple Inheritance - Ko'p Otadan Voris Olish:
+#### Multiple inheritance - ko'p otadan voris olish:
 
 Python bir nechta klassdan bir vaqtda voris ola oladi. Bu kuchli, lekin xavfli xususiyat.
 
@@ -369,13 +369,13 @@ donald.quack() # O'ziniku
 
 ```python
 print(Duck.__mro__)
-# (<class 'Duck'>, <class 'Animal'>, <class 'Flyable'>, 
-#  <class 'Swimmable'>, <class 'object'>)
+# (<class 'duck'>, <class 'animal'>, <class 'flyable'>, 
+# <class 'swimmable'>, <class 'object'>)
 
 # Python chapdan o'ngga, yuqoridan pastga qidiradi
 ```
 
-#### Composition vs Inheritance - Qachon Nimani Ishlatish?
+#### Composition vs inheritance - qachon nimani ishlatish?
 
 **"IS-A" munosabati → Inheritance ishlatiladi:**
 - Developer IS-A Employee ✅
@@ -386,11 +386,11 @@ print(Duck.__mro__)
 - University HAS-A Student ✅
 
 ```python
-# Yomon yondashuv - Inheritance
+# Yomon yondashuv - inheritance
 class Car(Engine):
     pass  # Car IS-A Engine? Yo'q! Mantiqiy emas.
 
-# To'g'ri yondashuv - Composition
+# To'g'ri yondashuv - composition
 class Engine:
     def __init__(self, horsepower):
         self.horsepower = horsepower
@@ -413,11 +413,11 @@ car.drive()
 
 **Qoida:** "Prefer composition over inheritance" - Agar ikkilanayotgan bo'lsangiz, composition tanlang.
 
-### 2.3 Polymorphism (Ko'p Shakllilik) - Bir Interfeys, Ko'p Implementatsiya 🎭
+### 2.3 polymorphism (ko'p shakllilik) - bir interfeys, ko'p implementatsiya 🎭
 
 Polymorphism - bu bir xil interfeys orqali turli obyektlar bilan ishlash qobiliyati.
 
-#### Duck Typing - Python'ning Sehrli Xususiyati:
+#### Duck typing - python'ning sehrli xususiyati:
 
 Python'da type tekshirish o'rniga, "agar u o'rdakdek vaqillasa va o'rdakdek yursa, demak u o'rdak" prinsipi ishlaydi.
 
@@ -459,7 +459,7 @@ for animal in animals:
 # Beep-boop! 🤖
 ```
 
-#### Operator Overloading - Operatorlarni Qayta Yozish:
+#### Operator overloading - operatorlarni qayta yozish:
 
 Python sizga `+`, `-`, `*`, `==` kabi operatorlarning obyektlaringizda qanday ishlashini belgilash imkonini beradi.
 
@@ -546,11 +546,11 @@ print(v1[1])     # 4
 | `__contains__` | `in` | `x in a` |
 | `__call__` | `()` | `a()` |
 
-### 2.4 Abstraction (Abstraksiya) - Murakkablikni Yashirish 🎨
+### 2.4 abstraction (abstraksiya) - murakkablikni yashirish 🎨
 
 Abstraction - bu faqat zarur ma'lumotlarni ko'rsatish va ichki murakkablikni yashirish.
 
-#### Abstract Base Classes (ABC):
+#### Abstract base classes (abc):
 
 ```python
 from abc import ABC, abstractmethod
@@ -607,7 +607,7 @@ class Circle(Shape):
         return 2 * math.pi * self.radius
 
 # Ishlatish
-# shape = Shape()  # TypeError: Can't instantiate abstract class!
+# Shape = shape()  # typeerror: Can't instantiate abstract class!
 
 rect = Rectangle(10, 5)
 circle = Circle(7)
@@ -635,9 +635,9 @@ for s in shapes:
 
 ---
 
-## Bo'lim 3: Advanced Kontseptsiyalar 🚀
+## Bo'lim 3: Advanced kontseptsiyalar 🚀
 
-### 3.1 Property Decorators - Pythonic Getters va Setters
+### 3.1 property decorators - pythonic getters va setters
 
 ```python
 class Temperature:
@@ -691,7 +691,7 @@ except ValueError as e:
     print(e)
 ```
 
-### 3.2 Class Methods va Static Methods
+### 3.2 class methods va static methods
 
 ```python
 class User:
@@ -760,7 +760,7 @@ print(User.is_valid_email("invalid-email"))    # False
 | Class method | ❌ | ✅ | Alternative constructor, class attributelarga kirish |
 | Static method | ❌ | ❌ | Utility funksiya, na obyekt na klass kerak emas |
 
-### 3.3 Data Classes - Boilerplate Kodni Kamaytirish
+### 3.3 data classes - boilerplate kodni kamaytirish
 
 Python 3.7+ da `dataclass` decorator qo'shildi. Bu oddiy data container'lar uchun juda qulay.
 
@@ -813,7 +813,7 @@ print(p1.total_price())  # 2000
 print(p1 == p2)  # False
 ```
 
-### 3.4 Context Managers - `with` Statement
+### 3.4 context managers - `with` statement
 
 ```python
 class FileManager:
@@ -866,9 +866,9 @@ with database_connection("mydb") as conn:
 
 ---
 
-## Bo'lim 4: Design Patterns va Best Practices 🎯
+## Bo'lim 4: Design patterns va best practices 🎯
 
-### 4.1 Singleton Pattern - Faqat Bitta Instansiya
+### 4.1 singleton pattern - faqat bitta instansiya
 
 ```python
 class DatabaseConnection:
@@ -896,7 +896,7 @@ print(db1 is db2)  # True - bir xil obyekt!
 print(db2.host)    # localhost (birinchi qiymat)
 ```
 
-### 4.2 Factory Pattern - Obyekt Yaratish Logikasini Ajratish
+### 4.2 factory pattern - obyekt yaratish logikasini ajratish
 
 ```python
 class Animal(ABC):
@@ -937,12 +937,12 @@ print(pet1.speak())  # Vov!
 print(pet2.speak())  # Myau!
 ```
 
-### 4.3 Anti-Patterns - Nima Qilmaslik Kerak! ⛔
+### 4.3 anti-patterns - nima qilmaslik kerak! ⛔
 
-#### ❌ God Object
+#### ❌ god object
 
 ```python
-# YOMON - bitta klass hamma narsani qiladi
+# Yomon - bitta klass hamma narsani qiladi
 class UserGodObject:
     def __init__(self, username):
         self.username = username
@@ -954,7 +954,7 @@ class UserGodObject:
     def generate_report(self): pass
     # ... va yana 50 ta metod
 
-# YAXSHI - har bir klass bitta vazifani bajaradi (Single Responsibility)
+# Yaxshi - har bir klass bitta vazifani bajaradi (single responsibility)
 class User:
     def __init__(self, username):
         self.username = username
@@ -969,14 +969,14 @@ class UserValidator:
     def validate_password(self, password): pass
 ```
 
-#### ❌ Yo'qsiz Inheritance
+#### ❌ yo'qsiz inheritance
 
 ```python
-# YOMON - mantiqsiz vorislik
+# Yomon - mantiqsiz vorislik
 class List(dict):  # List IS-A dict? Yo'q!
     pass
 
-# YAXSHI - composition ishlatish
+# Yaxshi - composition ishlatish
 class CustomList:
     def __init__(self):
         self.data = {}  # HAS-A dict
@@ -984,7 +984,7 @@ class CustomList:
 
 ---
 
-## Bo'lim 5: Real Dunyo Misoli - E-commerce Tizimi 🛒
+## Bo'lim 5: Real dunyo misoli - e-commerce tizimi 🛒
 
 Keling, hamma bilimlarimizni birlashtirib, to'liq e-commerce tizimini yozamiz:
 
@@ -994,7 +994,7 @@ from dataclasses import dataclass, field
 from typing import List
 from datetime import datetime
 
-# 1. PRODUCT HIERARCHY (Inheritance + Abstraction)
+# 1. product hierarchy (inheritance + abstraction)
 class Product(ABC):
     """Abstrak mahsulot klassi"""
     
@@ -1037,7 +1037,7 @@ class Clothing(Product):
     def get_category(self):
         return "Clothing"
 
-# 2. SHOPPING CART (Encapsulation + Composition)
+# 2. shopping cart (encapsulation + composition)
 class ShoppingCart:
     """Xarid savati - composition misoli"""
     
@@ -1079,7 +1079,7 @@ class ShoppingCart:
         """for item in cart uchun"""
         return iter(self._items)
 
-# 3. USER SYSTEM (Inheritance + Polymorphism)
+# 3. user system (inheritance + polymorphism)
 class User:
     """Asosiy foydalanuvchi"""
     
@@ -1108,7 +1108,7 @@ class PremiumUser(User):
         }
         return discounts.get(self.membership_level, 0)
 
-# 4. ORDER PROCESSING (Factory Pattern + Strategy Pattern)
+# 4. order processing (factory pattern + strategy pattern)
 @dataclass
 class Order:
     """Buyurtma - dataclass misoli"""
@@ -1139,7 +1139,7 @@ class Order:
         self.status = "processed"
         print(f"✅ Buyurtma qabul qilindi! Jami: ${self.calculate_total():.2f}")
 
-# 5. ISHLATISH - DEMO
+# 5. ishlatish - demo
 def main():
     # Mahsulotlar yaratish
     laptop = Electronics("MacBook Pro", 2000, 10, 12)
@@ -1188,21 +1188,21 @@ if __name__ == "__main__":
 
 ---
 
-## Xulosa: OOP Roadmap 🗺️
+## Xulosa: Oop roadmap 🗺️
 
-### 1. Boshlang'ich daraja:
+### 1. boshlang'ich daraja:
 - ✅ Class va Object tushunchasi
 - ✅ `__init__` va `self`
 - ✅ Instance vs Class attributes
 - ✅ Basic methods
 
-### 2. O'rta daraja:
+### 2. o'rta daraja:
 - ✅ Encapsulation (public, protected, private)
 - ✅ Inheritance va `super()`
 - ✅ Method overriding
 - ✅ Basic polymorphism
 
-### 3. Ilg'or daraja:
+### 3. ilg'or daraja:
 - ✅ Abstract Base Classes
 - ✅ Multiple inheritance va MRO
 - ✅ Magic methods (dunder methods)
@@ -1211,7 +1211,7 @@ if __name__ == "__main__":
 - ✅ Data classes
 - ✅ Context managers
 
-### 4. Professional daraja:
+### 4. professional daraja:
 - ✅ Design patterns (Singleton, Factory, Strategy)
 - ✅ Composition vs Inheritance
 - ✅ SOLID principles
@@ -1219,7 +1219,7 @@ if __name__ == "__main__":
 - ✅ Type hints va mypy
 - ✅ Testing (unittest, pytest)
 
-### OOP Qo'llash Tamoyillari:
+### Oop qo'llash tamoyillari:
 
 | Printsip | Qachon ishlatish |
 |----------|-----------------|
@@ -1229,7 +1229,7 @@ if __name__ == "__main__":
 | **Polymorphism** | Bir xil interfeys, turli implementatsiya kerak bo'lsa |
 | **Abstraction** | Umumiy qoidalar (contract) belgilash kerak bo'lsa |
 
-### Oxirgi Maslahat:
+### Oxirgi maslahat:
 
 1. **"Prefer composition over inheritance"** - Agar ikkilanayotgan bo'lsangiz, composition tanlang
 2. **Keep it simple** - Haddan tashqari murakkab hierarchy yaratmang

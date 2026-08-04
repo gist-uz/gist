@@ -124,6 +124,8 @@ tags = ["tag1", "tag2", "tag3", "tag4"]
 
 Frontmatterdan keyin esa darhol maqolaning o'zi, markdown formatida (## sarlavhalar, *qalin yozuvlar*, ro'yxatlar) kelishi kerak. Matn uzun, batafsil va sifatli bo'lsin. Hech qanday markdown kod bloklari ichiga olmang, to'g'ridan to'g'ri fayl matnini bering (ya'ni \`\`\`markdown deb boshlamang).
 
+MUHIM QOIDA: Barcha sarlavhalarda (ham frontmatterdagi 'title', ham matn ichidagi '##' sarlavhalarda) FAQAT birinchi so'zning birinchi harfi bosh harfda bo'lsin, qolgan barcha so'zlar kichik harfda yozilsin (inglizcha atamalar va xos ismlardan tashqari). Masalan: "Startaplar nega sinadi: asosiy xatolar va yechimlar".
+
 MUHIM: slug maydonida FAQAT 1-2 so'zdan iborat juda qisqa nom yozing. Masalan: "etika-dilemma", "kvant-kompyuter", "startap-xato". HECH QACHON uzun slug yozmang!
 
 Mana qoralama:
@@ -152,6 +154,8 @@ tags = ["tag1", "tag2", "tag3", "tag4"]
 +++
 
 Frontmatterdan keyin esa darhol maqolaning o'zi, markdown formatida (## sarlavhalar, *qalin yozuvlar*, ro'yxatlar) kelishi kerak. Matn uzun, batafsil va sifatli bo'lsin. Hech qanday markdown kod bloklari ichiga olmang, to'g'ridan to'g'ri fayl matnini bering (ya'ni \`\`\`markdown deb boshlamang).
+
+MUHIM QOIDA: Barcha sarlavhalarda (ham frontmatterdagi 'title', ham matn ichidagi '##' sarlavhalarda) FAQAT birinchi so'zning birinchi harfi bosh harfda bo'lsin, qolgan barcha so'zlar kichik harfda yozilsin (inglizcha atamalar va xos ismlardan tashqari). Masalan: "Startaplar nega sinadi: asosiy xatolar va yechimlar".
 
 MUHIM: slug maydonida FAQAT 1-2 so'zdan iborat juda qisqa nom yozing. Masalan: "etika-dilemma", "kvant-kompyuter", "startap-xato". HECH QACHON uzun slug yozmang!
 `;
