@@ -1,5 +1,5 @@
 +++
-title = "Sun’iy Intellekt Davrida Unlearning: Yangi Kasbiy Ko'nikmangiz"
+title = "Sun’iy intellekt davrida unlearning: Yangi kasbiy ko'nikmangiz"
 slug = "unlearning-intellekt"
 date = 2026-07-27
 description = "Sun'iy intellekt davrida unlearning qanday qilib eng asosiy kasbiy ko'nikma bo'lmoqda va uning inson kapitaliga ta'siri."
@@ -7,7 +7,7 @@ description = "Sun'iy intellekt davrida unlearning qanday qilib eng asosiy kasbi
 tags = ["sun'iy intellekt", "unlearning", "karyera rivoji", "metakognitsiya"]
 +++
 
-## Sun'iy Intellekt Davrida Unlearning: Eng Asosiy Kasbiy Ko'nikma
+## Sun'iy intellekt davrida unlearning: Eng asosiy kasbiy ko'nikma
 
 Sanoat inqilobi paytida asosiy resurs ishlab chiqarish quvvatiga va mashinalarga egalik edi. Axborot asrida esa bilim va uni to‘plash tezligi ustuvorlikka aylandi. Sun'iy intellekt va giper-avtomatizatsiya davridagi asliy xavf esa bilimsizlik emas, balki **eskirgan bilimlarga, tajribaga va fikrlash modellariga mahkam yopishib olishdir.**
 
@@ -17,7 +17,7 @@ Bugungi kunda ko‘plab dasturchilar, tahlilchilar va menejerlar "kognitiv qarz"
 
 ---
 
-## 1. "Kognitiv Qarz" va Bilim Murosa Illuziyasi
+## 1. "kognitiv qarz" va bilim murosa illuziyasi
 
 So'nggi yillarda rivojlangan sun'iy intellekt vositalari bizga tez natijalar taqdim etmoqda, biroq bu ko‘pincha "Yuzaki Muvaffaqiyat" holatiga olib keladi. Ushbu yutuqning ortida turgan mantiqiy zanjirlar ehtiyotkorlik bilan ko‘rib chiqilmasa, kognitiv qarz va bilim murosa illuziyasi paydo bo‘lishi mumkin.
 
@@ -28,21 +28,21 @@ Kognitiv qarz oshgan sari, insonning yutug'ini tahlil qilish qobiliyati so'nadi 
 
 ---
 
-## 2. Unlearning: Nega Bu Juda Ham Og‘riqli?
+## 2. unlearning: Nega bu juda ham og‘riqli?
 
 "Unlearning" amneziyani anglatmaydi, balki eskirgan zehniyat va amaliyotlarni tark etishni nazarda tutadi. Bu jarayonda ikki asosiy qiyinchilik mavjud:
 
-### A. Neyron yo‘llari inersiyasi
+### A. neyron yo‘llari inersiyasi
 Yillar davomida o‘rganilgan ko‘nikmalarimiz, miya energiyani tejamli sarflash uchun oldindan tayyor yo‘llarga tayanadi. Yangi usullar miya uchun katta energiya talab qiladi.
 
-### B. Yo‘qotilgan xarajatlar xatosi
+### B. yo‘qotilgan xarajatlar xatosi
 Inson uzoq vaqt davomida sarflangan resurslar va vaqtni yo‘qqa chiqarishni o‘ta og'ir qabul qiladi. Bu esa eskirgan metodlarga yopishib olishni keltirib chiqaradi.
 
 **Misol:** O‘tmishda Perl va PHP dasturchilari yuqori mavqega ega edi, lekin JavaScript paydo bo‘lganda ular o'z bilimlarini yangilashdan bosh tortganlar, eskirgan ustunliklari bilan yetakchi pozitsiyalarini qo'ldan boy berdi.
 
 ---
 
-## 3. T-Shaped Mutaxassislardan Pi-Shaped va Polymathlarga O‘tish
+## 3. t-shaped mutaxassislardan pi-shaped va polymathlarga o‘tish
 
 Karyera bo‘yicha "T-shaped" mutaxassis bo'lish yillar davomida optimal tanlov sifatida ko'rilar edi. Lekin hozirgi kunlarda sun’iy intellekt bir sohaga bag'ishlangan vazifalarni yaxshi uddalaydi. ***"Pi-shaped"*** va ***"Polymath"*** mutaxassislar yangi zamon talablariga javob beradi.
 
@@ -54,7 +54,7 @@ Keng bilim va ko‘plab sohalardagi malakalar AI era'sida omon qolish garovidir.
 
 ---
 
-## 4. Metakognitsiya: Fikrlash Haqida Fikrlash
+## 4. metakognitsiya: Fikrlash haqida fikrlash
 
 Metakognitsiyaning uch asosiy elementi mavjud:
 
@@ -66,7 +66,7 @@ Metakognitsiya bizga "Unlearning" jarayonini amalga oshirishga va yangi kasbiy r
 
 ---
 
-## 5. Amaliy Strategiya: Unlearning va Kasbiy Transformatsiya Algoritmi
+## 5. amaliy strategiya: Unlearning va kasbiy transformatsiya algoritmi
 
 Unlearningni amaliyotga tatbiq etish uchun quyidagi 4-bosqichli freymvorkni qo'llang:
 
@@ -77,6 +77,6 @@ Unlearningni amaliyotga tatbiq etish uchun quyidagi 4-bosqichli freymvorkni qo'l
 
 ---
 
-## Xulosa: Qaysi Tirik Qoladi?
+## Xulosa: Qaysi tirik qoladi?
 
 Darvinning tiriklik qolish tamoyili hozirgi texnologik davrda ham amal qilyapti. Eng katta boylik — bu miyangizda yig'ib qo‘yilgan faktlar emas, balki miyangizning **moslashuvchanligi** va jadal o'zgarishlarga tayyorligi. O‘zgarishlar tufayli eskirgan bilimlardan voz keching va yangi yutuqlarga yo‘l oching. **Unlearn qilishni o‘rganing** va kelajakda muvaffaqiyatga erishing.
