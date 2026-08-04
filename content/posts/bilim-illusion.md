@@ -2,7 +2,7 @@
 title = "Kognitiv To‘qlik va Intellektual Ochlik: Bilimga Yetaklamaydigan Yo‘llar"
 slug = "bilim-illusion"
 date = 2026-07-29
-description = "Ushbu maqolada, kognitiv to‘qlik va intellektual ochlikning zamonaviy jamiyatdagi ta'siri, "komptensiya illyuziyasi" va boshqa kognitiv xatolar haqida bahs yuritiladi, va yetarlicha isbotlangan strategiyalar orqali haqiqiy o‘rganish yondashuvlari o‘rganiladi."
+description = "Ushbu maqolada, kognitiv to‘qlik va intellektual ochlikning zamonaviy jamiyatdagi ta'siri, \"komptensiya illyuziyasi\" va boshqa kognitiv xatolar haqida bahs yuritiladi, va yetarlicha isbotlangan strategiyalar orqali haqiqiy o‘rganish yondashuvlari o‘rganiladi."
 [taxonomies]
 tags = ["kognitiv xatolar", "o‘rganish", "intellektual o‘sish", "o‘rganish strategiyalari"]
 +++
