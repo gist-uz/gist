@@ -23,7 +23,7 @@ const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 const categories = [
   "IT va Dasturlash (yangi texnologiyalar, sun'iy intellekt, dasturiy injiniring)",
-  "Startaplar va Biznes (biznes modellar, startap muvaffaqiyati/xatolari, venchur kapitali)",
+  "Startaplar va Biznes (biznes modellar, startap muvaffaqaqiyati/xatolari, venchur kapitali)",
   "Ilm-fan va Texnologiya (kashfiyotlar, kelajak texnologiyalari, fizika/kosmos)",
   "Tanqidiy fikrlash va Psixologiya (kognitiv xatolar, samaradorlik, inson psixologiyasi, ta'lim)",
   "Karyera va O'z-o'zini rivojlantirish (deep work, vaqtni boshqarish, kasbiy o'sish)"
@@ -38,12 +38,24 @@ function slugify(text) {
     .replace(/\-\-+/g, '-')         // Replace multiple - with single -
     .replace(/^-+/, '')             // Trim - from start of text
     .replace(/-+$/, '');            // Trim - from end of text
-    
+
   if (slug.length > 50) {
     slug = slug.substring(0, 50).replace(/-+$/, '');
   }
-  
+
   return slug;
+}
+
+function sentenceCaseHeadings(markdown) {
+  return markdown
+    .split('\n')
+    .map((line) => {
+      const m = line.match(/^(##+\s+)(\S)(.*)$/);
+      if (!m) return line;
+      const [, prefix, firstChar, rest] = m;
+      return `${prefix}${firstChar.toUpperCase()}${rest}`;
+    })
+    .join('\n');
 }
 
 function getExistingTopics() {
@@ -65,15 +77,15 @@ function getExistingTopics() {
 async function generateArticle() {
   const selectedCategory = getRandomCategory();
   console.log(`\n🤖 Seçilgan mavzu yo'nalishi: ${selectedCategory}\n`);
-  
+
   const existingTopics = getExistingTopics();
-  const excludePrompt = existingTopics.length > 0 
-    ? `\nDiqqat! Saytda quyidagi mavzularda maqolalar ALLAQACHON yozilgan. Iltimos, mutlaqo YANGI, avval yozilmagan mavzu tanlang:\n- ${existingTopics.join('\n- ')}\n` 
+  const excludePrompt = existingTopics.length > 0
+    ? `\nDiqqat! Saytda quyidagi mavzularda maqolalar ALLAQACHON yozilgan. Iltimos, mutlaqo YANGI, avval yozilmagan mavzu tanlang:\n- ${existingTopics.join('\n- ')}\n`
     : "";
 
   // Phase 1: Drafting with Gemini
   console.log("Bosqich 1: Gemini orqali dastlabki qoralamani yozish...");
-  
+
   const draftPrompt = `
 Siz "Gist.uz" - ilm-fan, dasturlash, startaplar va tanqidiy fikrlash haqida tahliliy maqolalar platformasi uchun tajribali avtorsiz.
 Bugungi maqola mavzusi quyidagi yo'nalishda bo'lishi kerak: ${selectedCategory}
@@ -85,20 +97,20 @@ Matn faqat o'zbek tilida (kirill yozuvidan qochib, lotin alifbosida) bo'lishi sh
 
   let draftText = "";
   const geminiModels = ['gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3.5-flash-lite', 'gemini-3.1-flash-lite', 'gemini-3-flash'];
-  
+
   for (const modelName of geminiModels) {
-      try {
-        console.log(`Gemini modeli orqali urinish: ${modelName}`);
-        const draftResponse = await ai.models.generateContent({
-          model: modelName,
-          contents: draftPrompt,
-        });
-        draftText = draftResponse.text;
-        console.log(`Gemini (${modelName}) qoralamani muvaffaqiyatli yakunladi!\n`);
-        break; // Successfully generated, exit loop
-      } catch (error) {
-        console.warn(`⚠️ ${modelName} modelida xatolik:`, error.message);
-      }
+    try {
+      console.log(`Gemini modeli orqali urinish: ${modelName}`);
+      const draftResponse = await ai.models.generateContent({
+        model: modelName,
+        contents: draftPrompt,
+      });
+      draftText = draftResponse.text;
+      console.log(`Gemini (${modelName}) qoralamani muvaffaqiyatli yakunladi!\n`);
+      break; // Successfully generated, exit loop
+    } catch (error) {
+      console.warn(`⚠️ ${modelName} modelida xatolik:`, error.message);
+    }
   }
 
   // Phase 2: Review and formatting with OpenAI
@@ -106,8 +118,8 @@ Matn faqat o'zbek tilida (kirill yozuvidan qochib, lotin alifbosida) bo'lishi sh
   let reviewPrompt = "";
 
   if (draftText) {
-      console.log("Bosqich 2: OpenAI (GPT-4o) orqali matnni sayqallash va formatlash...");
-      reviewPrompt = `
+    console.log("Bosqich 2: OpenAI (GPT-4o) orqali matnni sayqallash va formatlash...");
+    reviewPrompt = `
 Quyida sizga "Gist.uz" sayti uchun yozilgan maqola qoralamasi taqdim etiladi. Sizning vazifangiz:
 1. Matn sifatini juda yuqori darajaga ko'tarish, xatolarni to'g'rilash va tilni yanada boy, professional va tahliliy (lekin tushunarli) qilish.
 2. Zola static site generator talablariga mos keladigan TO'LIQ Markdown faylini yaratish.
@@ -124,7 +136,9 @@ tags = ["tag1", "tag2", "tag3", "tag4"]
 
 Frontmatterdan keyin esa darhol maqolaning o'zi, markdown formatida (## sarlavhalar, *qalin yozuvlar*, ro'yxatlar) kelishi kerak. Matn uzun, batafsil va sifatli bo'lsin. Hech qanday markdown kod [...]
 
-MUHIM QOIDA: Barcha sarlavhalarda (ham frontmatterdagi 'title', ham matn ichidagi '##' sarlavhalarda) FAQAT birinchi so'zning birinchi harfi bosh harfda bo'lsin, qolgan barcha so'zlar kichik harf[...]
+MUHIM QOIDA: Matn ichidagi barcha ## va ### sarlavhalar bosh harf bilan boshlansin.
+Sarlavhaning birinchi so'zi albatta katta harf bilan yozilsin.
+Frontmatter title ham bosh harf bilan boshlansin.
 
 MUHIM: slug maydonida FAQAT 1-2 so'zdan iborat juda qisqa nom yozing. Masalan: "etika-dilemma", "kvant-kompyuter", "startap-xato". HECH QACHON uzun slug yozmang!
 
@@ -137,9 +151,9 @@ Mana qoralama:
 ${draftText}
 `;
   } else {
-      console.log("Bosqich 1: Barcha Gemini modellari band yoki xato berdi.");
-      console.log("Bosqich 2: OpenAI (GPT-4o) butun maqolani noldan o'zi yozmoqda...");
-      reviewPrompt = `
+    console.log("Bosqich 1: Barcha Gemini modellari band yoki xato berdi.");
+    console.log("Bosqich 2: OpenAI (GPT-4o) butun maqolani noldan o'zi yozmoqda...");
+    reviewPrompt = `
 Siz "Gist.uz" - ilm-fan, dasturlash, startaplar va tanqidiy fikrlash haqida tahliliy maqolalar platformasi uchun tajribali avtorsiz.
 Bugungi maqola mavzusi quyidagi yo'nalishda bo'lishi kerak: ${selectedCategory}
 ${excludePrompt}
@@ -160,7 +174,9 @@ tags = ["tag1", "tag2", "tag3", "tag4"]
 
 Frontmatterdan keyin esa darhol maqolaning o'zi, markdown formatida (## sarlavhalar, *qalin yozuvlar*, ro'yxatlar) kelishi kerak. Matn uzun, batafsil va sifatli bo'lsin. Hech qanday markdown kod [...]
 
-MUHIM QOIDA: Barcha sarlavhalarda (ham frontmatterdagi 'title', ham matn ichidagi '##' sarlavhalarda) FAQAT birinchi so'zning birinchi harfi bosh harfda bo'lsin, qolgan barcha so'zlar kichik harf[...]
+MUHIM QOIDA: Matn ichidagi barcha ## va ### sarlavhalar bosh harf bilan boshlansin.
+Sarlavhaning birinchi so'zi albatta katta harf bilan yozilsin.
+Frontmatter title ham bosh harf bilan boshlansin.
 
 MUHIM: slug maydonida FAQAT 1-2 so'zdan iborat juda qisqa nom yozing. Masalan: "etika-dilemma", "kvant-kompyuter", "startap-xato". HECH QACHON uzun slug yozmang!
 
@@ -177,20 +193,23 @@ Important formatting rule for TOML front matter:
       model: "gpt-4o",
       messages: [{ role: "user", content: reviewPrompt }],
     });
-    
+
     finalMarkdown = completion.choices[0].message.content;
-    
+
     // Remove markdown code block wrapping if GPT still added it
     if (finalMarkdown.startsWith("```markdown")) {
-        finalMarkdown = finalMarkdown.substring(11);
+      finalMarkdown = finalMarkdown.substring(11);
     }
     if (finalMarkdown.startsWith("```")) {
-        finalMarkdown = finalMarkdown.substring(3);
+      finalMarkdown = finalMarkdown.substring(3);
     }
     if (finalMarkdown.endsWith("```")) {
-        finalMarkdown = finalMarkdown.substring(0, finalMarkdown.length - 3);
+      finalMarkdown = finalMarkdown.substring(0, finalMarkdown.length - 3);
     }
     finalMarkdown = finalMarkdown.trim();
+
+    // Enforce heading capitalization for ##/### as a post-processing safety step
+    finalMarkdown = sentenceCaseHeadings(finalMarkdown);
 
     console.log("OpenAI matnni yakunladi!\n");
   } catch (error) {
@@ -202,15 +221,15 @@ Important formatting rule for TOML front matter:
   let slug = `maqola-${Date.now()}`;
   const slugMatch = finalMarkdown.match(/slug\s*=\s*"([^"]+)"/);
   const titleMatch = finalMarkdown.match(/title\s*=\s*"([^"]+)"/);
-  
+
   if (slugMatch && slugMatch[1]) {
-      slug = slugify(slugMatch[1]);
+    slug = slugify(slugMatch[1]);
   } else if (titleMatch && titleMatch[1]) {
-      slug = slugify(titleMatch[1]);
+    slug = slugify(titleMatch[1]);
   }
-  
+
   let title = titleMatch && titleMatch[1] ? titleMatch[1] : "Yangi Maqola";
-  
+
   const descMatch = finalMarkdown.match(/description\s*=\s*"([^"]+)"/);
   const description = descMatch && descMatch[1] ? descMatch[1] : "";
 
@@ -219,14 +238,14 @@ Important formatting rule for TOML front matter:
   const filePath = path.join(postsDir, `${slug}.md`);
   fs.writeFileSync(filePath, finalMarkdown, 'utf-8');
   console.log(`✅ Maqola muvaffaqiyatli saqlandi: content/posts/${slug}.md\n`);
-  
+
   // Phase 3: Save Telegram notification data for later (after git push + Cloudflare deploy)
   const articleUrl = `https://gist.uz/posts/${slug}/`;
   const notificationData = {
-      title,
-      description,
-      slug,
-      url: articleUrl
+    title,
+    description,
+    slug,
+    url: articleUrl
   };
   const notifPath = path.join(__dirname, '..', '.telegram-notification.json');
   fs.writeFileSync(notifPath, JSON.stringify(notificationData, null, 2), 'utf-8');
