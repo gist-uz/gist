@@ -79,7 +79,7 @@ Siz "Gist.uz" - ilm-fan, dasturlash, startaplar va tanqidiy fikrlash haqida tahl
 Bugungi maqola mavzusi quyidagi yo'nalishda bo'lishi kerak: ${selectedCategory}
 ${excludePrompt}
 O'zingiz aniq va qiziqarli, o'quvchini jalb qiladigan, zamonaviy va biroz provokatsion sarlavha o'ylab toping.
-Keyin shu mavzuda keng qamrovli, tahliliy, mantiqiy ketma-ketlikka ega bo'lgan maqola yozing. Matn hajmi juda katta va batafsil (kamida 1200-1500 so'z) bo'lishi SHART. Har bir paragrafda chuqur fikrlar va hayotiy misollar keltiring.
+Keyin shu mavzuda keng qamrovli, tahliliy, mantiqiy ketma-ketlikka ega bo'lgan maqola yozing. Matn hajmi juda katta va batafsil (kamida 1200-1500 so'z) bo'lishi SHART. Har bir paragrafda chuqur fi[...]
 Matn faqat o'zbek tilida (kirill yozuvidan qochib, lotin alifbosida) bo'lishi shart.
 `;
 
@@ -122,11 +122,16 @@ description = "Maqola haqida 1-2 gapdan iborat qisqacha, qiziqarli ta'rif"
 tags = ["tag1", "tag2", "tag3", "tag4"]
 +++
 
-Frontmatterdan keyin esa darhol maqolaning o'zi, markdown formatida (## sarlavhalar, *qalin yozuvlar*, ro'yxatlar) kelishi kerak. Matn uzun, batafsil va sifatli bo'lsin. Hech qanday markdown kod bloklari ichiga olmang, to'g'ridan to'g'ri fayl matnini bering (ya'ni \`\`\`markdown deb boshlamang).
+Frontmatterdan keyin esa darhol maqolaning o'zi, markdown formatida (## sarlavhalar, *qalin yozuvlar*, ro'yxatlar) kelishi kerak. Matn uzun, batafsil va sifatli bo'lsin. Hech qanday markdown kod [...]
 
-MUHIM QOIDA: Barcha sarlavhalarda (ham frontmatterdagi 'title', ham matn ichidagi '##' sarlavhalarda) FAQAT birinchi so'zning birinchi harfi bosh harfda bo'lsin, qolgan barcha so'zlar kichik harfda yozilsin (inglizcha atamalar va xos ismlardan tashqari). Masalan: "Startaplar nega sinadi: asosiy xatolar va yechimlar".
+MUHIM QOIDA: Barcha sarlavhalarda (ham frontmatterdagi 'title', ham matn ichidagi '##' sarlavhalarda) FAQAT birinchi so'zning birinchi harfi bosh harfda bo'lsin, qolgan barcha so'zlar kichik harf[...]
 
 MUHIM: slug maydonida FAQAT 1-2 so'zdan iborat juda qisqa nom yozing. Masalan: "etika-dilemma", "kvant-kompyuter", "startap-xato". HECH QACHON uzun slug yozmang!
+
+Important formatting rule for TOML front matter:
+- Return valid TOML only.
+- If any field contains double quotes ("), escape them as \".
+- Do not output unescaped " inside TOML string values.
 
 Mana qoralama:
 ${draftText}
@@ -139,7 +144,7 @@ Siz "Gist.uz" - ilm-fan, dasturlash, startaplar va tanqidiy fikrlash haqida tahl
 Bugungi maqola mavzusi quyidagi yo'nalishda bo'lishi kerak: ${selectedCategory}
 ${excludePrompt}
 O'zingiz aniq va qiziqarli, o'quvchini jalb qiladigan, zamonaviy va biroz provokatsion sarlavha o'ylab toping.
-Keyin shu mavzuda keng qamrovli, tahliliy, mantiqiy ketma-ketlikka ega bo'lgan maqola yozing. Matn hajmi juda katta va batafsil (kamida 1200-1500 so'z) bo'lishi SHART. Har bir paragrafda chuqur fikrlar va hayotiy misollar keltiring.
+Keyin shu mavzuda keng qamrovli, tahliliy, mantiqiy ketma-ketlikka ega bo'lgan maqola yozing. Matn hajmi juda katta va batafsil (kamida 1200-1500 so'z) bo'lishi SHART. Har bir paragrafda chuqur f[...]
 Matn faqat o'zbek tilida (kirill yozuvidan qochib, lotin alifbosida) bo'lishi shart.
 Zola static site generator talablariga mos keladigan TO'LIQ Markdown faylini yarating.
 
@@ -153,11 +158,16 @@ description = "Maqola haqida 1-2 gapdan iborat qisqacha, qiziqarli ta'rif"
 tags = ["tag1", "tag2", "tag3", "tag4"]
 +++
 
-Frontmatterdan keyin esa darhol maqolaning o'zi, markdown formatida (## sarlavhalar, *qalin yozuvlar*, ro'yxatlar) kelishi kerak. Matn uzun, batafsil va sifatli bo'lsin. Hech qanday markdown kod bloklari ichiga olmang, to'g'ridan to'g'ri fayl matnini bering (ya'ni \`\`\`markdown deb boshlamang).
+Frontmatterdan keyin esa darhol maqolaning o'zi, markdown formatida (## sarlavhalar, *qalin yozuvlar*, ro'yxatlar) kelishi kerak. Matn uzun, batafsil va sifatli bo'lsin. Hech qanday markdown kod [...]
 
-MUHIM QOIDA: Barcha sarlavhalarda (ham frontmatterdagi 'title', ham matn ichidagi '##' sarlavhalarda) FAQAT birinchi so'zning birinchi harfi bosh harfda bo'lsin, qolgan barcha so'zlar kichik harfda yozilsin (inglizcha atamalar va xos ismlardan tashqari). Masalan: "Startaplar nega sinadi: asosiy xatolar va yechimlar".
+MUHIM QOIDA: Barcha sarlavhalarda (ham frontmatterdagi 'title', ham matn ichidagi '##' sarlavhalarda) FAQAT birinchi so'zning birinchi harfi bosh harfda bo'lsin, qolgan barcha so'zlar kichik harf[...]
 
 MUHIM: slug maydonida FAQAT 1-2 so'zdan iborat juda qisqa nom yozing. Masalan: "etika-dilemma", "kvant-kompyuter", "startap-xato". HECH QACHON uzun slug yozmang!
+
+Important formatting rule for TOML front matter:
+- Return valid TOML only.
+- If any field contains double quotes ("), escape them as \".
+- Do not output unescaped " inside TOML string values.
 `;
   }
 
