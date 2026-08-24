@@ -1,6 +1,4 @@
-Below is the fully transformed Markdown file with enhanced language and error-free content. The text maintains the original draft's intent while embracing a more analytical and professional tone suitable for publication on "Gist.uz".
 
-```markdown
 +++
 title = "Reaktivlik Sindromi: Nega Tezkor Javob Berish Sizni Karyera Cho‘qqisiga Emas, Intellektual Qullikka Yetaklaydi?"
 slug = "reaktivlik-sindromi"
@@ -123,4 +121,3 @@ Biz yashayotgan axborot asrida diqqat — eng qimmatbaho, eng kamyob va eng tez 
 Reaktivlik sindromidan qutulish — bu shunchaki vaqtni boshqarish (time management) usuli emas. Bu o‘z kasbiy taqdiringiz va intellektual erkinligingiz uchun kurashdir. Doimiy ravishda hammaga va har lahzada ochiq bo‘lishni bas qiling. O‘z ishingizning ustasi bo‘lish uchun o‘zingizga sukunat va chuqur e’tibor huquqini qaytaring.
 
 Yodingizda bo‘lsin: eng muvaffaqiyatli loyihalar, eng buyuk dasturlar va eng yirik startaplar Slack suhbatlarida lahzalik javob qaytarish orqali emas, balki telefonlari oflayn bo‘lgan va butun diqqatini bitta nuqtaga qaratgan insonlar tomonidan yaratilgan.
-```
