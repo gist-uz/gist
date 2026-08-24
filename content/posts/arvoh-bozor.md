@@ -1,4 +1,3 @@
-toml
 +++
 title = "Arvoh Bozor Simulyatsiyasi: Nega Silikon Vodiysi Modellarini Ko‘r-Ko‘rona Nusxalash Halokatga Yetaklaydi?"
 slug = "arvoh-bozor"
