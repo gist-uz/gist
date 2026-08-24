@@ -1,4 +1,3 @@
-toml
 +++
 title = "Sun'iy Tiriklik Paradoxi: Zamonaviy Startaplarning "Zombi" Holati"
 slug = "zombi-startap"
@@ -7,7 +6,7 @@ description = "Zombi-startaplar fenomenasi va ularning zamonaviy texnologik ekos
 [taxonomies]
 tags = ["startap", "texnologiya", "biznes", "venchur kapital"]
 +++
-```
+
 
 ## Sun'iy Tiriklik Paradoxi: Nega Modern Startaplar O'lishni Ham, O'sishni Ham Eplolmaydigan "Zombi"ga Aylanmoqda?
 
