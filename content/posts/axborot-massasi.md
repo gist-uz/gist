@@ -1,5 +1,5 @@
 +++
-title = "Axborotning Fizik Massasi: Raqamli Dunyoning Materiya O‘zgartirish Qobiliyati"
+title = "Axborotning fizik massasi: Raqamli dunyoning materiya o‘zgartirish qobiliyati"
 slug = "axborot-massasi"
 date = 2026-09-01
 description = "Raqamli dunyoning fizik chegaralari, axborotning massaga ega bo‘lishi va dasturlashni qanday o'zgartirishiga oid tahliliy izlanishlar."

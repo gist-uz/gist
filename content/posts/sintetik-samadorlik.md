@@ -1,5 +1,5 @@
 +++
-title = "Sintetik Samadorlik Tuzog‘i: Nega Har Bir Daqiqani Optimizatsiya Qilish Karyeramizga Zarar Yetkazmoqda?"
+title = "Sintetik samadorlik tuzog‘i: Nega har bir daqiqani optimizatsiya qilish karyeramizga zarar yetkazmoqda?"
 slug = "sintetik-samadorlik"
 date = 2026-08-26
 description = "Har bir daqiqani optimizatsiya qilish zamonaviy professional hayotga qanday zarar yetkazishini va qanday qilib bu xavfdan qutulish yo'llarini o'rganamiz."

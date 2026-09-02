@@ -1,5 +1,5 @@
 +++
-title = "Men buni bilaman tuzog‘i: tushuntirish chuqurligi illyuziyasi va zamonaviy fikrlash inqirozi"
+title = "Men buni bilaman tuzog‘i: Tushuntirish chuqurligi illyuziyasi va zamonaviy fikrlash inqirozi"
 slug = "tushuntirish-illyuziyasi"
 date = 2026-08-10
 description = "Tushuntirish chuqurligi illyuziyasi qanday qilib bizni aldaydi va zamonaviy dunyoda qanday oqibatlarga olib keladi?"

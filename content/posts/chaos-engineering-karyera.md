@@ -1,5 +1,5 @@
 +++
-title = "Karyeraviy Chaos Engineering: Barqarorlikning Tuzog‘i va Inqirozli Muhitda Yashash Zarurligi"
+title = "Karyeraviy Chaos Engineering: Barqarorlikning tuzog‘i va inqirozli muhitda yashash zarurligi"
 slug = "chaos-engineering-karyera"
 date = 2026-08-31
 description = "Karyerada chaos engineering metodologiyasini qo'llash imkoniyatlari va xizmat ko'rsatish sohasida barqarorlikni mustahkamlash"

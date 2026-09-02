@@ -1,5 +1,5 @@
 +++
-title = "Silikon devori va analoq renesans: nega raqamli kelajak bizni yana biologiyaga qaytarmoqda?"
+title = "Silikon devori va analoq renesans: Nega raqamli kelajak bizni yana biologiyaga qaytarmoqda?"
 slug = "analoq-renesans"
 date = 2026-08-07
 description = "Raqamli texnologiyalarning chegara holatlari va biologik ilhomlangan hisoblash tizimlarining kelajagi haqida tahliliy izoh."

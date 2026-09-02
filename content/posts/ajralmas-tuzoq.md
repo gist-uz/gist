@@ -1,5 +1,5 @@
 +++
-title = "Almashtirib bo‘lmaslik tuzog‘i: nega 'ajralmas xodim' bo‘lish kasbiy o‘sishingizni o‘ldiradi"
+title = "Almashtirib bo‘lmaslik tuzog‘i: Nega 'ajralmas xodim' bo‘lish kasbiy o‘sishingizni o‘ldiradi"
 slug = "ajralmas-tuzoq"
 date = 2026-08-13
 description = "Karyerada \"ajralmas xodim\" bo‘lishning yashirin xavflari va bu holatdan chiqish yo‘llarini tushuntiruvchi tahlil."

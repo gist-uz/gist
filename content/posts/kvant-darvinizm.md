@@ -1,5 +1,5 @@
 +++
-title = "Kvant Darvinizmi va Ob’ektiv Voqelik: Olam Qanday Yaratiladi va Kuzatiladi?"
+title = "Kvant darvinizmi va ob’ektiv voqelik: Olam qanday yaratiladi va kuzatiladi?"
 slug = "kvant-darvinizm"
 date = 2026-08-30
 description = "Kvant Darvinizmi nazariyasi orqali subatom dunyodan makroskopik voqelik qanday shakllanishini, atrof-muhitning ahamiyatini hamda ob’ektivlikning tabiati qandayligiga oid muhim savollarga javob."

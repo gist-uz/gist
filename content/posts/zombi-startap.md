@@ -1,5 +1,5 @@
 +++
-title = "Sun'iy Tiriklik Paradoxi: Zamonaviy Startaplarning Zombi holati"
+title = "Sun'iy tiriklik paradoxi: Zamonaviy startaplarning zombi holati"
 slug = "zombi-startap"
 date = 2026-08-23
 description = "Zombi-startaplar fenomenasi va ularning zamonaviy texnologik ekosistemada tutgan o‘rni haqida chuqur tahliliy maqola."

@@ -1,5 +1,5 @@
 +++
-title = "Strategik Passivlik Paradoxi: Zamonaviy Karyerada Hech Narsa Qilmaslik San'ati"
+title = "Strategik passivlik paradoxi: Zamonaviy karyerada hech narsa qilmaslik san'ati"
 slug = "strategik-passivlik"
 date = 2026-08-24
 description = "Karyerada muvaffaqiyatga erishish uchun harakat emas, balki ongli ravishda hech narsa qilmaslik san'ati"

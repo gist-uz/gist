@@ -1,5 +1,5 @@
 +++
-title = "Vayb-Koding Davri Va Muhandislik Unutilishi: Dasturiy Ta'minot Entropiyasi Va Infratuzilma Halokati"
+title = "Vayb-Koding davri va muhandislik unutilishi: Dasturiy ta'minot entropiyasi va infratuzilma halokati"
 slug = "vayb-koding"
 date = 2026-08-19
 description = "Vayb-koding tushunchasi ostida yashiringan xavf va kelajakda mumkin bo‘lgan infratuzilma vayronaligiga oid tahliliy maqola."

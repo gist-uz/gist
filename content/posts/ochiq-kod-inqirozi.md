@@ -1,5 +1,5 @@
 +++
-title = "Ochiq Kod Inqirozi: Sun’iy Intellekt Davrida \"Free Software\" Paradigmasining Qulashi"
+title = "Ochiq kod inqirozi: Sun’iy intellekt davrida \"Free Software\" Paradigmasining Qulashi"
 slug = "ochiq-kod-inqirozi"
 date = 2026-08-29
 description = "Sun’iy intellekt davrida ochiq kod harakatining inqirozi va raqamli feodalizmga o'tish."

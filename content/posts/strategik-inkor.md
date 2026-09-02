@@ -1,5 +1,5 @@
 +++
-title = "Strategik inkor pedagogikasi: giper-bog'langan dunyoda nega 'Yo'q' deyish intellektual tirik qolish masalasidir"
+title = "Strategik inkor pedagogikasi: Giper-bog'langan dunyoda nega 'yo'q' deyish intellektual tirik qolish masalasidir"
 slug = "strategik-inkor"
 date = 2026-08-18
 description = "Bilimlar iqtisodiyotida vaqt boshqaruvi emas, strategik inkor kognitiv erkinlikning poydevori ekanligini tahlil qiluvchi maqola"

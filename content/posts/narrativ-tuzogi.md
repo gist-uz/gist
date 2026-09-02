@@ -1,5 +1,5 @@
 +++
-title = "Narrativ Tuzog‘i: Tanqidiy Fikrlashni Zaiflashtiruvchi Soxta Hikoyalar"
+title = "Narrativ tuzog‘i: Tanqidiy fikrlashni zaiflashtiruvchi soxta hikoyalar"
 slug = "narrativ-tuzogi"
 date = 2026-08-25
 description = "Maqola inson ongi qanday qilib xaotik dunyoning murakkabligini yengillashtiruvchi soxta hikoyalar yaratishini va tanqidiy tafakkurni qanday zaiflashtirishi haqida batafsil tadqiq qiladi."

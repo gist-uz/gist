@@ -1,5 +1,5 @@
 +++
-title = "Goodhart tuzog'i: nega o'lchanadigan har qanday muvaffaqiyat kognitiv tanazzulga yetaklaydi?"
+title = "Goodhart tuzog'i: Nega o'lchanadigan har qanday muvaffaqiyat kognitiv tanazzulga yetaklaydi?"
 slug = "goodhart-tuzog-i"
 date = 2026-08-08
 description = "Goodhart qonuni, uning psixologiya, ta'lim va texnologiya sohalariga ta'siri va undan qutulish yo'llari haqida tahliliy maqola"

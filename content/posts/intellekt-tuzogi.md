@@ -1,5 +1,5 @@
 +++
-title = "Intellekt tuzog‘i: nega yuqori IQ va mantiqiy fikrlash sizni eng ahmoqona qarorlardan himoya qila olmaydi?"
+title = "Intellekt tuzog‘i: Nega yuqori IQ va mantiqiy fikrlash sizni eng ahmoqona qarorlardan himoya qila olmaydi?"
 slug = "intellekt-tuzog‘i"
 date = 2026-08-05
 description = "Yuqori IQ va mantiqiy fikrlashning nozikliklari va bu fazilatlarning kognitiv xatolarga qanday olib kelishi mumkinligini tahlil qilamiz."

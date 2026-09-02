@@ -1,5 +1,5 @@
 +++
-title = "Subsidiyalangan illyuziya: sun’iy intellekt davrida startaplarning marja inqirozi va blitzscaling o‘limi"
+title = "Subsidiyalangan illyuziya: Sun’iy intellekt davrida startaplarning marja inqirozi va blitzscaling o‘limi"
 slug = "marja-inqirozi"
 date = 2026-08-17
 description = "Startaplarning iqtisodiy modeli AI davrida qanday sinovlardan o'tmoqda va muvaffaqiyatga qanday erishish mumkinligi haqida tahliliy maqola."

@@ -1,5 +1,5 @@
 +++
-title = "Reaktivlik Sindromi: Nega Tezkor Javob Berish Sizni Karyera Cho‘qqisiga Emas, Intellektual Qullikka Yetaklaydi?"
+title = "Reaktivlik sindromi: Nega tezkor javob berish sizni karyera cho‘qqisiga emas, intellektual qullikka yetaklaydi?"
 slug = "reaktivlik-sindromi"
 date = 2026-08-20
 description = "Tezkor javobni samaradorlik deb qabul qilishning aslida intellektual layoqatsizlikka olib boruvchi sabablari va bu holatdan chiqish yo‘llarini o‘rganamiz."

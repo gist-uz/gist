@@ -1,5 +1,5 @@
 +++
-title = "Algoritmlar qabristoni: deterministik mantiqdan ehtimoliy intellektga o‘tish va dasturiy injiniringning yangi paradigma shoki"
+title = "Algoritmlar qabristoni: Deterministik mantiqdan ehtimoliy intellektga o‘tish va dasturiy injiniringning yangi paradigma shoki"
 slug = "algoritmlar"
 date = 2026-08-12
 description = "Kompyuter fanlari tarixidagi keskin uzilish haqidagi maqola: deterministik mantiqdan ehtimoliy injiniringga o'tish jarayoni va uning dasturchilar uchun yangi fikrlash tizimini talab qilishi."

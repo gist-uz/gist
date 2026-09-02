@@ -1,5 +1,5 @@
 +++
-title = "Gipotezangizni o‘ldiring: miyamizni xatolaridan himoya qilishni qanday o'rganamiz?"
+title = "Gipotezangizni o‘ldiring: Miyamizni xatolaridan himoya qilishni qanday o'rganamiz?"
 slug = "gipoteza-oldirish"
 date = 2026-08-04
 description = "Miyamiz o‘z xatolarini nega himoya qiladi va haqiqiy fikrlash nega og‘riqli? Kognitiv tuzoqlarni yengib, intellektual halollikni qanday saqlashimiz mumkinligini bilib oling."

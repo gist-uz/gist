@@ -1,5 +1,5 @@
 +++
-title = "Kognitiv Boshqaruv Asimmetriyasi: Nega AI Asrida Ko'nikmalar Tez Qadrsizlanadi va Faqat 'Fikrlash Infratuzilmasi' Ustunlik Beradi?"
+title = "Kognitiv boshqaruv asimmetriyasi: Nega AI asrida ko'nikmalar tez qadrsizlanadi va faqat 'fikrlash infratuzilmasi' ustunlik beradi?"
 slug = "kognitiv-asimmetriya"
 date = 2026-08-28
 description = "Kognitiv boshqaruv va fikrlash infratuzilmasi haqida muhim maqola. AI davrida nihoyatda zarur bo'lgan fikrlash strategiyalari bilan tanishing."

@@ -1,5 +1,5 @@
 +++
-title = "Zaharli kapital sindromi: venchur millionlari nimaga startaplar uchun najot emas?"
+title = "Zaharli kapital sindromi: Venchur millionlari nimaga startaplar uchun najot emas?"
 slug = "zaharli-kapital"
 date = 2026-08-09
 description = "Venchur kapitali va uning texnologik ekotizimlardagi zaharli ta’siri: tadqiqot va maslahatlar"

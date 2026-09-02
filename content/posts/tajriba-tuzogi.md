@@ -1,5 +1,5 @@
 +++
-title = "Tajriba tuzog‘i: nega 10 yillik stajingiz yangi iqtisodiyotda kasbiylik emas, xatarga aylanishi mumkin?"
+title = "Tajriba tuzog‘i: Nega 10 yillik stajingiz yangi iqtisodiyotda kasbiylik emas, xatarga aylanishi mumkin?"
 slug = "tajriba-tuzog'i"
 date = 2026-08-11
 description = "21-asrda uzoq yillik tajriba nafaqat foyda bermaydi, balki tajriba tuzog‘iga aylanishi mumkin. Bugungi zamonda kognitiv moslashuvchanlik va gibrid ko‘nikmalar muvaffaqiyat kalitidir."

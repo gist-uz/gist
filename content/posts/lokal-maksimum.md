@@ -1,5 +1,5 @@
 +++
-title = "Lokal Maksimum Tuzog‘i: Nega Karyeradagi Har Bir Ratsional Qaror Sizni Global Mag‘lubiyatga Yetaklashi Mumkin?"
+title = "Lokal maksimum tuzog‘i: Nega karyeradagi har bir ratsional qaror sizni global mag‘lubiyatga yetaklashi mumkin?"
 slug = "lokal-maksimum"
 date = 2026-08-27
 description = "Karyerada ratsional qarorlar qanday qilib global muvaffaqiyatsizlikka olib kelishi mumkinligini tahlil qiluvchi maqola."

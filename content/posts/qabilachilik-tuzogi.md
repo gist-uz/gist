@@ -1,5 +1,5 @@
 +++
-title = "Mantiqiy qabilachilik tuzog‘i: miya haqiqatdan nega ko'ra ko'proq illuziyani himoya qiladi?"
+title = "Mantiqiy qabilachilik tuzog‘i: Miya haqiqatdan nega ko'ra ko'proq illuziyani himoya qiladi?"
 slug = "qabilachilik-tuzog‘i"
 date = 2026-08-16
 description = "Maqolada inson miyasi nega haqiqatni izlashdan ko'ra, o'z illuziyalarini himoya qilishni afzal bilishi haqida kognitiv psixologiya va neyrobiologiya misolida tahlil keltiriladi."

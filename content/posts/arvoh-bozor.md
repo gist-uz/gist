@@ -1,5 +1,5 @@
 +++
-title = "Arvoh Bozor Simulyatsiyasi: Nega Silikon Vodiysi Modellarini Ko‘r-Ko‘rona Nusxalash Halokatga Yetaklaydi?"
+title = "Arvoh bozor simulyatsiyasi: Nega Silikon vodiysi modellarini ko‘r-ko‘rona nusxalash halokatga yetaklaydi?"
 slug = "arvoh-bozor"
 date = 2026-08-21
 description = "Maqolada rivojlanayotgan ekotizimlarda startaplarning qiyinchiliklari, g‘arb modellarini nusxalash xatolari, va muvaffaqiyatli mahalliy moslashuv misollari keng tahlil qilinadi."

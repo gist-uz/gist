@@ -1,5 +1,5 @@
 +++
-title = "Kognitiv Yengillik Illuziyasi: Nega Ishqalanishsiz Dunyo Tafakkur Inqiroziga Olib Kelmoqda?"
+title = "Kognitiv yengillik illuziyasi: Nega ishqalanishsiz dunyo tafakkur inqiroziga olib kelmoqda?"
 slug = "kognitiv-illuziya"
 date = 2026-08-22
 description = "Kognitiv yengillik qanday qilib bizni xomaki fikrlash dunyosiga yetaklamoqda va intellektual tirik qoliish uchun qanday tarzda kognitiv zo‘riqishni qayta eslatmog‘imiz kerakligi haqida tahlil."
