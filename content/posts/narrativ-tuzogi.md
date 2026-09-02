@@ -1,6 +1,3 @@
-Below is the refined article draft for "Gist.uz" tailored to high standards, with attention to both language and content. The Markdown format has been used, including a properly structured front matter for the Zola static site generator.
-
-```markdown
 +++
 title = "Narrativ Tuzog‘i: Tanqidiy Fikrlashni Zaiflashtiruvchi Soxta Hikoyalar"
 slug = "narrativ-tuzogi"
@@ -59,6 +56,3 @@ Gari Kleynning pre-mortem metodidan foydalanish ham bu muammoni hal etishga yord
 ## Xulosa: Haqiqiy Dunyoni Qabul Qilish
 
 Narrativlar — inson madaniyati, san’ati va o‘zaro aloqalarning ustuni bo‘lib xizmat qilsa-da, analitik soha talab etgan hududda ulardan voz kechishimiz shart bo‘ladi. Jiddiy kognitiv tafakkur esa murakkab dunyoviy murakkablikni tan olishga qaratilgan. Agar ushbu haqiqatni qabul qilganimizda, biz asl intellektual ozodlikka yetib boramiz.
-```
-
-This is a comprehensive articulation of the subject matter which blends an academic tone with accessible language while maintaining clarity. The Markdown formatting ensures the text is reader-friendly, with well-structured sections and emphasis on key concepts.
