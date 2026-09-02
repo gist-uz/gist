@@ -1,4 +1,3 @@
-
 +++
 title = "Reaktivlik Sindromi: Nega Tezkor Javob Berish Sizni Karyera Cho‘qqisiga Emas, Intellektual Qullikka Yetaklaydi?"
 slug = "reaktivlik-sindromi"

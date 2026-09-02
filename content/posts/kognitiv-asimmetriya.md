@@ -1,4 +1,3 @@
-toml
 +++
 title = "Kognitiv Boshqaruv Asimmetriyasi: Nega AI Asrida Ko'nikmalar Tez Qadrsizlanadi va Faqat 'Fikrlash Infratuzilmasi' Ustunlik Beradi?"
 slug = "kognitiv-asimmetriya"

@@ -1,4 +1,3 @@
-toml
 +++
 title = "Kvant Darvinizmi va Ob’ektiv Voqelik: Olam Qanday Yaratiladi va Kuzatiladi?"
 slug = "kvant-darvinizm"

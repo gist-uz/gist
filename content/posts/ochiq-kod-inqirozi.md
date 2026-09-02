@@ -1,4 +1,3 @@
-toml
 +++
 title = "Ochiq Kod Inqirozi: Sun’iy Intellekt Davrida \"Free Software\" Paradigmasining Qulashi"
 slug = "ochiq-kod-inqirozi"
