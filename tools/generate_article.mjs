@@ -99,6 +99,7 @@ Never use Title Case (capitalizing the first letter of every word).
 `;
 
   let draftText = "";
+  let usedGeminiModel = null;
   const geminiModels = ['gemini-3.6-flash', 'gemini-3.5-flash', 'gemini-3.5-flash-lite', 'gemini-3.1-flash-lite', 'gemini-3-flash'];
 
   for (const modelName of geminiModels) {
@@ -109,6 +110,7 @@ Never use Title Case (capitalizing the first letter of every word).
         contents: draftPrompt,
       });
       draftText = draftResponse.text;
+      usedGeminiModel = modelName;
       console.log(`Gemini (${modelName}) qoralamani muvaffaqiyatli yakunladi!\n`);
       break; // Successfully generated, exit loop
     } catch (error) {
@@ -213,6 +215,15 @@ Important formatting rule for TOML front matter:
 
     // Enforce heading capitalization for ##/### as a post-processing safety step
     finalMarkdown = sentenceCaseHeadings(finalMarkdown);
+
+    // Post-processing to inject AI metadata into frontmatter
+    const extraBlock = `[extra]\ndraft_model = "${usedGeminiModel || 'none'}"\nreview_model = "gpt-4o"\nai_authors = "${usedGeminiModel ? `Google ${usedGeminiModel} + OpenAI GPT-4o` : 'OpenAI GPT-4o'}"\n`;
+    if (finalMarkdown.startsWith('+++')) {
+      const secondPos = finalMarkdown.indexOf('+++', 3);
+      if (secondPos !== -1 && !finalMarkdown.substring(0, secondPos).includes('[extra]')) {
+        finalMarkdown = finalMarkdown.substring(0, secondPos) + extraBlock + finalMarkdown.substring(secondPos);
+      }
+    }
 
     console.log("OpenAI matnni yakunladi!\n");
   } catch (error) {
