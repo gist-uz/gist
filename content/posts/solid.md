@@ -16,7 +16,7 @@ Buning oldini olish uchun 5 ta oltin qoida bor. Ularning bosh harflari **SOLID**
 
 ---
 
-### 1. s — single responsibility principle (yagona mas’uliyat) 🎯
+### 1. S — single responsibility principle (yagona mas’uliyat) 🎯
 
 **Qoida:** "Har bir Class yoki Funksiya faqat BITTA ishni qilishi kerak."
 
@@ -58,7 +58,7 @@ Endi agar email tizimi o‘zgarsa, bazaga yozish kodi buzilib ketmaydi.
 
 ---
 
-### 2. o — open/closed principle (ochiq/yopiq) 🚪
+### 2. O — open/closed principle (ochiq/yopiq) 🚪
 
 **Qoida:** "Kodingiz kengaytirish uchun OCHIQ, lekin o‘zgartirish uchun YOPIQ bo‘lishi kerak."
 
@@ -100,7 +100,7 @@ class Uzum(Payment):
 
 ---
 
-### 3. l — liskov substitution principle (liskov o‘rnini bosish) 🧩
+### 3. L — liskov substitution principle (liskov o‘rnini bosish) 🧩
 
 **Qoida:** "Agar kod Ota klass bilan ishlasa, u hech qanday muammosiz Bola klass bilan ham ishlashi shart."
 
@@ -141,7 +141,7 @@ class Penguin(Bird):
 
 ---
 
-### 4. i — interface segregation principle (interfeyslarni ajratish) 🔌
+### 4. I — interface segregation principle (interfeyslarni ajratish) 🔌
 
 **Qoida:** "Keraksiz narsalarni majburlab tiqishtirmang."
 
@@ -178,7 +178,7 @@ class OldPrinter(Printer):
 
 ---
 
-### 5. d — dependency inversion principle (bog‘liqlikni teskarilash) 🙃
+### 5. D — dependency inversion principle (bog‘liqlikni teskarilash) 🙃
 
 **Qoida:** "Yuqori darajadagi modullar past darajadagi detallarga bog‘lanib qolmasligi kerak. Ikkalasi ham Abstraksiyaga bog‘lanishi kerak."
 

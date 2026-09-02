@@ -17,7 +17,7 @@ Maqolada inson psixologiyasidagi eng murakkab kognitiv tuzoqlardan biri — **Go
 
 ![Goodhart Qonuni](https://gist.uz/placeholder-metrics.jpg)
 
-## 1. goodhart qonuni: Metrika maqsadga aylanganda
+## 1. Goodhart qonuni: Metrika maqsadga aylanganda
 
 1975-yilda ekonomi Charlz Gudxart tomonidan irsiyatga qoldirilgan qoidaga ko‘ra: 
 
@@ -29,7 +29,7 @@ Bu qoidaning haqiqat ekanini tushunib yetish inson psixologiyasining **moslashuv
 
 Eng yorqin tarixiy misollardan biri bu — Hindistonda Britaniya mustamlakasi davrida sodir bo‘lgan "Kobra effekti". Zaharli ilonlarning ko‘payishini nazorat qilish maqsadida taklif qiligan mukofot siyosati jamoaning asl niyatini chigallashtirib, rejalashtiruvchilarga qarshi ishlaydigan mexanizmni keltirib chiqardi. Xuddi shunday, bugungi kunda raqamlar vositasida yutib olingan muvaffaqiyat pardasida asl muammolar e’tibordan chetda qolmoqda.
 
-## 2. it va startaplar: Vanity metrics va soxta produktivlik
+## 2. It va startaplar: Vanity metrics va soxta produktivlik
 
 IT sohasi va startaplar Goodhart qonuni amaliyot sahnasida ko‘paytirilgan soha hisoblanadi. 
 
@@ -41,7 +41,7 @@ IT-kompaniyadagi samaradorlikni faqatgina **"Git commit’lar soni"** yoki **"Ko
 
 Startaplar bu o‘ziga bejiz e’tibor jalb qilish uchun manmanlik metrikalarini keng qo‘llaydigan platformalardir. Foydalanuvchilar soni ko‘pligini ta’kidlaydigan ko‘rsatkichlar startapning haqiqiy ishlash qobiliyatini ko‘rsatolmaydi, aksincha, xato qarorlar qabul qilishga olib keladi.
 
-## 3. maknamara xatosi va ta’limdagi inqiroz
+## 3. Maknamara xatosi va ta’limdagi inqiroz
 
 Vetnam urushida AQSh Mudofaa vaziri Maknamara ekanidek, oson o‘lchanadigan omillarga yondoshish chuqur va muhim tushunchalarni ko‘rib chiqmaslikka sabab bo‘ladi. 
 
@@ -49,7 +49,7 @@ Vetnam urushida AQSh Mudofaa vaziri Maknamara ekanidek, oson o‘lchanadigan omi
 
 Bugungi ta’lim tizimi test ballari yoki GPA kabi o‘lchovlarga asosan uchun tayyorlangan. Amaliy tajriba va real bilim qanchalik qiymatli bo‘lmasin, ularni e’tibordan butunlay chiqarib tashlaydi. Shu sababli, ta’lim tizimini yanada kengroq qamrab oluvchi va talabalarning mustaqil rivojlanishiga yo‘l ochadigan vositalarni ishlab chiqish muhimdir.
 
-## 4. shaxsiy samaradorlik psixozi: Gamifikatsiya va motivatsiyaning so‘nishi
+## 4. Shaxsiy samaradorlik psixozi: Gamifikatsiya va motivatsiyaning so‘nishi
 
 Shaxsiy rivojlanish doirasida metrikaga qaramlik yangi psixologik hodisalar paydo bo‘lishiga sabab bo‘lmoqda.
 
@@ -57,7 +57,7 @@ Shaxsiy rivojlanish doirasida metrikaga qaramlik yangi psixologik hodisalar payd
 
 Boshidanoq ko‘zi qamashgan maqsadlar, masalan, kitoblar sonini ko‘paytirish, kandelier o‘yini kabi ma’lumotdan zavqlanish va fikr yuritish jarayonidan zavqlanishni chetga surib qo‘yadi. Bu jarayon Edvard Desi va Richard Rayanning **o‘z-o‘zini aniqlash nazariyasida** churralangani aniq ko‘rinadi.
 
-## 5. nega miya raqamlarga shunchalik oson aldanadi?
+## 5. Nega miya raqamlarga shunchalik oson aldanadi?
 
 ### A. miqdorlashtirish xatosi (quantification bias)
 
@@ -67,7 +67,7 @@ Miyamiz murakkab savollarga javob beradi deb kutilgan oddiy savollarga burilgani
 
 Raqamlar vositasida yaratilgan nazorat illyuziyasi insonga u barcha narsani boshqarayotganday, murakkablardan qochish imkonini berayotgandek tuyuladi.
 
-## 6. tizimni qanday davolash mumkin? raqamlar asoratidan qutulish yechimlari
+## 6. Tizimni qanday davolash mumkin? Raqamlar asoratidan qutulish yechimlari
 
 Kelib chiqishi shubhali raqamlar quli bo‘lishdan saqlanish uchun ma’lum bir ehtiyot choralari kuchga kirishi kerak.
 

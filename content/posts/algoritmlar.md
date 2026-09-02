@@ -7,7 +7,7 @@ description = "Kompyuter fanlari tarixidagi keskin uzilish haqidagi maqola: dete
 tags = ["algoritmlar", "sun'iy intellekt", "dasturiy injiniring", "ehtimoliy injiniring"]
 +++
 
-## Kirish: yetmish yillik ishonchning tanazzuli
+## Kirish: Yetmish yillik ishonchning tanazzuli
 
 Kompyuter fanlari rivojlanishi bilan dasturiy injiniring ancha vaqt davomida qat'iy deterministik gipotezalarga asoslanib kelgan: **A kirish signali + B algoritm = har doim C chiqish natijasi.** Bu tushuncha Alan Tyuring va Jon fon Neyman davridan beri dasturchilarni o‘ziga jalb etgan. Bu qat'iy dunyoqarash har bir dastur qatori niya yozilishida va tuzatishda muqarrar ma'noni mujassamlashgan edi.
 
@@ -17,7 +17,7 @@ Biroq, bugun biz tarixdagi eng keskin uzilishlardan biriga guvoh bo’lmoqdamiz.
 
 Ushbu maqolada biz an'anaviy dasturlash fikrlashining inqirozi, ehtimoliy kodning dasturchi miyasiga va arxitekturasiga keltiruvchi o'zgarishlarini tahlil qilamiz hamda muhandislik yondashuvlarimizni yangilash yo’llarini izlaymiz.
 
-## Deterministik illyuziya: mantiqiy xotirjamlikning so‘ngishi
+## Deterministik illyuziya: Mantiqiy xotirjamlikning so‘ngishi
 
 Nega dasturchilar klassik kod yozishni afzal ko‘rishadi? Chunki bu kodlar **bashorat qilinadigan** va **takrorlanuvchan** tabiatga ega. `2 + 2` amalini yozsangiz va natija har doim `4` bo'ladi. Turli turdagi xatoliklarni (masalan, `NullPointerException` yoki `Segmentation Fault`) bartaraf etish uchun dasturchilar stack trace’ga suyanib, xatolikni kuzatib va uni tuzata oladilar.
 
@@ -37,7 +37,7 @@ Bu holda:
 
 Bu muammo nafaqat texnik; bu dasturchi va sistema o‘rtasidagi ma'naviy bog‘liqlikni ham ifodalaydi. 
 
-## Yangi arxitektura: deterministik qobiq va ehtimoliy yadro
+## Yangi arxitektura: Deterministik qobiq va ehtimoliy yadro
 
 Kelajakda biz qanday qilib hayot uchun muhim tizimlarni yaratamiz? **Hybrid System Architecture (Gibrid tizimlar arxitekturasi)** konsepsiyasi yordamida:
 
@@ -62,23 +62,23 @@ Kelajakda biz qanday qilib hayot uchun muhim tizimlarni yaratamiz? **Hybrid Syst
 
 Endi biz kod yozishda **"xatti-harakatlar chegarasini belgilash"** ustida ishlaymiz.
 
-### Evals (Baholash): Testlarning o'rnini bosuvchi yangi paradigma
+### Evals (baholash): Testlarning o'rnini bosuvchi yangi paradigma
 
 Evals yordamida hisobotlarni statistika asosida baholaymiz. Endi dasturchilar **aniqlik ehtimoli va xavf auditiga** ko'proq e'tibor beriladi. Bu esa yangi ko‘nikma — aktuar fikrni talab etadi.
 
-## Kognitiv rekonstruksiya: dasturchi miyasida nima o'zgarishi kerak?
+## Kognitiv rekonstruksiya: Dasturchi miyasida nima o'zgarishi kerak?
 
 Ehtimoliy fikrlashga o'tish dasturchilardan quyidagi o'zgarishlarni talab etadi:
 
-### A. Deterministik mutlaqlikdan voz kechish
+### A. deterministik mutlaqlikdan voz kechish
 
 Har bir kirish uchun qat'iy natija kutmaslik. 
 
-### B. Intuiv injiniring va Empirizm
+### B. intuiv injiniring va empirizm
 
 An'anaviy dasturlash nazariydan amalga oshirilsa, ehtimoliy injiniring tajriba orqali kashf qilinadi.
 
-### D. Sistemali fikrlash
+### D. sistemali fikrlash
 
 Dasturchilar kodning deterministik asosini chuqur tushunishi kerak, ayniqsa AI yordamida yozilayotgan kodlar uchun.
 
@@ -90,6 +90,6 @@ AI yordamida kod yozishning osonlashishi natijasida biz **"Mantiqsiz Kod Epidemi
 * **Xavfsizlik tuynuklari**
 * **Tizimlar kaskadli qulashi** kabi oqibatlarni keltirib chiqarishi mumkin.
 
-## Xulosa: xaosni jilovlash san'ati
+## Xulosa: Xaosni jilovlash san'ati
 
 Tyuring davri tugadi. Endilikda, kuchli dasturchilar ehtimollik xaosini jilovlash orqali turli kutilmagan hodisalarni boshqarishni o‘rganishlari kerak. Ular mantiqni hisoblamaydi, balki *ehtimollik* va *noaniqlik*larni boshqaradilar. Muvaffaqiyatning yo‘li — boshqaruv illyuziyasidan voz kechish va xaosni injiniring asosiy quroliga aylantirishdir.

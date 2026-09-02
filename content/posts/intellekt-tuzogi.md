@@ -7,7 +7,7 @@ description = "Yuqori IQ va mantiqiy fikrlashning nozikliklari va bu fazilatlarn
 tags = ["intellekt", "kognitiv-psixologiya", "sun'iy-intellekt", "ta'lim"]
 +++
 
-## IQ va ratsionallik: tenglik belgisini o‘chirish vaqti keldi
+## Iq va ratsionallik: Tenglik belgisini o‘chirish vaqti keldi
 
 Jamiyatda intellekt (IQ) va ratsionallik tushunchalarining ko‘pincha bir xil deb qabul qilinishi - keng tarqalgan kognitiv illyuziyadir. Toronto universiteti professori Keyt Stanovich o‘z tadqiqotlarida bu ikki fenomenning miyaning farqli kognitiv mexanizmlariga asoslanishini ko‘rsatib berdi. U **Disratsionaliya (Dysrationalia)** terminini kiritib, yuqori IQ bilan bir vaqtning o‘zida mantiqsiz qarorlar qabul qilish holatini ta’rifladi.
 
@@ -31,18 +31,18 @@ Yal universiteti professori Dan Kahan tomonidan o'tkazilgan eksperiment bu jaray
 
 Misol uchun, tajribali dasturchilar oddiy yechimlar turganda, ko‘proq murakkab, "over-engineered" tizimlarni quradilar, natijada loyiha yiqiladi.
 
-## Ta’lim inqirozi: biz intellektni baholaymiz, ratsionallikni esa unutamiz
+## Ta’lim inqirozi: Biz intellektni baholaymiz, ratsionallikni esa unutamiz
 
 Zamonaviy ta’lim tizimi, ayniqsa, O‘zbekistonda, faqat intellektual (IQ) ko‘rsatkichlarini baholaydi, lekin ratsional fikrlash ko‘nikmalarini rivojlantirmaydi. Talabalar qanday fikrlash lozimligini emas, balki nima haqida fikrlash kerakligini o‘rganishadi. Natijada, yuzaga chiqadigan muammolar:
 
 1. **Algoritmik daholar, metakognitiv qashshoqlar:** O‘z xatolarini tan olmasdan murakkab masalalarni yechishga qodir shaxslar.
 2. **Akademik dogmatiklar:** Yangi gipotezalarni qabul qilmay, eski bilimlarini himoya qilgan holda qoluvchi tadqiqotchilar.
 
-## Intellekt tuzog‘idan qanday qutulish mumkin? (amaliy metodologiya)
+## Intellekt tuzog‘idan qanday qutulish mumkin? (Amaliy metodologiya)
 
 Intellektual tuzoqlardan qutulish uchun quyidagi amaliy strategiyalarni qo‘llashni taklif etamiz:
 
-### 1. "Pre-Mortem" usuli
+### 1. "Pre-mortem" usuli
 Loyiha yoki qaror qabul qilinishidan oldin sabablarini tahlil qiling: *"Aytaylik, loyiha kasodga uchradi. Bu halokatga olib kelgan sabablar nimalar edi?"*
 
 ### 2. Intellektual kamtarinlikni tizimlashtirish
@@ -54,7 +54,7 @@ Har bir muhim qarorda «Qizil Jamoa»ni joriy eting, u yerdagi vazifa — har qa
 ### 4. Fikrni o‘zlikdan ajratish
 G‘oyalarni shaxsiy egoingizdan ajratib oling. Xatolarni tan olishni shaxs bilan bog‘lamang.
 
-## Xulosa: fikrlashning oliy bosqichi 
+## Xulosa: Fikrlashning oliy bosqichi
 
 Fikrlashning oliy bosqichi – bu o‘z miyangizning ishlash jarayonini kuzata olish va xatolarni tuzatish qobiliyatidir. Richard Feynmanning aytganidek: *"Birinchi prinsip: o‘zingizni aldamang, chunki siz eng osongina alday oladigan inson — o‘zingiz."*
 

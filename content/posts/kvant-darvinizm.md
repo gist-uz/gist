@@ -13,7 +13,7 @@ Biz atrofimizdagi dunyoni o‘zgarmas va bizning kuzatishimizga bog‘liq bo‘l
 
 ---
 
-## 1. Muammo Qo‘yilishi: Kvant Shizofreniyasi va Klassik Dunyo Paradoxi
+## 1. Muammo qo‘yilishi: Kvant shizofreniyasi va klassik dunyo paradoxi
 
 Klassik fizika, Nyutondan to Eynshteyngacha, olamni ob’ektiv va deterministik tizim sifatida tasvirlagan. Unda har bir ob’ekt aniq massaga, tezlikka va koordinataga ega. Eynshteynning mashhur savoli: *"Oyga hech kim qaramayotganda, o‘sha yerda tura oladimi?"* - klassik realizmning oliy ifodasi edi.
 
@@ -29,7 +29,7 @@ Ushbu masalani "Kopengagen talqini" (Copenhagen interpretation) yordamida hal qi
 
 ---
 
-## 2. Kvant Dekogerensiyasi: Superpozitsiyaning Yo‘qolishi Emas, Axborotning Sochilib Ketishi
+## 2. Kvant dekogerensiyasi: Superpozitsiyaning yo‘qolishi emas, axborotning sochilib ketishi
 
 Klassik tushunchalardan voz kechgan holda, bir necha fiziklar, shulardan biri H. Diter Ze, kvant tizimlaridan klassik fazoga o‘tishni kashf qilishdi. Bu hodisa **Kvant Dekogerensiyasi** deb ataladi.
 
@@ -39,15 +39,15 @@ Kvant tizimi atrof-muhit bilan to‘qnashganda u**kvant chigalligi** holatiga ki
 
 ---
 
-## 3. Wojciech Zurek va Kvant Darvinizmi: Superpozitsiyalar O‘rtasidagi Tabiiy Tanlanish
+## 3. Wojciech zurek va kvant darvinizmi: Superpozitsiyalar o‘rtasidagi tabiiy tanlanish
 
 Kvant Darvinizmining g‘oyasi: **Atrof-muhit — kvant holatlarini elakdan o‘tkazuvchi va axborotni ko‘paytiruvchi olamdir.**
 
-### Ko‘rsatkich Holatlari ("Pointer States")
+### Ko‘rsatkich holatlari ("pointer states")
 
 Faqat atrof-muhit ta’siriga chidamli maxsus kvant holatlarigina (ko‘rsatkich holatlari) yashab qoladi. Bu holatlar — bu obyektning fazoiy koordinatalaridir.
 
-### Redundansiya va Nusxalash Teoremasi
+### Redundansiya va nusxalash teoremasi
 
 Kvant axborotini nusxalash taqiqlangan. Kvant Darvinizmi bu muammoni shunday tushuntiradi: Atrof-muhit axborotni nusxalaydi va ko‘rsatkich holati haqidagi axborotni saqlab turadi, shuningdek har bir foton obyektning koordinatasi haqidagi axborotni olib yuradi.
 
@@ -55,7 +55,7 @@ Kvant Darvinizmi shuningdek, biz obyektni o‘zi tekshiruvchi bilim emas, balki 
 
 ---
 
-## 4. "It from Bit": Axborot — Fizikaviy Voqelikning Bosh Manbai
+## 4. "It from bit": Axborot — fizikaviy voqelikning bosh manbai
 
 John Archibald Wheeler ning **"It from Bit"** konsepsiyasi — obyektlar, kuch maydonlari, hatto makon-veqtni anglashmikdori orqali qanday sodda axborotidir. Bu nuqtada obyektiv voqelik atrof-muhitning "ejektidan" iborat.
 
@@ -63,7 +63,7 @@ Kvant axborotlar qonunlari va o'ta texnologiyalar yordamida — har qanday kvant
 
 ---
 
-## 5. Eksperimental Isbotlar: Kvant Darvinizmi Laboratoriyada
+## 5. Eksperimental isbotlar: Kvant darvinizmi laboratoriyada
 
 Bir necha laboratoriya, jumladan Rim Sapienza Universiteti, Kvant Darvinizmi tajribalarini tajriba yo‘li bilan isbotlashdi.
 
@@ -73,19 +73,19 @@ O’zaro ta’sirli fizik kuchlar bu tajribalar va to‘liq obyektivlikni isbotl
 
 ---
 
-## 6. Kelajak Texnologiyalari va Kvant Kompyutingiga Ta’siri
+## 6. Kelajak texnologiyalari va kvant kompyutingiga ta’siri
 
-### Kvant Kompyuterlarining Dekogerensiya Devori
+### Kvant kompyuterlarining dekogerensiya devori
 
 IBM, Google va boshqa korporatsiyalar o‘zlarini kubitlar fazoiy koordinatalari va degogerensiyaga qarshi urushda ekanini namoyish qiladi. **Kvant Darvinizmi** razilashtirish usulini tushuning.
 
-### Topologik Kvant Kompyuting
+### Topologik kvant kompyuting
 
 Oxirgi yillarda Toplogistik yo‘riqni rivojlantirish texnologiyalari, masalan, Mayorana fermionlari kabi nuqtalarda alohida tugunlari orqali axborot saqlash bilan qiziqish o'smoqda.
 
 ---
 
-## 7. Tanqidiy va Falsafiy Mushohada: Ob’ektiv Ob’ektivlik Davri Tugadimi?
+## 7. Tanqidiy va falsafiy mushohada: Ob’ektiv ob’ektivlik davri tugadimi?
 
 Kvant Darvinizmi tanqidiy realizmni amalga oshirishga tadbiq qiladi.
 
@@ -93,7 +93,7 @@ Kvant Darvinizmi tanqidiy realizmni amalga oshirishga tadbiq qiladi.
 
 ---
 
-## Xulosa: Yangi Ontologiya Ostonasida
+## Xulosa: Yangi ontologiya ostonasida
 
 Koinot materiyadan ortiq tarzda ko‘rishyapti. **Koinot** bu — nosoz, ammo o‘zini-o‘zi o‘lchayotgan, uzluksiz nusxalayotgan va tarqatayotgan axborot oqimidir.
 

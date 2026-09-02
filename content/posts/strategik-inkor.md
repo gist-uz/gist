@@ -7,7 +7,7 @@ description = "Bilimlar iqtisodiyotida vaqt boshqaruvi emas, strategik inkor kog
 tags = ["kognitiv qarz", "diqqat entropiyasi", "iloji yo'q strategiyasi", "intellektual tirik qolish"]
 +++
 
-## Strategik inkor pedagogikasi: nega giper-bog'langan dunyoda "Yo'q" deyish intellektual tirik qolish masalasidir
+## Strategik inkor pedagogikasi: Nega giper-bog'langan dunyoda "yo'q" deyish intellektual tirik qolish masalasidir
 
 Zamonaviy bilimlarga asoslangan iqtisodiyotda mutaxassislar tez-tez vaqt yetishmovchiligi illyuziyasida istiqomat qilishadi. Biz o'z taqvimlarimizni ajratib, vaqtni boshqarish texnikalarini qo'llaymiz, ammo kun yakunida charchagan va e'tibori bo'lingan holda tugaymiz. Vaqt muammosi aslida mavjud emas; muammo **asimmetrik majburiyatlar** va **kognitiv entropiyadadir**. Zamonaviy ish muhitida "Ha" deb javob berishga ortiqcha urg'u beriladi, ammo "Yo'q" deb aytish intellektual salohiyatni himoya qilish va mustahkamlashning zarur chorasi bo'lishi mumkin.
 
@@ -31,7 +31,7 @@ Nassim Talibning "shtanga strategiyasi" diqqatning o'sishiga xizmat qiluvchi res
 
 Sun'iy intellekt ijro xarajatlarini nolga yaqinlashtirsa-da, to'g'ri yo'nalishni tanlash eng yuqori afzalliklarga ega bo'lishi mumkin. Diqqatning to'g'ri yo'naltirilmaganligi natijasida siz sun'iy intellekt tomonidan giper-tezlashtirilgan tartibsizlikka duch kelishingiz mumkin.
 
-## Amaliy arxitektura: rad etishning operatsion tizimi
+## Amaliy arxitektura: Rad etishning operatsion tizimi
 
 "Yo'q" deyish san'atini amalga oshirish uchun qonuniyatlarga asoslangan operatsion tizim yarating: Derek Siversning "Hell Yeah yoki No" qoidasi, standart holatdagi "Yo'q" prinsipini tatbiq qiling va rad etishni ijobiy ta'sirli bo'lishiga e'tibor bering.
 

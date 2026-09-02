@@ -13,7 +13,7 @@ Insoniyatning ilmiy qiziqishi bizi har doim koinotning asosiy qonuniyatlarini tu
 
 Lekin 2022-yil iyul oyida uchirilgan James Webb kosmik teleskopi koinotning yangi va ajabtovur tasvirlaridan birini yerga yuborib, ushbu tasavvurlarni qayta ko'rib chiqishga zamin yaratdi. Teleskop Koinotning eng qadimiy qatlamlarini kashf etdi va mavjud fizika dasturlariga qarshi keluvchi ob'ektlarni aniqladi. Bu kashfiyot zamonaviy ilmiy paradigmalarning inqirozini keltirib chiqardi va koinotni tushunishda yangi texnologik va tafakkur yondashuvlarini ishlab chiqishi zaruriyatini ko'rsatmoqda.
 
-## 1. "mukammal model"ning yemirilishi: Lambda-cdm nima edi?
+## 1. "Mukammal model"ning yemirilishi: Lambda-cdm nima edi?
 
 So‘nggi bir necha o‘n yilliklarda kosmologiyaning tayanchi bo‘lgan Lambda-CDM (Lambda Cold Dark Matter) modeli uchta asosiy komponentga tayangan edi:
 
@@ -25,13 +25,13 @@ Bu modelning nazariyasiga ko‘ra, Koinot dastlab issiq plazma holatida bo‘lga
 
 Muhandislik va nazariya darajasida ushbu model mukammal bo‘lib ko‘rindi. Ammo JWST tufayli modelning haqiqatini qayta ko‘rib chiqish zarurati paydo bo‘ldi.
 
-## 2. "imkonsiz galaktikalar": James webb nimani ko‘rdi?
+## 2. "Imkonsiz galaktikalar": James webb nimani ko‘rdi?
 
 James Webb teleskopi infraqizil spektr ada ishlaydi. Koinot kengaygani sari, uzoq obyektlardan kelayotgan yorug‘lik to‘lqinlari uzayadi va spektrning qizil sohasiga suriladi (qizilga siljish, yoki redshift). Koinot nazariyasiga ko'ra, juda yuqori (z = 10 va undan yuqori) qizilga siljish qiymatlari galaktikalar yangi shakllanish bosqichida bo'lishi kerak edi.
 
 Biroq JWST $z = 12$ va hatto undan yuqori ko‘rsatkichlarda bulardan ancha rivojlangan, katta va yorqin galaktikalarni aniqladi. Bu topilmalar nazariy model doirasidan chiqdi va jiddiy ilmiy savollarni tug'dirdi.
 
-## 3. hubble inqirozi va vaqt paradoksi
+## 3. Hubble inqirozi va vaqt paradoksi
 
 JWST kashfiyotlari bilan bir qatorda, olimlar ilm-fanning boshqa bir katta muammosini ham kuzatmoqdalar—bu **Hubble Inqirozi (Hubble Tension)**. Koinotning kengayish darajasi turli xil metodlar orqali o'lchanganida, bir-biridan farqli natijalar olinadi:
 
@@ -40,13 +40,13 @@ JWST kashfiyotlari bilan bir qatorda, olimlar ilm-fanning boshqa bir katta muamm
 
 Bu muvofiqsiz natijalar Koinot haqidagi nazariyalarimizni yangidan ko'rib chiqishni talab qilmoqda.
 
-## 4. tanqidiy fikrlash va paradigma almashinuvi: Nega ilm-fan xato qilishni sevadi?
+## 4. Tanqidiy fikrlash va paradigma almashinuvi: Nega ilm-fan xato qilishni sevadi?
 
 Ko'pchilik uchun bu kashfiyotlar ilm-fan adashganini ko'rsatadi. Ammo ilmiy taraqqiyot doim to'g'ri chiziqli bo'lmaydi, aksincha yangi bilimlar yangi savollar bilan kengayadi. Ilmiy taraqqiyot shunchaki eski nazariyalarni yangilari bilan almashtirish orqali rivojlanadi.
 
 Tomas Kun o‘zining *"Ilmiy inqiloblar strukturasi"* asarida ilm-fan rivojlanishini sakrashlar va paradigma almashinuvlari orqali kechishini ta'kidlagan edi.
 
-## 5. inqirozdan chiqish yullari: Fiziklar nimalarni taklif qilmoqda?
+## 5. Inqirozdan chiqish yullari: Fiziklar nimalarni taklif qilmoqda?
 
 Kosmologik inqirozlar yangi nazariyalar va gipotezalar yaratish uchun imkoniyatdir. Olimlar hozir quyidagi imkoniyatlarni tadqiq qilishmoqda:
 
@@ -59,7 +59,7 @@ Katta Portlashdan so‘ng hosil bo‘lgan birlamchi qora tuynuklar galaktikalar 
 ### C. gravitatsiya qonunlarining o‘zgarishi (mond)
 Gravitatsiya qonunlari katta masofalarda modifikatsiyaga muhtoj bo‘lishi mumkin.
 
-## 6. dasturlash, sun’iy intellekt va kelajak texnologiyalari bilan bog‘liqlik
+## 6. Dasturlash, sun’iy intellekt va kelajak texnologiyalari bilan bog‘liqlik
 
 JWST orqali olinayotgan ma’lumotlar keng doirada foydalanuvchi zamonaviy texnologiyalarni talab qilmoqda:
 

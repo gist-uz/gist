@@ -31,9 +31,9 @@ Chunki internetda siz kitob bilan emas, **scroll** bilan raqobatlashasiz. Scroll
 
 Shu yerda Tarantino metodi “hustle culture”ga o‘xshab ketadi: hamma “ko‘proq yoz” deydi. Tarantino esa teskarisini qiladi: **kamroq tushuntiradi, ko‘proq majbur qiladi**. Majbur qilish — o‘quvchini o‘ylashga, taxmin qilishga, ichidan gapirishga majbur qilish.
 
-## 7 ta prinsip: Kontent uchun tarantino skeleti
+## 7 Ta prinsip: Kontent uchun tarantino skeleti
 
-### 1) cold open: Izohsiz voqea
+### 1) Cold open: Izohsiz voqea
 
 Maqolani definitsiyadan boshlamang. **Natija** yoki **muammo** bilan boshlang.
 
@@ -45,7 +45,7 @@ Yaxshi:
 
 * “Eng yaxshi texnik maqolalar ham o‘qilmaydi. Sababi: siz hammasini darrov aytib qo‘yasiz.”
 
-### 2) kechiktirilgan kontekst: “nega?”ni keyinga qoldiring
+### 2) Kechiktirilgan kontekst: “Nega?”Ni keyinga qoldiring
 
 O‘quvchi birinchi bo‘lib “Nima bo‘lyapti?”ni ko‘rsin. “Nega?” — keyingi sahifa uchun benzin.
 
@@ -54,7 +54,7 @@ Praktika:
 * Birinchi 10–15 qatorda faqat **vaziyat** va **risk**.
 * Kontekstni keyin “flashback” qilib berasiz.
 
-### 3) bo‘limlar — modul arxitektura
+### 3) Bo‘limlar — modul arxitektura
 
 Tarantinoda “chapter”lar nafaqat bezak, balki boshqaruv pulti. Kontentda ham bo‘limlar:
 
@@ -62,7 +62,7 @@ Tarantinoda “chapter”lar nafaqat bezak, balki boshqaruv pulti. Kontentda ham
 * qayta kirishni osonlashtiradi,
 * “yana bitta bo‘lim” effektini beradi.
 
-### 4) dialog ritmi: Monolog o‘rniga qarama-qarshi fikr
+### 4) Dialog ritmi: Monolog o‘rniga qarama-qarshi fikr
 
 Blog postni “men sizga tushuntiraman”dan chiqarib, “men siz bilan tortishaman”ga aylantiring.
 
@@ -71,11 +71,11 @@ Usul:
 * Har muhim tezisga qarshi tezis yozing.
 * So‘ng isbot bilan “yutib” qo‘ying.
 
-### 5) detal tashlash: Keyin qaytib uradigan mayda narsa
+### 5) Detal tashlash: Keyin qaytib uradigan mayda narsa
 
 Boshida kichkina detail tashlang: fakt, metafora, qoidabuzarlik. Keyin o‘sha detailni yechim bo‘lib qaytaring. Bu o‘quvchiga “bu bekorga emas ekan” hissini beradi.
 
-### 6) kontrast: Tinchlik + bezovtalik
+### 6) Kontrast: Tinchlik + bezovtalik
 
 Faqat jiddiy yozsangiz — akademik uyqu. Faqat hazil qilsangiz — shou. Kontrast qiling:
 
@@ -83,7 +83,7 @@ Faqat jiddiy yozsangiz — akademik uyqu. Faqat hazil qilsangiz — shou. Kontra
 * keyingi paragraf yumshoq (metafora, pop-culture),
 * so‘ng yana qattiq (amaliy qadam).
 
-### 7) payoff: Yakun — “aha!” emas, “endilikda boshqacha ko‘raman”
+### 7) Payoff: Yakun — “aha!” emas, “endilikda boshqacha ko‘raman”
 
 Tarantino yakunlari ko‘pincha “to‘g‘ri” emas, lekin esda qoladi. Siz ham “hammasi yaxshi bo‘ldi” demang. O‘quvchining fikrlash ramkasini suring.
 
@@ -144,7 +144,7 @@ Quyidagi skeletni ko‘chirib ishlating:
 - O‘quvchiga bitta o‘tkir savol qoldiring
 ```
 
-## Mini-misol: “oddiy” kirishni tarantinocha qilish
+## Mini-misol: “Oddiy” kirishni tarantinocha qilish
 
 Oddiy:
 

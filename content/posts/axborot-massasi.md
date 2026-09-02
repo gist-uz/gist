@@ -17,7 +17,7 @@ Nizomsiz olamimizda termodinamika va kvant mexanikasi butunlay boshqa haqiqatni 
 
 Ushbu maqolada raqamli dunyoning fundamental fizik chegaralari, Melvin Vopsonning “Mass-Energy-Information” (Massa-Energiya-Axborot) ekvivalentligi gipotezasi, qorong‘u materiyaning axborot bilan bog‘liqligi va kelajak dasturchilari to‘qnash keladigan “Reversiv hisoblash” (Reversible Computing) inqilobi chuqur tahlil qilinadi.
 
-## Shannon va Boltzmann O‘rtasidagi Ko‘prik: Axborot — Termodinamik Reallikdir
+## Shannon va boltzmann o‘rtasidagi ko‘prik: Axborot — termodinamik reallikdir
 
 Axborotning moddiyligi haqidagi qarashlar kecha yoki bugun paydo bo‘lgani yo‘q. U 1948-yilda Klod Shennon tomonidan axborot nazariyasiga asos solinganda shakllana boshlagan. Shennon axborotni noaniqlikning kamayishi bilan izohlagan va uni o‘lchash uchun **entropiya** tushunchasini kiritgan.
 
@@ -27,7 +27,7 @@ Ajablanarlisi shundaki, Shennon tenglamasi 19-asrda Lyudvig Boltzmann tomonidan 
 
 Boltzmann uchun entropiya tizimdagi mikroholatlarning tartibsizlik darajasi bo‘lsa, Shennon uchun u ma’lumotdagi mavhumlik darajasi edi. Bu o‘xshashlik yillab matematik tasodif deb qaraldi. 1961-yilda esa IBM fizigi Rolf Landauer uni fizik reallik sifatida talqin qildi.
 
-### Landauer Prinsipi: Bitni O‘chirishning Fizik Narxi
+### Landauer prinsipi: Bitni o‘chirishning fizik narxi
 
 Landauer fundamental bir savolni o‘rtaga tashladi: *Kompyuterda 1 bit ma’lumotni o‘chirish fizik olamda nimaga olib keladi?*
 
@@ -39,7 +39,7 @@ Landauer isbotladi: 1 bit axborotni o‘chirish (ya’ni uning entropiyasini kam
 
 O‘rtacha xona haroratida ($300 K$) bir bit ma’lumotni o‘chirish kamida $2.85 \times 10^{-21}$ Joul energiya ajratadi. Bu raqam kichik tuyulishi mumkin. Ammo bugungi kunda dunyodagi barcha serverlar va smartfonlarda minglab, millionlab bitlar o‘chiriladi va qayta yoziladi. Landauer prinspining muhim tomoni shundaki: **Axborot bu faqat abstraksiya emas, axborotni yo‘qotish termodinamik jarayondir.**
 
-## Mass-Energy-Information Ekvivalentligi: E=mc² ning Davomi
+## Mass-energy-information ekvivalentligi: E=mc² ning davomi
 
 2019-yilda Portsmut universiteti fizigi Melvin Vopson Landauer prinsipini bir qadam oldinga siljitdi va insoniyat tafakkurini larzaga soladigan gipotezani ilgari surdi: **Mass-Energy-Information Equivalence (MEI)**. 
 
@@ -51,27 +51,27 @@ Vopson tenglamasiga ko‘ra, xona haroratida 1 bit axborotning massasi taxminan 
 
 Bu juda kichik massa. Ammo, masalaga global miqyosda qaralganda, olgan tadqiqotlarimiz qanday natijalar berishini ko‘rsak-chi?
 
-### Raqamli Katastrofa
+### Raqamli katastrofa
 
 Insoniyat ishlab chiqarayotgan axborot hajmi eksponensial ravishda o‘sib bormoqda. Bugungi kunda dunyodagi axborot hajmi Zettabaytlarda o‘lchanadi. Vopson o‘z tahlillarida dahshatli prognozni ilgari suradi: Agar raqamli axborot yaratish sur'ati yiliga atigi 20% ga o‘sishda davom etsa, **350 yildan so‘ng Yer yuzidagi raqamli bitlar soni atomlar sonidan oshib ketadi.**500 yildan so‘ng esa, yaratilgan axborotning umumiy fizik massasi Yer sayyorasining yarim og‘irligiga teng bo‘ladi. Bu "Raqamli katastrofa" stsenariyidir.
 
-## Astronomik Inqiroz: Qorong‘u Materiya va Koinotning 5-Holati
+## Astronomik inqiroz: Qorong‘u materiya va koinotning 5-holati
 
 Axborot massasi nazariyasi faqat dasturlash yoki ma’lumotlar bazasi bilan cheklanmagan. U zamonaviy astrofizikaning eng katta jumboqlaridan birini yechishga kalit bo‘lishi mumkin.
 
 Kosmologiya shuni ko‘rsatadiki, koinotdagi ko‘rinadigan materiya bor-yo‘g‘i **5%** ni tashkil etadi. Qolgan **27%** qismi "Qorong‘u materiya" va **68%** qismi "Qorong‘u energiya"dir. Fiziklar bu komponentlarni tushuntirib berishga urinadi. Ammo Vopsonning g‘oyasiga ko‘ra: **Qorong‘u materiya — bu aslida koinotdagi zarralar xotirasida saqlanayotgan axborot massasidir.**
 
-### Elementar Zarralar va Uning Axborot Sig‘imi
+### Elementar zarralar va uning axborot sig‘imi
 
 Har bir elementar zarra o‘zida fundamental axborotni saqlaydi. Proton va neytron kabi zarralar kvant axborot tashuvchilaridir. Aytish mumkinki, koinotdagi har bir elementar zarraga biriktirilgan axborot massasi kuzatilayotgan qorong‘u materiyaning etishmayotgan massasiga mos keladi.
 
 Shunday qilib, Vopson va uning izdoshlari axborotni **materiyaning 5-holati** (qattiq, suyuq, gaz, plazma, axborot) deb e’lon qilishni taklif qilishmoqda.
 
-## Reversiv Hisoblash: Dasturiy Injiniringning Qaytadan Tug‘ilishi
+## Reversiv hisoblash: Dasturiy injiniringning qaytadan tug‘ilishi
 
 Bugungi kunda mavjud kompyuterlar fon Neyman me’morchiligiga asoslangan klassik kompyuterlardir. Ular **qaytarib bo‘lmaydigan (irreversible)** mantiqqa qurilgan. Bu esa axborotni yo‘qotish bilan bog‘liq bo‘lib, Landauer issiqligini ajratadi. Zamonaviy protsessorlar Landauer chegarasidan 10 000 baravar ko‘p energiya sarflaydi. Sillikon kompyuterlar issiqlikdan erib ketmasligi uchun biz hisoblash logikasini tubdan o‘zgartirishimiz kerak.
 
-### Toffoli va Fredkin Ventillari: Nol-Yo‘qotishli Kodlash
+### Toffoli va fredkin ventillari: Nol-yo‘qotishli kodlash
 
 Bu inqirozning yechimi — **Reversiv (Qaytariluvchan) hisoblashdir**.
 
@@ -80,7 +80,7 @@ Reversiv hisoblashda mantiqiy apparat va algoritmlar ishga solinadi, ularda **he
 2. **Kvant dasturlash bilan integratsiya:** Kvant algoritmlarini (Shor, Grover) yozayotgan dasturchilar allaqachon reversiv mantiq bilan ishlamoqda.
 3. **Algoritmik murakkablikning o‘zgarishi:** Dastur tezligi **"Entropik qarz" (Entropic Debt)** bilan o‘lchanadi. Minimal issiqlik va massa ajratuvchi kod eng samarali koddir.
 
-## Holografik Prinsip va Koinot — Bu Superkompyuter
+## Holografik prinsip va koinot — bu superkompyuter
 
 Fizika va axborot nazariyasining to‘qnashuvi yanada chuqurroq bir falsafiy-ilmiy haqiqatni ochib beradi: **Holografik Prinsip**. Qora tuynuklar fizikasini o‘rganish natijasida shunday xulosaga kelindi: uch o‘lchamli fazodagi barcha hodisalar ikki o‘lchamli chegarada kodlangan kvant axborotlarning proyeksiyasi bo‘lishi mumkin.
 
@@ -88,7 +88,7 @@ Fizika va axborot nazariyasining to‘qnashuvi yanada chuqurroq bir falsafiy-ilm
 
 Bu natija, fizik Jon Uilerning mashhur iborasiga asoslangan **"It from bit"** va koinotning axborotdan tashkil topganligi haqidagi nazariyaga asos beradi.
 
-## Falsafiy va Texnologik Oqibatlar: Virtual Illyuziyadan Fizik Realizmga
+## Falsafiy va texnologik oqibatlar: Virtual illyuziyadan fizik realizmga
 
 Gist.uz o‘quvchilari uchun bu nazariyalar fantastik tuyulishi mumkin. Lekin ular amaliy va tanqidiy ahamiyatga ega. 
 
@@ -96,7 +96,7 @@ Gist.uz o‘quvchilari uchun bu nazariyalar fantastik tuyulishi mumkin. Lekin ul
 2. **Dasturlash etikasidagi o‘zgarish:** "Yashil Kod" o‘zgaradi, kod samaradorligi **axborot entropiyasining saqlanishi** bilan o‘lchanadi.
 3. **Matritsa gipotezasiga yangi nazardan qarash:** Har bir bit harorat va massa balansiga ta’sir qilishi kutiladi. 
 
-## Xulosa: Materiyasiz Dunyodan Bitlar Dunyosiga
+## Xulosa: Materiyasiz dunyodan bitlar dunyosiga
 
 Insoniyat tarixi uchta buyuk inqilobni bosib o‘tdi:
 1. **Materiya davri:** Materiya bilan ishlashni o‘rgandik.

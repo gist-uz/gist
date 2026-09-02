@@ -7,7 +7,7 @@ description = "Kognitiv yengillik qanday qilib bizni xomaki fikrlash dunyosiga y
 tags = ["kognitiv", "texnologiya", "intellektual", "ta'lim"]
 +++
 
-## Kognitiv Yengillik Illuziyasi: Nega Ishqalanishsiz Dunyo Va Tayyor Javoblar Tafakkur Inqiroziga Olib Kelmoqda?
+## Kognitiv yengillik illuziyasi: Nega ishqalanishsiz dunyo va tayyor javoblar tafakkur inqiroziga olib kelmoqda?
 
 Biz insoniyat tarixidagi eng past kognitiv ishqalanish davrida yashamoqdamiz. Ma'lumotlarni eslash shart emas — Google va sun'iy intellekt yordamchilari har qanday savolga tezkor javob berishga tayyor. Dasturlashda murakkab algoritmlar ustida o‘ylash shart emas — avtotoldirish funksiyalari kelajakdagi kodni bizdan ko‘ra yaxshiroq bashorat qiladi. Hatto startap asoschisi bo‘lishni istasangiz, tayyor analitika va biznes modellarni topishingiz mumkin.
 
@@ -15,7 +15,7 @@ Bu texnologik taraqqiyotning eng yuqori nuqtasi bo‘lib tuyuladi. Ammo neyrobio
 
 Ushbu maqolada kognitiv yengillikning miyamizni qanday qilib soxta xotirjamlikka olib kelishi, sun'iy intellekt va ishqalanishsiz texnologiyalar muhandislik va tanqidiy fikrlashni qanday yemirayotgani hamda intellektual tirik qolish uchun kognitiv zo‘riqishni qanday hayotga qaytarish kerakligini tahlil qilamiz.
 
-## Kognitiv Yengillik Mexanizmi: Miyamizning Massaj Xonasi
+## Kognitiv yengillik mexanizmi: Miyamizning massaj xonasi
 
 Inson miyasi, tana vaznining atigi 2 foizini tashkil qilishi bilan birga, umumiy energiyaning 20 foizdan ortig‘ini iste’mol qiladigan eng "qimmat" organdir. Shu sababli, evolyutsion jarayonda miyada asosiy omon qolish mexanizmi shakllangan: **energiya tejash**.
 
@@ -27,7 +27,7 @@ Miya doimo 2-Tizimni o‘chirib qo‘yishga va barcha jarayonlarni 1-Tizimga top
 
 Aksincha, murakkab vazifa yoki xatolik yuzaga kelganda **Kognitiv Zo‘riqish** hosil bo‘ladi, bu holatda 2-Tizim faollashadi. Bu jarayon nevron bog‘lanishlarining shakllanishiga sabab bo‘ladi.
 
-## Ishqalanishsiz Texnologiyalar va Mantiqiy Atrofiya
+## Ishqalanishsiz texnologiyalar va mantiqiy atrofiya
 
 So‘nggi o‘n yillikda texnologiya sohalarida "ishqalanishni nolga tushirish" bosh maqsadga aylangan. Mahsulotlar foydalanuvchiga o‘ylash imkonini bermasligi kerak. Ammo bu tamoyil bizning bilim olish va muammo hal qilish jarayonlarimizga salbiy ta'sir ko‘rsatadi.
 
@@ -35,7 +35,7 @@ Dasturchilar misolida bu jarayonni ko‘rib chiqaylik. Ilgari yangi texnologiyan
 
 Bu "Mo‘rt Mutaxassislar"ni yuzaga keltiradi. Ular oddiy vazifalarni tez va samarali bajarishadi, lekin kutilmagan va murakkab vaziyatlarda o‘zlarining 2-Tizimini faollashtirolmay qolishadi.
 
-## Ta'lim va "Xayrli Qiyinchilik" Paradoksi
+## Ta'lim va "xayrli qiyinchilik" paradoksi
 
 Kognitiv yengillik tuzog‘i ta’lim sohasida katta salbiy ta'sir ko‘rsatadi. Ta’lim platformalari ta’limni "oson" qilishga intiladi, ammo bu ko‘pincha xato usul hisoblanadi.
 
@@ -43,13 +43,13 @@ Robert Bjork tomonidan o‘tkazilgan tadqiqotlar ko‘rsatadiki, haqiqiy o'rgani
 
 Chiroyli tayyorlangan prezentatsiyalar yoki qisqacha ma’lumotlar esa miyaga faqat tanishlik hissi beradi, lekin haqiqatni o'zlashtirmaydi. Bu esa "Tushunish Illuziyasi"ni yuzaga keltiradi.
 
-## Startaplar va Biznes: "Sodda Narrativ" Halokati
+## Startaplar va biznes: "Sodda narrativ" halokati
 
 Startaplar va investitsiyalar olamida kognitiv yengillik illuziyasi soxta muvaffaqiyatlarni olib keladi. Miya murakkab tizimlarni yomon tushunadi va oddiy, chiroyli hikoyalarga intiladi. Bu esa "Narrativ Tuzog'i"ni yuksaltiradi.
 
 Theranos misoli kiritilganidek, oddiy va jozibador hikoyalar investorlarni alday oladi. Aksincha, haqiqiy inqilobiy modellar murakkab va yuqori kognitiv zo‘riqishni talab qiladi.
 
-## Kognitiv Shirinlik va Intellektual Semizlik
+## Kognitiv shirinlik va intellektual semizlik
 
 Bugungi kunda biz "Intellektual Semizlik" davrida yashayapmiz. Ijtimoiy tarmoqlar va qisqa kontentlar bizni kognitiv yengillikka yetaklaydi. 
 
@@ -58,22 +58,22 @@ Buning oqibatlari quyidagicha:
 2. **Gipotezalarni Tekshirmaslik**
 3. **Kognitiv Passivlik**
 
-## Kognitiv Zo‘riqishni Hayotga Qaytarish: Amaliy Freymvork
+## Kognitiv zo‘riqishni hayotga qaytarish: Amaliy freymvork
 
 Kognitiv yengillikdan xalos bo‘lish uchun **"Sun’iy Kognitiv Ishqalanish"** tushunchasini hayotga kiritishimiz kerak.
 
-### 1. "Birinchi Prinsiplar va Qalam" Qoidasi
+### 1. "Birinchi prinsiplar va qalam" qoidasi
 Murakkab masalalarda qo‘lda yozish va chizish orqali fikrni mustahkamlash.
 
-### 2. "Desirable Friction" Rejimini Yaratish
+### 2. "Desirable friction" rejimini yaratish
 Bilim olishda o‘qiganlarni yoddan qayta yozib olish, dasturlashda kod mantiqini tushunishga harakat qilish.
 
-### 3. Falsifikatsiya va "Sokratik Zo‘riqish" Mashqi
+### 3. Falsifikatsiya va "sokratik zo‘riqish" mashqi
 Gipotezalaringizga qarshi kuchli dalillar topishga o‘z miyangizni majburlash.
 
-### 4. Noaniqlikka Sabr Qilish
+### 4. Noaniqlikka sabr qilish
 Muammoni hal qilishda shoshilmang va savolni miyangizda biroz pishiring.
 
-## Xulosa: San’at Qayerda Yashaydi?
+## Xulosa: San’at qayerda yashaydi?
 
 Kognitiv yengillik tafakkurning massaj xonasi kabi, lekin haqiqiy intellektual rivojlanish og'irlikni ko'targanda yuzaga keladi. Fikrlashdan erinmaylik — bu bizni mashinalar va passiv iste'molchilardan farqlantiruvchi oxirgi intellektual qo'rg'onimizdir.

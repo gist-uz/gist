@@ -15,7 +15,7 @@ Aynan mana shu ulkan o'zgarish texnologiya olamida **Agentic Engineering** (Agen
 
 ---
 
-### Agentic engineering o'zi nima?
+### Agentic Engineering o'zi nima?
 
 **Agentic Engineering** – bu sun'iy intellekt agentlari (dasturlari) mustaqil ravishda reja tuza oladigan, turli vositalardan foydalanadigan, bosqichma-bosqich qarorlar qabul qilib, inson nazorati ostida yakuniy natijani yetkazib beradigan tizimlarni yaratish san'atidir.
 
@@ -71,7 +71,7 @@ Siz endi shunchaki matn yoki rasm generatsiya qildirmayapsiz, siz **xulq-atvorni
 
 ---
 
-### Context engineering va agentic engineering: Ularni adashtirmang!
+### Context Engineering va agentic Engineering: Ularni adashtirmang!
 
 Ko'pchilik bu ikki tushunchani chalkashtirib yuboradi. Garchi ular bir-biriga bog'liq bo'lsa-da, mutlaqo turli xil muammolarni hal qiladi.
 

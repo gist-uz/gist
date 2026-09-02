@@ -39,7 +39,7 @@ Maktab va universitetlarda bilim darajasi imtihon testlari va baholar orqali o�
 
 Ushbu muammo zamonaviy IT-ta’limi va o‘z ustida ishlaydigan dasturchilar orasida ham ildiz otgan. Masalan, *LeetCode* platformasida yuzlab algoritmlarni yechish trendga aylandi. Algoritmlarni bilish — bu tanqidiy fikrlash va muammo yechish ko‘nikmasining proksisidir. Ammo inson maqsadi real arxitektura qurish emas, balki LeetCode reytini oshirishga qaratilganda, u "LeetCode odamiga" aylanadi: u spetsifik shablonlarni tezkor yechishni biladi, lekin noaniqlik sharoitida, real biznes mantiqiga ega loyihada duch kelganda sarosimaga tushadi.
 
-## Neyrobiologiya: dopamin sirtmog‘i va Campbell qonuni
+## Neyrobiologiya: Dopamin sirtmog‘i va campbell qonuni
 
 Nega miyamiz bu tuzoqqa bunchalik oson tushadi? Sababi neyrobiologik tuzilishimizda yotibdi.
 
@@ -53,7 +53,7 @@ Natijada, neyron zanjirlarimiz haqiqiy natijaga emas, balki **indikatorni faolla
 
 Shaxsiy darajada bu kognitiv korrupsiyaga olib keladi. Inson o‘zini alday boshlaydi. U kun bo‘yi "ishladi" (chunki u 12 soat davomida kompyuter qarshisida o‘tirdi va 50 ta elektron pochtaga javob yozdi — unumdorlik metrikasi bajarildi), lekin aslida stratejik muhim bo‘lgan bitta ham murakkab vazifani hal qilmadi (chunki murakkab vazifa sekin kechadi va tezkor dopamin bermaydi).
 
-## Startaplar va dasturlash: soxta ko‘rsatkichlar nevrozi
+## Startaplar va dasturlash: Soxta ko‘rsatkichlar nevrozi
 
 Goodhart tuzog‘i individual psixologiya bilan cheklanib qolmaydi, u jamoaviy va tashkiliy madaniyatni ham zaharlovchi kuchga ega. Startaplar va texnologik kompaniyalar dunyosida bu holat **"Vanity Metrics" (soxta/manmanlik ko‘rsatkichlari)** deb ataladi.
 
@@ -61,7 +61,7 @@ Ilovani yuklab olgan foydalanuvchilar soni, ro‘yxatdan o‘tganlar soni, saytg
 
 Dasturiy ta’minot muhandisligida Goodhart qonuni arxitekturaviy haloqatga olib keladi. Agar rahbariyat dasturchilar unumdorligini yozilgan kod liniyalari (LOC) yoki yopilgan chiptalar soni bilan o‘lchay boshlasa, dasturchilar beixtiyor koddagi abstraksiyalarni ko‘paytiradi, sodda muammoni murakkablashtirib yozadi va koddagi infratuzilmani chalkashlashtiradi. Metrika oshadi, lekin dasturiy ta’minotning sifati va tushunilishi barbod bo‘ladi.
 
-## Metrikalardan tub mohiyatga: tanqidiy fikrlash va qutulish yollari
+## Metrikalardan tub mohiyatga: Tanqidiy fikrlash va qutulish yollari
 
 Gudhart tuzog‘i bizni raqamlar, jadvallar va indikatorlardan to‘liq voz kechishga da’vat etmaydi. O‘lchash — bu ilmiy progress va boshqaruvning muhim qurolidir. Muammo o‘lchashda emas, **o‘lchovning kognitiv statusida**.
 
@@ -86,7 +86,7 @@ Birinchi prinsiplar bo‘yicha fikrlash bizni proksilarni olib tashlashga majbur
 
 Biror bir metrikaning uzoq vaqt davomida yagona ko‘rsatkich bo‘lib qolishiga yo‘l qo‘ymang. Agar siz doimiy ravishda bir xil ko‘rsatkichni kuzatsangiz, miyangiz uni albatta "gamifikatsiya" qiladi (ya’ni tizimni alday boshlaydi). Metrikalaringizni vaqti-vaqti bilan o‘zgartirib turing yoki ularni butunlay olib tashlab, muayyan muddat "ko‘rsatkichlarsiz, faqat jaratish va chuqur sho‘ng‘ish (pure flow)" rejimida ishlang.
 
-## Xulosa: raqamlashtirib bo'lmaydigan haqiqat
+## Xulosa: Raqamlashtirib bo'lmaydigan haqiqat
 
 Zamonaviy dunyo bizni har bir narsani dashboard’larga joylashga, har bir soniyani va har bir natijani grafikda ifodalashga majbur qiladi. Bu — aniqlik va nazorat illyuziyasini beradi. Ammo inson psixologiyasi, uning ijodiy salohiyati va chuqur fikrlash qobiliyati lineyar raqamlarga sig‘maydi.
 

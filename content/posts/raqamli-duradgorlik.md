@@ -7,7 +7,7 @@ description = "Shaxsiy bilimlarni boshqarishning zamonaviy tushunchasi qanday qi
 tags = ["texnologiya", "fikrlash", "bilim-boshqaruvi", "intellektual-taraqqiyot"]
 +++
 
-## Raqamli duradgorlik tuzog‘i: PKM tushunchasining ta'siri
+## Raqamli duradgorlik tuzog‘i: Pkm tushunchasining ta'siri
 
 Zamonaviy intellektual va texnologik olam yangi ibodat turiga qarmoqlandi: **PKM (Personal Knowledge Management)** - shaxsiy bilimlarni boshqarish yoki Tiago Fortening iborasi bilan aytganda: **"Ikkinchi miya qurish"**. Har tomonlama bir xil da'vatni uchratishingiz mumkin — Notion’da mukammal dashboard yarating, Obsidian’da “graph view” orqali bilimlaringizni vizualize qiling, Readwise orqali maqsadlaringizni avtomatlashtiring. Mana va'da: *“Informatsion oqimda yo‘qolmaylik. Saqlaylik, tizimlashtiraylik va intellektual qudratimizni oshiraylik!”*
 
@@ -39,7 +39,7 @@ Buning oqibatlari quyidagilardan iborat:
 2. Ma’lumotlar bazasiga ega bo‘lasiz, ammo **kontekstual intellekt** turaliqdir.
 3. Amaliy hayotda kutilmagan vaziyatda Notion’dan foydalanishga majbur bo‘lasiz, sabab, bilim miya emas, bulutda yashamoqda.
 
-## Niklas Luhmann va Zettelkasten afsonasi
+## Niklas luhmann va zettelkasten afsonasi
 
 PKM ixlosmandlari Niklas Luhmannni misol qilib keltirishadi. Luhmann 70 dan ortiq kitob va 400 dan ziyod maqolalar muallifi bo‘lib, Zettelkasten tizimi uning muvaffaqiyatiga hissa qo‘shgan.
 
@@ -53,13 +53,13 @@ Luhmann har safar yozishni boshlashdan oldin, o‘qigan manbasini chuqur tahlil 
 
 Luhmannning kartochkalari uning fikrlari hasiladi bo‘lsa, zamonaviy foydalanuvchilar ko‘payib ketgan, hazm qilinmagan manbalarini yig‘ish bilan ovora bo‘lib, "Raqamli axlat yig‘ish sindromi"dan aziyat chekishadi.
 
-## Graph View vizualizatsiyasi va sintetik intellektualizm
+## Graph view vizualizatsiyasi va sintetik intellektualizm
 
 Obsidian kabi dasturlarining eng jozibali jamoa bo‘lib, o‘z Graph View’ga ega, bu — minglab eslatmalar va ularni tutashtiradigan chiziqlar vizual zarbalari. Ammo bu struktural bog‘liqlikni ko‘rsatadi, semantik tushunchani emas.
 
 Haqiqiy intellektual sakrash ikki tugun tutashganda ekran oldida sodir bo‘lmaydi. U kognitiv xarita miyangizda shakllanganda, kutilmagan vaziyatda, miyaning RAM va uzoq muddatli xotirasida axborot mavjudligida sodir bo‘ladi.
 
-## Sun’iy intellekt va "Ikkinchi miya" simbiozi
+## Sun’iy intellekt va "ikkinchi miya" simbiozi
 
 So‘nggi vaqtlarda PKM dunyosi Notion AI va Obsidian Copilot kabi plaginlarni "Ikkinchi miya"ga integratsiya qilmoqda. Endi siz ko‘plab eslatmalarni yig‘asiz, ularni tahlil qilishni esa sun’iy intellektga topshirasiz.
 

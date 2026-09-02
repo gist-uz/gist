@@ -7,7 +7,7 @@ description = "Karyerada \"ajralmas xodim\" bo‘lishning yashirin xavflari va b
 tags = ["karyera", "ish qandaykorligi", "tashkiliy psixologiya", "texnologik o‘zgarishlar"]
 +++
 
-## Almashtirib bo‘lmaslik tuzog‘i: nega 'ajralmas xodim' bo‘lish kasbiy o‘sishingizni o‘ldiradi
+## Almashtirib bo‘lmaslik tuzog‘i: Nega 'ajralmas xodim' bo‘lish kasbiy o‘sishingizni o‘ldiradi
 
 Karyera haqida keng tarqalgan maslahatlar ko'pincha oddiy postulatga tayanadi: *“O'zingizni almashtirib bo'lmaydigan mutaxassisga aylantiring, shunda qadringiz baland bo'ladi.”* Yoshligimizdan[...]
 
@@ -17,7 +17,7 @@ Agar siz tizimda "almashtirib bo'lmas" insonga aylangan bo'lsangiz, tabriklaymiz
 
 Endi nima uchun jarayonlarni aynan o'zingizga bog'lash sizning karyerangizni o'stirishi o'rniga uni "muzlatib" qo'yishini muhandislik, tashkiliy psixologiya va iqtisodiy rag'batlar prizmasi orqali[...]
 
-## Tashkiliy arxitektura: spof (Single Point of Failure) bo'lish xatari
+## Tashkiliy arxitektura: Spof (single point of failure) bo'lish xatari
 
 Dasturiy injiniringda **SPOF (Single Point of Failure)**, ya'ni tizimning biror joyida paydo bo'lajak muammolar butun tizimning falajlanishiga olib keladigan nuqtani ifodalaydi. Tajribali arxitekt[...]
 
@@ -27,7 +27,7 @@ Agar siz tashkilotda barcha nozik bilimlarni jamlab, faqat o'zingiz tushunadigan
 
 Menejment uchun bunday xodim **tizimli xavf-xatar**ni ifodalaydi. Pozitsiya qattiq ushlab turilgan bo'lishi mumkin, lekin uzoq muddatli o'sish imkoniyatlarini yoqqa chiqaradi. Tizim xavfsizlikni t[...]
 
-## Menejerning iqtisodiy rag'bati va "Ishchanlik jazosi" 
+## Menejerning iqtisodiy rag'bati va "ishchanlik jazosi"
 
 Siz lavozimni oshirishni yoki strategik darajaga ko'tarilishni xohlaysiz. Lekin rahbaringiz oldida oddiy mikroiqtisodiy savol paydo bo'ladi:
 
@@ -45,7 +45,7 @@ Sun'iy intellekt va avtomatlashtirish texnologiyalari aniq va murakkab bilimlarn
 
 Haqiqiy qiymat — murakkablikni ushlab turishda emas, balki **soddalashtirish va tizimlashtirishda** yotadi.
 
-## Egoni yengish: nega biz o'zimizni almashtirib bo'lmaydigan qilishga intilamiz?
+## Egoni yengish: Nega biz o'zimizni almashtirib bo'lmaydigan qilishga intilamiz?
 
 Nega aqlli va tajribali mutaxassislar ushbu tuzoqqa tushadi? Sababi — psixologik ego va xavfsizlik ehtiyoji.
 
@@ -55,7 +55,7 @@ Nega aqlli va tajribali mutaxassislar ushbu tuzoqqa tushadi? Sababi — psixolog
 
 Natijada, mutaxassis "operatsion qahramonlik" orqali yonib kul bo'ladi, tizimiy nosozlikda yonib ketadi.
 
-## Yechim: o‘zini almashtiriladigan qilish arxitekturasi
+## Yechim: O‘zini almashtiriladigan qilish arxitekturasi
 
 Karyerangizdagi haqiqiy sakrash siz o'z o'rningizda **ortiqcha (redundant)** bo'lganingizda sodir bo'ladi. O'sish istagan har bir mutaxassis quyidagi qadamlarni amalga oshirishi lozim:
 
@@ -73,7 +73,7 @@ Bo'shagan kognitiv resursingizni yuqori darajadagi muammolarni hal qilishga yo'n
 
 Agar siz o'zingizni hozirgi rolingizda ortiqcha qilmoqchi bo'lsangiz, kasbiy rivojlanishda haqiqiy sakrashni amalga oshirishingiz mumkin.
 
-## Xulosa: qafasni buzish va erkinlik
+## Xulosa: Qafasni buzish va erkinlik
 
 Kasbiy rivojlanishning yuqori darajasi — bu aniq vazifalarni monopoliya qilish emas, **o'zingizdan keyin tartib va avtonom tizim qoldira olishdir**.
 

@@ -15,7 +15,7 @@ Ammo ijtimoiy-psixologik tadqiqotlar va real mehnat bozori tahlili bu g‘oyanin
 
 Xo‘sh, nega sevimli mashg‘ulotni karyeraning poydevoriga aylantirish xavfli strategiya hisoblanadi? Haqiqiy kasbiy baxt va yuqori daromad manbayi qayerda yashiringan?
 
-## 1. "ehtiros gipotezasi"ning kognitiv tuzog‘i
+## 1. "Ehtiros gipotezasi"ning kognitiv tuzog‘i
 
 Ehtiros gipotezasining asosiy muammosi, uning **ehtirosni karyeraning boshlang‘ich nuqtasi** deb hisoblashidadir. Bu nazariyaga ko‘ra, har bir insonda tug‘ma ravishda berilgan, faqat kashf etilishini kutib yotgan maxsus "qobiliyat" yoki "da'vat" mavjud va insonning vazifasi faqat uni topib olishdan iborat.
 
@@ -25,7 +25,7 @@ Misol tariqasida, Davron ismli shaxsni olaylik. U dasturchi bo‘lishni xohlaydi
 
 Bunday kognitiv xato insonni kutish rejimiga tushirib qo‘yadi. Inson mehnat qilish o‘rniga, unga sehrli zavq bag‘ishlaydigan "mukammal ish"ni topishini kutadi.
 
-## 2. ehtiros vs. usta mentaliteti (craftsman mindset)
+## 2. Ehtiros VS. usta mentaliteti (craftsman mindset)
 
 Jorjtaun universiteti professori va kompyuter fanlari doktori Kəl Nyuport o‘zining kasbiy o‘sishga bag‘ishlangan izlanishlarida ikkita qarama-qarshi fikrlash tarzi haqida yozadi:
 
@@ -37,7 +37,7 @@ Paradoks shundaki, haqiqiy ehtiros va qoniqish aynan **Usta mentaliteti** natija
 
 Stiv Jobsning o‘zi ham faoliyatining boshida kompyuter texnologiyalariga ehtirosli emas edi. U Apple kompaniyasiga o‘zining "ehtirosini ro‘yobga chiqarish" uchun emas, Stiv Voznyak yaratgan texnik imkoniyatda ulkan iqtisodiy potensialni ko‘ra olgani uchun asos solgan. Ehtiros uning faoliyati davomida, usta sifatidagi mahorati ortib borgan sari rivojlangan.
 
-## 3. kasbiy kapital va bozordagi noyob qiymat
+## 3. Kasbiy kapital va bozordagi noyob qiymat
 
 Iqtisodiyotning fundamental qonuni oddiy: **Noyob va qimmatli narsani olish uchun, bozorda noyob va qimmatli narsa taklif eta bilishingiz kerak.**
 
@@ -62,7 +62,7 @@ Kasbiy kapital — bu yillar davomida to‘plangan, osonlikcha nusxalanmaydigan,
 
 Agar dasturchi faqat sintaksisni bilsa, uning kasbiy kapitali past, va u osonlikcha almashtirilishi mumkin. Lekin murakkab tarqoq tizimlar arxitekturasini tushunsa, kiberxavfsizlik va biznes-mantiq kesishmasida ishlay olsa, uning kasbiy kapitali nihoyatda yuqori bo‘ladi. Bu kapital unga kompaniya bilan o‘z shartlarini kelishish imkonini beradi: u masofadan ishlash, o‘zi qulay loyihalarni tanlash va vaqtini boshqarishi mumkin bo‘ladi. Aynan shu bosqichda — **erkinlik va mahorat birlashgan joyda — haqiqiy ehtiros tug‘iladi.**
 
-## 4. ehtirosning psixologik anatomiyasi: O‘z-o‘zini aniqlash nazariyasi
+## 4. Ehtirosning psixologik anatomiyasi: O‘z-o‘zini aniqlash nazariyasi
 
 Psixologlar Edvard Desi va Richard Rayan tomonidan ishlab chiqilgan **O‘z-o‘zini aniqlash nazariyasi (Self-Determination Theory - SDT)** shuni ko‘rsatadiki, insonga o‘z ishidan ruhiy qoniqish olish uchun uchta fundamental ehtiyoj zarur:
 
@@ -74,7 +74,7 @@ Uch omildan hech biri *"ishni ehtiros bilan boshlash"*ni talab qilmaydi! Aksinch
 
 Misol uchun, neyrojarrohlar — jarayon davomida yillar davomida o‘rganib, kognitiv yuklama va mas’uliyatni qabul qilish orqali o‘ta yuqori kompetentlikka ega bo‘lgan mutaxassislar. U insanlar hayotini saqlab qolganida va o‘z mahoratining cho‘qqisini ko‘rganida, faoliyati hayotining bosh ehtirosiga aylanadi.
 
-## 5. zamonaviy metodologiya: "passion" o‘rniga "career capital" yaratish taktikasi
+## 5. Zamonaviy metodologiya: "Passion" o‘rniga "career capital" yaratish taktikasi
 
 Agar siz o‘z karyerangizda haqiqiy o‘sishga erishishni istasangiz, yondashuvingizni tubdan o‘zgartirishingiz kerak. Quyida Usta mentalitetini shakllantirish va kasbiy kapitalni to‘plash uchun amaliy bosqichlar keltirilgan:
 
@@ -93,7 +93,7 @@ Siz **ikki yoki uchta har xil ko‘nikmani top-25% darajasida birlashtirib**, mu
 ### C. strategik avtonomiya va leverage
 Kasbiy kapitalingiz ortib borgani sayin, uni strategik foydalaning. Hadeb ko‘proq pul emas, balki avtonomiya, qiziqarli loyihalar va o‘rganish imkoniyatlarini tanlang.
 
-## 6. sun’iy intellekt davrida kasbiy kapitalning o‘rni
+## 6. Sun’iy intellekt davrida kasbiy kapitalning o‘rni
 
 Sun'iy intellekt (AI) davri — yuzaki qiziqishlarga asoslangan bilimlarni tezda almashtiradi. Yuqorida aytilganidek, "Ehtiros gipotezasi"ning xavfi shundadirki, AI soniyalar ichida ehtirosga asoslanmagan, chuqurligi bo‘lmagan bilimlarni osonlikcha almashtira oladi.
 

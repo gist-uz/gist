@@ -15,7 +15,7 @@ Biroq, bu yashirin va halokatli epidemiyadir. Biz "tezkorlik" va "samaradorlik" 
 
 Ushbu maqolada biz reaktivlik sindromining neyrobiologik ildizlarini, uning karyera arxitekturasiga yetkazadigan strategik zararlarini va zamonaviy mutaxassis qanday qilib "sinxron shovqin"dan "asinxron professionalizm"ga o‘tishi kerakligini tahlil qilamiz.
 
-## Dopamin Zanjiri: Nega Miyamiz Tezkor Javoblarni Yaxshi Ko‘radi?
+## Dopamin zanjiri: Nega miyamiz tezkor javoblarni yaxshi ko‘radi?
 
 Nega biz chalg‘ishimizni bilsak-da, telefon yoki messendjer ekraniga yopishib qolganmiz? Javob neyrobiologiyada yotadi. Bizning miyamiz evolyutsion jihatdan qiyin, uzoq muddatli va energiya talab qiladigan vazifalardan qochishga dasturlashtirilgan. Katta hisobot yozish, murakkab dasturiy arxitekturani loyihalash yoki yangi biznes strategiyasini ishlab chiqish — bularning barchasi prefrontal po‘stloqdan (prefrontal cortex) ulkan energiya va glyukoza talab qiladi. Eng yomoni, bu ishlarning mukofoti (natijasi) uzoq kelajakda va kafolatlanmagan bo‘ladi.
 
@@ -31,7 +31,7 @@ Buning aksi o‘laroq, Telegram’da kelgan xabarga javob berish atigi 15 soniya
 
 Natijada, mutaxassis kun bo‘yi yuzlab mayda xabarlarga javob qaytarib, o‘zini g‘oyatda band va charchagan his qiladi. Ammo kechga borib, "Bugun aslida qaysi muhim ishni bitirdim?" degan savolga javob topa olmaydi. Bu holat **"kognitiv giper-reaktivlik"** deb ataladi. Biz o‘z ishimizning sub’ektidan ob’ektiga aylanamiz: biz kun tartibimizni boshqarmaymiz, aksincha, tashqi ogohlantirishlar (notifikatsiyalar) bizni boshqaradi.
 
-## Diqqat Qoldig‘i (Attention Residue) Va Kognitiv Fragmentatsiya
+## Diqqat qoldig‘i (attention residue) va kognitiv fragmentatsiya
 
 Kognitiv psixolog Gloriya Mark (Kaliforniya universiteti) olib borgan tadqiqotlar shuni ko‘rsatadiki, ofis xodimi har 3 daqiqa-yu 5 soniyada chalg‘iydi. Chalg‘itilgan diqqatni dastlabki murakkab vazifaga to‘liq qaytarish uchun esa o‘rtacha **23 daqiqa-yu 15 soniya** vaqt talab etiladi.
 
@@ -45,7 +45,7 @@ Biroq, biologik darajada sizning miyangiz bir zumda qayta yuklana olmaydi. Sizni
 
 Tezkor javob berishni odat qilgan xodim o‘z miyasini doimiy fragmentatsiya holatida ushlab turadi. Bunday holatda esa chuqur va sifatli intellektual mahsulot (Deep Work) yaratish mutlaqo imkonsizdir.
 
-## Strategik Ko‘rlik: Nega "Tezkorlar" Rahbarlikka Loyiq Ko‘rilmaydi?
+## Strategik ko‘rlik: Nega "tezkorlar" rahbarlikka loyiq ko‘rilmaydi?
 
 Karyera zinapoyasidan ko‘tarilish haqidagi klassik mif shuni aytadi: mehnatsevar va har doim aloqada bo‘lgan xodim albatta yuqori lavozimlarga loyiq ko‘riladi. Ammo real biznes ierarxiyasi boshqacha ishlaydi.
 
@@ -63,7 +63,7 @@ Tashkilotlarda mutaxassislar ikki toifaga bo‘linadi: **Tranzaksion (ijrochi) m
 
 Siz har doim aloqada bo‘lishingiz bilan rahbariyatga quyidagi signalni yuborasiz: *"Mening shaxsiy vaqtim va strategik rejalarim yo‘q. Mening diqqat-e’tiborim juda arzon va uni har qanday lahzada sotib olish mumkin."* Bu esa sizning kasbiy nufuzingiz va qiymatingizni pasaytiradi. Haqiqiy qimmatbaho mutaxassislar — bu har doim ham aloqada bo‘lmaydigan, ammo aloqaga chiqqanda eng to‘g‘ri va tizimli yechimni taklif qiladigan odamlardir.
 
-## Asinxron Professionalizm: "Sinxron Shovqin"dan Qutulish Strategiyasi
+## Asinxron professionalizm: "Sinxron shovqin"dan qutulish strategiyasi
 
 Muammoning yechimi nima? Biz barcha aloqa vositalarini o‘chirib, tog‘ga chiqib ketishimiz kerakmi? Albatta, yo‘q. Yechim — **Asinxron professionalizm (Asynchronous Professionalism)** falsafasiga o‘tishda.
 
@@ -71,7 +71,7 @@ Asinxron aloqa — bu ma’lumot yuboruvchi va uni qabul qiluvchining bir vaqtda
 
 Asinxron professionalizmga o‘tish uchun quyidagi qadamlarni bosib o‘tish lozim:
 
-### Qadam 1: "Javob Berish Vaqti" Shartnomasini Tuzish (SLA)
+### Qadam 1: "Javob berish vaqti" shartnomasini tuzish (SLA)
 
 Sizning birinchi vazifangiz — jamoa va rahbarlar bilan "kelishuv shartnomasi"ni yangilashdir. Ko‘p hollarda, tezkor javob berish talabi real biznes zaruriyatidan emas, balki shunchaki aniq qoidalarning yo‘qligidan kelib chiqadi.
 
@@ -80,7 +80,7 @@ O‘z hamkasblaringizga quyidagi qoidani taqdim eting:
 
 Tadqiqotlar shuni ko‘rsatadiki, bunday tizim joriy etilgandan so‘ng, "shoshilinch" deb ataladigan masalalarning 95 foizi aslida bir necha soat kutishi mumkinligi, qolgan 5 foizi esa haqiqatan ham qo‘ng‘iroqqa loyiqligi ma’lum bo‘ladi.
 
-### Qadam 2: "Sukunat Bloklari"ni Joriy Etish (Time-blocking)
+### Qadam 2: "Sukunat bloklari"ni joriy etish (time-blocking)
 
 Har kuni kalendaringizda kamida 3-4 soatlik uzluksiz "Sukunat bloklari" (Focus Time) bo‘lishi shart. Bu vaqt ichida barcha messendjerlar butunlay o‘chiriladi, telefon "Bezovta qilinmasin" (Do Not Disturb) rejimiga o‘tkaziladi.
 
@@ -97,13 +97,13 @@ Bu vaqtda siz eng qiyin, eng murakkab va kompaniya uchun eng katta qiymat yarata
 [14:00 - 15:00] Ikkinchi aloqa bloki va uchrashuvlar
 ```
 
-### Qadam 3: "Besh Daqiqalik Muloqot"dan "Hujjatlashtirish Madaniyati"ga O‘tish
+### Qadam 3: "Besh daqiqalik muloqot"dan "hujjatlashtirish madaniyati"ga o‘tish
 
 Reaktiv tashkilotlarda muloqot tartibsiz va yuzaki bo‘ladi. Hamkasblar bir-biriga "Buni qanday qilamiz?", "Mana bu faylni qayerdan topsam bo‘ladi?" kabi savollar bilan tinimsiz murojaat qilishadi.
 
 Asinxron mutaxassis o‘z ishini mukammal hujjatlashtiradi (documentation culture). U boshqalarga savol berishdan oldin o‘zi javob izlaydi va boshqalar ham undan savol so‘ramasligi uchun barcha zaruriy ma’lumotlarni umumiy bazaga (masalan, Notion yoki Confluence) yozib qo‘yadi. Yozma muloqot fikrni jamlashga, uni tizimlashtirishga va aniq ifodalashga majbur qiladi.
 
-## Psixologik To‘siq: "Meni Dangasa Deb O‘ylashsa-chi?"
+## Psixologik to‘siq: "Meni dangasa deb o‘ylashsa-chi?"
 
 Ko‘plab mutaxassislar tezkor javob berishni to‘xtatishga qo‘rqishadi. Ularni bitta savol qiynaydi: *"Agar men darhol javob bermasam, rahbarlarim meni ishlamayapti, dangasalik qilyapti deb o‘ylamaydimi?"*
 
@@ -113,7 +113,7 @@ Ammo siz o‘z qiymatingizni **natijalar** orqali isbotlasangiz, vaziyat o‘zga
 
 Siz o‘z sohangizda yuqori malakali mutaxassis bo‘lishni istasangiz, quyidagi haqiqatni qabul qilishingiz kerak: **Arzon muloqot arzon natijalarni beradi, chuqur sukunat esa qimmatbaho asarlarni yaratadi.**
 
-## Xulosa: Tanlov O‘zimizda
+## Xulosa: Tanlov o‘zimizda
 
 Biz yashayotgan axborot asrida diqqat — eng qimmatbaho, eng kamyob va eng tez tugaydigan resursdir. Har safar kimningdir xabari yoki notifikatsiyasiga bir soniyada javob berganingizda, siz o‘z diqqatingizni arzonga sotasiz. Siz o‘zingizning eng yaxshi g‘oyalaringizni, eng kuchli kognitiv soatlaringizni kimningdir mayda muammosiga qurbon qilasiz.
 

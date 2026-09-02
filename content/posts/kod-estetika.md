@@ -7,7 +7,7 @@ description = "Sun'iy intellekt davrida dasturiy injiniringdagi Jevons paradoksi
 tags = ["kod", "dasturiy injiniring", "sun'iy intellekt", "Jevons paradoksi"]
 +++
 
-## kirish: hunarmandchilikdan konveyergacha
+## Kirish: Hunarmandchilikdan konveyergacha
 
 O‘n yilliklar davomida dasturiy injiniring o‘ziga xos arxitektura san’ati va intellektual hunarmandchilik sifatida e’tirof etilib kelindi. Donald Knutning "Dasturlash san'ati"dan tortib, Robert Martinning "Toza kod" falsafasiga qadar barchasi bitta poydevorga qurilgan edi: **kod — qimmatbaho resurs**. Uning yaratish jarayoni vaqt, diqqat, izchil mantiq va yuqori intellektual sarmoya talab qilardi. Dasturchining usta ekanligi, nafaqat muammoni hal qilishida, balki uni minimal, tushunarli va yillar bo‘yi yashay oladigan arxitektura shaklida yaratishida namoyon bo‘lardi.
 
@@ -17,7 +17,7 @@ Bu holat dasturiy ta’minot sanoatining kashfiyot davri sifatida ko‘rinishi m
 
 Kod yozish judayam arzonlashgan davrda, nega dasturiy tizimlar tobora murakkablashib, boshqaruv qobiliyatini yo‘qotib bormoqda? Nega arzonlashgan kod bizni ozod qilmay, balki raqamli chiqindilarimizning qullariga aylantirgandek tuyulmoqda?
 
-## jevons paradoksi va raqamli giper-iste’mol
+## Jevons paradoksi va raqamli giper-iste’mol
 
 1865-yilda shotlandiyalik iqtisodchi Uilyam Stenli Jevons ajoyib bir kuzatuvni kashf etdi: dvigatellar samaradorligi oshib, ko‘mir isrofigi kamaygach, nazariy jihatdan ko‘mir iste’moli pasayishi lozim edi. Ammo amaliyotda aksincha: samarali va arzonligi sababli ko‘mirga bo‘lgan talab oshdi va umumiy ko‘mir iste’moli ko‘paydi. Bu hodisa tarixda **Jevons paradoksi** nomi bilan mashhurdir.
 
@@ -25,7 +25,7 @@ Dasturiy injiniring bu paradoksni o‘zida namoyon qilmoqda. Sun’iy intellekt 
 
 Kod resurs sifatida qadrlanmayotganidan chiqindiga aylanyapti. Endi dasturchi har bir qator kod uchun mas’uliyat sezmaydi, chunki u bu kodni ishlab chiqmagan, balki prompt orqali shakllantirgan. Kod tannarxi nolga tenglashgani sari, uning miqdori oshib, tizimlarning murakkabligini deyarli geometrik ravishda oshirmoqda.
 
-## "bir martalik kod" paradigmasi va fast-fashion injiniringi
+## "Bir martalik kod" paradigmasi va fast-fashion injiniringi
 
 Kiyim-kechak sanoatida "Fast Fashion" tushunchasi mavjud: bir necha marotaba kiyiladigan arzonga o‘xshab, zamonaviy dasturlashda "Fast Code" davri boshlandi.
 
@@ -38,13 +38,13 @@ Koddagi xatoni ko‘rsa, prompt orqali yangilanish talab etiladi. Eski kod yo‘
 
 Ammo texnik majburiyatlar ko‘payganda, har bir kod bloki bilan birga yashirin bog‘liqliklar, chekka holatlar va keraksiz abstraksiyalar keladi. Natijada, mahsulot murakkab va noaniq bo‘lib qoladi.
 
-## kognitiv siljish: "tushunmasdan egalik qilish" illyuziyasi
+## Kognitiv siljish: "Tushunmasdan egalik qilish" illyuziyasi
 
 Dasturiy injiniringdagi xavflardan biri kognitiv uzilishdir. Psixologiyada "IKEA effekti" mavjud: inson o‘z qo‘li bilan yaratgan narsasini qadrlaydi va tushunadi. AI davrida esa bu uzilish kuchaymoqda.
 
 Muhandis asosiy muallif bo‘lish o‘rniga, faqat **muharrir (editor)** va **tasdiqlovchi (approver)** rolini bajarmoqda. Shu holat "tushunmasdan egalik qilish" illyuziyasini yaratadi. Kritik vaziyatlarda AI yordam berolmaydi va muhandis tizimni o‘zi o‘qiy olmay, mantiqiy zanjirlarni tushunmasdan qoladi.
 
-## dasturiy injiniring estetikasining o‘limi
+## Dasturiy injiniring estetikasining o‘limi
 
 Edsger Deykstra shunday degan edi: *"Soddalik — bu ishonchlilikning birinchi shartidir."* Haqiqiy injiniring estetikasi murakkab muammolarni sodda hal qilish san’atida yotadi.
 
@@ -55,27 +55,27 @@ AI modellarining cheklanishi narmasiz bo‘lib, o‘rtacha yechimlarni taklif qi
 
 Bizning raqamli dunyomiz vaqtinchalik qurilmalar bilan to‘ldirilmoqda.
 
-## kelajak kompas: dasturchining yangi roli va "minimalizm renessansi"
+## Kelajak kompas: Dasturchining yangi roli va "minimalizm renessansi"
 
 Sanoat inqilobidan keyin hunarmandlar yo‘qolib ketmadi — ularning qiymati oshdi. Dasturiy injiniringda ham xuddi shu jarayon kechmoqda. "Kod sintezatorlari" tez orada qiymatini yo‘qotmoqda. Kelajakda muhandis nima qilishi kerak?
 
-#### kod yozuvchidan — kod kuratoriga
+#### Kod yozuvchidan — kod kuratoriga
 
 Muhandis AI bergan kod ummonidan saralovchi rolini bajaradi, kerakmagan kodlarni qisqartiradi. Eng yaxshi kod yozilmagan koddir.
 
-#### tizimli fikrlash va arxitektura birinchi o‘rinda
+#### Tizimli fikrlash va arxitektura birinchi o‘rinda
 
 Kodni AI yozishi mumkin, ammo arxitektura va xavfsizlik chizish inson intellekti bilan amalga oshiriladi.
 
-#### sintetik texnik qarzni nazorat qilish
+#### Sintetik texnik qarzni nazorat qilish
 
 Kompaniyalar "AI-generated Technical Debt"ni nazorat qilish metodologiyasini ishlab chiqishi kerak.
 
-#### kognitiv gigiyena va "qo‘lda yozish" mashqlari
+#### Kognitiv gigiyena va "qo‘lda yozish" mashqlari
 
 Dasturchilar AI yordamisiz murakkab algoritmlarni amalga oshirish amaliyotini bajarishlari zarur. Bu kognitiv atrofiyaga qarshi kurash ishlarini olib boradi.
 
-## xulosa: raqamli shovqin ichidagi sukunat
+## Xulosa: Raqamli shovqin ichidagi sukunat
 
 Sun’iy intellekt dasturiy injiniring uchun ajoyib kuchaytirgichdir, ammo kuchaytirgich o‘zgaruvchan emas. Jevons paradoksi konveyerına aylantirdi. Haqiqiy muhandislik mahorati — miqdorda emas, sifat va barqarorligida namoyon bo‘ladi.
 

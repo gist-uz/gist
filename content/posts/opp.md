@@ -22,7 +22,7 @@ OOP - bu faqat kod yozish usuli emas, bu **kod arxitekturasi**, **kelajakka inve
 
 ## Bo'lim 1: Asoslar - class va object 🏗️
 
-### 1.1 class - bu qolip, object - bu mahsulot
+### 1.1 Class - bu qolip, object - bu mahsulot
 
 Boshqa tillardan farqli o'laroq, Python'da **hamma narsa obyekt**. Hatto `5` raqami ham `int` klassining obyekti.
 
@@ -87,7 +87,7 @@ phone2.power_on()  # phone2 alohida yonadi
 print(phone2.battery)  # 100 (ta'sirlanmadi)
 ```
 
-### 1.2 `self` - eng katta jumboq va uning yechimi 🤔
+### 1.2 `Self` - eng katta jumboq va uning yechimi 🤔
 
 **Savol:** Nega `self` kerak? Va nega Python uni avtomatik qo'shmaydi?
 
@@ -128,7 +128,7 @@ print(c2.get_value())  # 1
 
 ## Bo'lim 2: Oop ning 4 ta ustuni 🏛️
 
-### 2.1 encapsulation (inkapsulyatsiya) - ma'lumotlarni himoya qilish 🔒
+### 2.1 Encapsulation (inkapsulyatsiya) - ma'lumotlarni himoya qilish 🔒
 
 Encapsulation - bu ma'lumotlarni va metodlarni bir joyga to'plash va tashqaridan noto'g'ri kirishdan himoya qilish.
 
@@ -237,7 +237,7 @@ print(account._BankAccount__balance)  # 1300
 3. **Kelajakdagi o'zgarishlar:** Ichki implementatsiyani o'zgartirsangiz, tashqi kod buzilmaydi
 4. **API nazorati:** Foydalanuvchilar faqat ruxsat berilgan metodlardan foydalanadi
 
-### 2.2 inheritance (vorislik) - kodni qayta ishlatish 🧬
+### 2.2 Inheritance (vorislik) - kodni qayta ishlatish 🧬
 
 Inheritance - bu mavjud klassdan yangi klass yaratish orqali kodni qayta ishlatish mexanizmi.
 
@@ -375,7 +375,7 @@ print(Duck.__mro__)
 # Python chapdan o'ngga, yuqoridan pastga qidiradi
 ```
 
-#### Composition vs inheritance - qachon nimani ishlatish?
+#### Composition VS inheritance - qachon nimani ishlatish?
 
 **"IS-A" munosabati → Inheritance ishlatiladi:**
 - Developer IS-A Employee ✅
@@ -413,11 +413,11 @@ car.drive()
 
 **Qoida:** "Prefer composition over inheritance" - Agar ikkilanayotgan bo'lsangiz, composition tanlang.
 
-### 2.3 polymorphism (ko'p shakllilik) - bir interfeys, ko'p implementatsiya 🎭
+### 2.3 Polymorphism (ko'p shakllilik) - bir interfeys, ko'p implementatsiya 🎭
 
 Polymorphism - bu bir xil interfeys orqali turli obyektlar bilan ishlash qobiliyati.
 
-#### Duck typing - python'ning sehrli xususiyati:
+#### Duck typing - Python'ning sehrli xususiyati:
 
 Python'da type tekshirish o'rniga, "agar u o'rdakdek vaqillasa va o'rdakdek yursa, demak u o'rdak" prinsipi ishlaydi.
 
@@ -546,7 +546,7 @@ print(v1[1])     # 4
 | `__contains__` | `in` | `x in a` |
 | `__call__` | `()` | `a()` |
 
-### 2.4 abstraction (abstraksiya) - murakkablikni yashirish 🎨
+### 2.4 Abstraction (abstraksiya) - murakkablikni yashirish 🎨
 
 Abstraction - bu faqat zarur ma'lumotlarni ko'rsatish va ichki murakkablikni yashirish.
 
@@ -637,7 +637,7 @@ for s in shapes:
 
 ## Bo'lim 3: Advanced kontseptsiyalar 🚀
 
-### 3.1 property decorators - pythonic getters va setters
+### 3.1 Property decorators - pythonic getters va setters
 
 ```python
 class Temperature:
@@ -691,7 +691,7 @@ except ValueError as e:
     print(e)
 ```
 
-### 3.2 class methods va static methods
+### 3.2 Class methods va static methods
 
 ```python
 class User:
@@ -760,7 +760,7 @@ print(User.is_valid_email("invalid-email"))    # False
 | Class method | ❌ | ✅ | Alternative constructor, class attributelarga kirish |
 | Static method | ❌ | ❌ | Utility funksiya, na obyekt na klass kerak emas |
 
-### 3.3 data classes - boilerplate kodni kamaytirish
+### 3.3 Data classes - boilerplate kodni kamaytirish
 
 Python 3.7+ da `dataclass` decorator qo'shildi. Bu oddiy data container'lar uchun juda qulay.
 
@@ -813,7 +813,7 @@ print(p1.total_price())  # 2000
 print(p1 == p2)  # False
 ```
 
-### 3.4 context managers - `with` statement
+### 3.4 Context managers - `with` statement
 
 ```python
 class FileManager:
@@ -868,7 +868,7 @@ with database_connection("mydb") as conn:
 
 ## Bo'lim 4: Design patterns va best practices 🎯
 
-### 4.1 singleton pattern - faqat bitta instansiya
+### 4.1 Singleton pattern - faqat bitta instansiya
 
 ```python
 class DatabaseConnection:
@@ -896,7 +896,7 @@ print(db1 is db2)  # True - bir xil obyekt!
 print(db2.host)    # localhost (birinchi qiymat)
 ```
 
-### 4.2 factory pattern - obyekt yaratish logikasini ajratish
+### 4.2 Factory pattern - obyekt yaratish logikasini ajratish
 
 ```python
 class Animal(ABC):
@@ -937,9 +937,9 @@ print(pet1.speak())  # Vov!
 print(pet2.speak())  # Myau!
 ```
 
-### 4.3 anti-patterns - nima qilmaslik kerak! ⛔
+### 4.3 Anti-patterns - nima qilmaslik kerak! ⛔
 
-#### ❌ god object
+#### ❌ God object
 
 ```python
 # Yomon - bitta klass hamma narsani qiladi
@@ -969,7 +969,7 @@ class UserValidator:
     def validate_password(self, password): pass
 ```
 
-#### ❌ yo'qsiz inheritance
+#### ❌ Yo'qsiz inheritance
 
 ```python
 # Yomon - mantiqsiz vorislik
@@ -1190,19 +1190,19 @@ if __name__ == "__main__":
 
 ## Xulosa: Oop roadmap 🗺️
 
-### 1. boshlang'ich daraja:
+### 1. Boshlang'ich daraja:
 - ✅ Class va Object tushunchasi
 - ✅ `__init__` va `self`
 - ✅ Instance vs Class attributes
 - ✅ Basic methods
 
-### 2. o'rta daraja:
+### 2. O'rta daraja:
 - ✅ Encapsulation (public, protected, private)
 - ✅ Inheritance va `super()`
 - ✅ Method overriding
 - ✅ Basic polymorphism
 
-### 3. ilg'or daraja:
+### 3. Ilg'or daraja:
 - ✅ Abstract Base Classes
 - ✅ Multiple inheritance va MRO
 - ✅ Magic methods (dunder methods)
@@ -1211,7 +1211,7 @@ if __name__ == "__main__":
 - ✅ Data classes
 - ✅ Context managers
 
-### 4. professional daraja:
+### 4. Professional daraja:
 - ✅ Design patterns (Singleton, Factory, Strategy)
 - ✅ Composition vs Inheritance
 - ✅ SOLID principles

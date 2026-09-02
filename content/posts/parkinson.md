@@ -44,19 +44,19 @@ Natijada loyihalar kechikadi, kod “semiradi”, jamoa charchaydi va eng muhimi
 
 Yaxshiyamki, Parkinson qonunini o‘z foydamizga ishlatish mumkin. Qonunning o‘zi bizga yechimni ham beradi: **vaqtni qat’iy cheklang**.
 
-### 1. qattiq, realistik deadline qo‘yish
+### 1. Qattiq, realistik deadline qo‘yish
 Har bir vazifaga “qulay” vaqt emas, balki “biroz siqilgan” vaqt ajrating. Masalan, feature uchun odatda 5 kun ketadigan bo‘lsa — unga 3 kun belgilang. Ajablanarlisi shundaki, ish shu 3 kun ichida tugaydi.
 
-### 2. time-boxing (vaqt qutisi) usuli
+### 2. Time-boxing (vaqt qutisi) usuli
 Har bir topshiriqni aniq vaqt bilan o‘rang. “Bugun soat 14:00 dan 15:30 gacha faqat shu feature ustida ishlayman” deb qo‘ying. Vaqt tugagach — to‘xtang. Bu usul miyani “tezroq” rejimga o‘tkazadi.
 
-### 3. 80/20 bilan birlashtirish
+### 3. 80/20 Bilan birlashtirish
 Oldingi maqolada gapirganimizdek, har qanday loyihaning 80% qiymati 20% ishda yotadi. Avval o‘sha 20% ni qiling. Qolganini “agar vaqt qolsa” qoldiring. Ko‘pincha vaqt qolmaydi — va bu yaxshi narsa.
 
-### 4. “good enough” ni qabul qilish
+### 4. “Good enough” ni qabul qilish
 Mukammallikni emas, yetarli sifatni nishon qiling. Mahsulot bozorga chiqsin, keyin foydalanuvchi fikriga qarab takomillashtiring. Bu nafaqat vaqtni tejaydi, balki haqiqiy natija beradi.
 
-### 5. jamoaviy qoida
+### 5. Jamoaviy qoida
 Agar siz jamoada ishlasangiz, har bir ticket yoki task uchun aniq vaqt belgilang. “Bu featurega 2 kun” deb yozing va unga qat’iy rioya qiling. Bu butun jamoani “tez” rejimga o‘tkazadi.
 
 ## Xulosa o‘rnida: Vaqt — bu cheklangan resurs

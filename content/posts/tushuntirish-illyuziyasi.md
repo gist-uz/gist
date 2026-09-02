@@ -7,7 +7,7 @@ description = "Tushuntirish chuqurligi illyuziyasi qanday qilib bizni aldaydi va
 tags = ["psixologiya", "kognitiv-xato", "ta'lim", "texnologiya"]
 +++
 
-## G‘oya kirib kelishi: kognitiv tejamkorlik va Google effekti
+## G‘oya kirib kelishi: Kognitiv tejamkorlik va Google effekti
 
 Siz velosipedni bilasizmi? Ehtimol, ha! Ko‘chada velosiped haydashingiz yoki hech bo‘lmaganda buni ko‘rishingiz mumkin. Lekin, bu qurilmaning ishlash mexanizmini tushunasizmi? Zanjir qayerga ulanadi, muvozanat qanday saqlanadi? Qog‘oz va qalam olib, velosiped chizmasini tuzishga urinib ko‘ring. Ko‘plab odamlar uchun bu oddiy vazifa emas.
 
@@ -15,17 +15,17 @@ Siz velosipedni bilasizmi? Ehtimol, ha! Ko‘chada velosiped haydashingiz yoki h
 
 Bu **tushuntirish chuqurligi illyuziyasi** deb ataladi, u bizning narsa va hodisalarning qanday ishlashini tushunishimiz haqidagi noto‘g‘ri tasavvurlarimizdan iborat kognitiv xatodir. Ushbu maqolada biz bu kognitiv xato orqali miyamiz qanday qilib bizni aldayotganini ko‘rib chiqamiz va bu jarayon zamonaviy dunyoda qanday oqibatlarga olib kelayotganini tahlil qilamiz.
 
-## Illyuziyaning tug‘ilishi: kognitiv tejamkorlik va "Google effekti"
+## Illyuziyaning tug‘ilishi: Kognitiv tejamkorlik va "Google effekti"
 
 2002-yilda Yel universiteti tadqiqotchilari Leonid Rozenblit va Frank Keil bir qator o‘rganishlar natijasida ushbu xatoni aniqladilar. Ishtirokchilar oddiy narsalar, masalan, unitazning suv oqizish tizimi yoki vertolyot qanday ishlashini baholashdi. Ishtirokchilar asosan 4-5 deb baholagan bilim darajalarini bosqichma-bosqich izohlashni so‘rashganda, ularning o‘ziga bo‘lgan ishonchi keskin kamaydi.
 
-### Kognitiv tejamkorlik (Cognitive Miser)
+### Kognitiv tejamkorlik (cognitive miser)
 Miyamiz energiyani haddan ortiq sarflaydi. Evolyutsion nuqtai nazardan dunyo barqaror ekan, biz maxsus bilimlarni saqlashga ehtiyoj sezmaymiz. Miya "foydalanish interfeysi"ni eslab qoladi, mexanizmini emas. Esingizda qolsin, kalitni buraganimizda eshik ochilishini bilsak-da, uning qanday ishlashini tushunish shart emas.
 
 ### Tashqi xotira va Google determinizmi
 Smartfonlar cho‘ntagimizga o‘rnashdi va internetda mavjud ma’lumotlarni bizga kirish imkonini berdi. Kolumbiya universiteti tadqiqotlariga ko‘ra, odat tusiga kirib qoldi: ma’lumotlar o‘zini eslab qolish o‘rniga, uni qayerdan topishni eslash.
 
-## Startaplar va biznesdagi "Yengil g‘oyalar" qabristoni
+## Startaplar va biznesdagi "yengil g‘oyalar" qabristoni
 
 Tushuntirish chuqurligi illyuziyasi nafaqat velosipedlar va ob’yektlar bilan cheklanadi; u ijtimoiy va iqtisodiy tizimlarga ham ta’sir qiladi. Startaplardagi muvaffaqiyatsizliklar, asosan, ushbu xatodan kelib chiqadi.
 
@@ -33,7 +33,7 @@ Misol uchun, "Uber gibi kiyim-kechaklarni kimyoviy tozalash xizmati" loyihasi mu
 
 Yuzaki tushuncha dasturlarni amalga oshirish jarayonida koʻplab qiyinchilik va muvaffaqiyatsizliklarga olib keladi. Har bir muvaffaqiyatsiz startapda o‘z yechimining murakkabligini baholay olmagan asoschi turadi.
 
-## Texnologiya va dasturlashda: abstraksiyaning qora tomoni
+## Texnologiya va dasturlashda: Abstraksiyaning qora tomoni
 
 Zamonaviy dasturlash turli darajadagi abstraksiyaga asoslangan. Dasturchilar murakkab apparat ta’minoti yoki xotira bilan ishlamaydilar, balki yuqori darajadagi freymvorklar va API’lardan foydalanadilar. Bu metodlar samaradorlikni oshirsa-da, jiddiy kognitiv tuzoqlarni yaratadi.
 
@@ -49,7 +49,7 @@ Real loyihalarda nazariy bilimlar yetarli bo‘lmasligi natijasida ko'plab "kurs
 
 Bu illyuziyadan to‘liq qutulish imkonsiz bo‘lsa-da, uning ta’sirini kamaytirish uchun bir qator usullar mavjud.
 
-### Richard Feynman metodi (Feynman Technique)
+### Richard feynman metodi (feynman technique)
 Bu metod mavzudagi bilimingizni aniqlashning samarali usulidir.
 
 1. **Mavzuni tanlang va yozing**: O‘rganmoqchi bo‘lgan tushunchangizni oddiy so‘zlar bilan qog‘ozga yozing.
@@ -57,10 +57,10 @@ Bu metod mavzudagi bilimingizni aniqlashning samarali usulidir.
 3. **Bo‘shliqlarni aniqlang**: Qayerda tushuntirish uchun qiynalsangiz, manbalarni qayta o‘rganing.
 4. **Soddalashtiring va analogiyalar toping**: Yozuvni oddiy tilda soddalashtiring va amaliy misollar qo‘shing.
 
-### Toyotaning "5 Nega?" (5 Whys) tahlili
+### Toyotaning "5 nega?" (5 Whys) tahlili
 Muammo ortidagi sabablar zanjirini aniqlash uchun besh marta "Nega?" deb savol bering. Bu usul muammoning yuzaki qismlaridan tub ildizlariga tushishga yordam beradi.
 
-### Intellektual kamtarlik (Intellectual Humility)
+### Intellektual kamtarlik (intellectual humility)
 O‘z bilimsizligini tan olish — yuqori intellekt belgisi hisoblanadi. Yuzaki tushunchalar bilan qanoatlanmaslik kerak. Loyiha boshlashda o‘z bilmaydigan murakkabliklarni aniqlash muhimdir.
 
 ## Xulosa: Sokrat haq edi

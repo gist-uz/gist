@@ -17,7 +17,7 @@ Bugungi kunda ko‘plab dasturchilar, tahlilchilar va menejerlar "kognitiv qarz"
 
 ---
 
-## 1. "kognitiv qarz" va bilim murosa illuziyasi
+## 1. "Kognitiv qarz" va bilim murosa illuziyasi
 
 So'nggi yillarda rivojlangan sun'iy intellekt vositalari bizga tez natijalar taqdim etmoqda, biroq bu ko‘pincha "Yuzaki Muvaffaqiyat" holatiga olib keladi. Ushbu yutuqning ortida turgan mantiqiy zanjirlar ehtiyotkorlik bilan ko‘rib chiqilmasa, kognitiv qarz va bilim murosa illuziyasi paydo bo‘lishi mumkin.
 
@@ -28,7 +28,7 @@ Kognitiv qarz oshgan sari, insonning yutug'ini tahlil qilish qobiliyati so'nadi 
 
 ---
 
-## 2. unlearning: Nega bu juda ham og‘riqli?
+## 2. Unlearning: Nega bu juda ham og‘riqli?
 
 "Unlearning" amneziyani anglatmaydi, balki eskirgan zehniyat va amaliyotlarni tark etishni nazarda tutadi. Bu jarayonda ikki asosiy qiyinchilik mavjud:
 
@@ -42,7 +42,7 @@ Inson uzoq vaqt davomida sarflangan resurslar va vaqtni yo‘qqa chiqarishni o�
 
 ---
 
-## 3. t-shaped mutaxassislardan pi-shaped va polymathlarga o‘tish
+## 3. T-shaped mutaxassislardan pi-shaped va polymathlarga o‘tish
 
 Karyera bo‘yicha "T-shaped" mutaxassis bo'lish yillar davomida optimal tanlov sifatida ko'rilar edi. Lekin hozirgi kunlarda sun’iy intellekt bir sohaga bag'ishlangan vazifalarni yaxshi uddalaydi. ***"Pi-shaped"*** va ***"Polymath"*** mutaxassislar yangi zamon talablariga javob beradi.
 
@@ -54,7 +54,7 @@ Keng bilim va ko‘plab sohalardagi malakalar AI era'sida omon qolish garovidir.
 
 ---
 
-## 4. metakognitsiya: Fikrlash haqida fikrlash
+## 4. Metakognitsiya: Fikrlash haqida fikrlash
 
 Metakognitsiyaning uch asosiy elementi mavjud:
 
@@ -66,7 +66,7 @@ Metakognitsiya bizga "Unlearning" jarayonini amalga oshirishga va yangi kasbiy r
 
 ---
 
-## 5. amaliy strategiya: Unlearning va kasbiy transformatsiya algoritmi
+## 5. Amaliy strategiya: Unlearning va kasbiy transformatsiya algoritmi
 
 Unlearningni amaliyotga tatbiq etish uchun quyidagi 4-bosqichli freymvorkni qo'llang:
 

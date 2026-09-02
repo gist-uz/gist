@@ -41,7 +41,7 @@ Haqiqiy Kasbiy Qo'rg'on quyidagi xususiyatlarga ega:
 - **Kontekstual Chuqurlik:** Muayyan domendagi, yillar davomida to‘plangan tajriba.
 - **Tizimli Ishonch:** Obro‘ va qarorlaringizga ishonadigan tarmoq sozlash.
 
-### 3-bo‘lim: "soxta qo‘rg‘onlar" tuzog‘i va ai davridagi real xavflar
+### 3-bo‘lim: "Soxta qo‘rg‘onlar" tuzog‘i va ai davridagi real xavflar
 
 Ko‘p mutaxassislar soxta xotirjamlikdan zavqlanib, o‘zlariga soxta kasbiy qo‘rg‘onlar yaratib olishgan:
 - **"Tajribam Himoya Qiladi":** Statik tajriba kelgusi o‘zgarishlarga bardosh bera olmaydi.

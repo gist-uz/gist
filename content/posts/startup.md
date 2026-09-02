@@ -24,7 +24,7 @@ Miya sizga oldindan dofamin (zavq gormoni) beryapti. Siz hali hech narsa qilmadi
 
 Ammo bu — aldov. Haqiqiy startap hali boshlanmadi.
 
-## "cho'l": O'lik sukunat zonasi
+## "Cho'l": O'lik sukunat zonasi
 
 Oradan 3-4 oy o'tdi. Logotip bor, sayt ishga tushdi, MVP tayyor.
 Va... hech narsa sodir bo'lmaydi.
@@ -41,7 +41,7 @@ Ko'pchilik bu bosqichda: *"Menimcha, bu g'oya o'xshamadi. Menda ishtiyoq qolmadi
 
 To'xtang. Gap g'oyada emas. Gap shundaki, siz startapni **sarguzasht** deb o'ylagandingiz, u esa **qora mehnat** bo'lib chiqdi. Siz "Ilhom parisi"ni kutyapsiz, professional esa tishini tishiga qo'yib ishlayapti.
 
-## "yaltiroq obyekt" sindromi (yangi g'oya tuzog'i)
+## "Yaltiroq obyekt" sindromi (yangi g'oya tuzog'i)
 
 Inson psixologiyasi qiziq: qiyinchilikka duch kelganda, miya darrov "qochish rejasi"ni tuzadi.
 Siz joriy loyihangizda muammoga duch kelishingiz bilan, xayolingizga "bundan ham zo'r" yangi g'oya keladi.

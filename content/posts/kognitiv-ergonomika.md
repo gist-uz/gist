@@ -94,22 +94,22 @@ Garvard va Stenford tadqiqotchilarining so‘nggi neyrotsellyular izlanishlariga
 +---------------------------------------------------------------+
 ```
 
-### 1. decouple (vaqt va energiyani ajratish)
+### 1. Decouple (vaqt va energiyani ajratish)
 
 Taqvimingizni "soatlar" bo‘yicha emas, "kognitiv yuklama" bo‘yicha rejalashtiring.
 * **Qizil zona (Yuqori kognitiv yuklama):** Algoritmlar, murakkab tizimlar dizayni, strategiya. (Kuniga maksimal 2-3 soat eng faol vaqtlar).
 * **Sariq zona (O‘rta kognitiv yuklama):** Kod sharhi, texnik hujjatlar, jamoaviy muhokamalar.
 * **Yashil zona (Past kognitiv yuklama):** Operatsion xatlar, rejalashtirish, ma’muriy vazifalar.
 
-### 2. declutter (kognitiv shovqinni tozalash)
+### 2. Declutter (kognitiv shovqinni tozalash)
 
 Miyangiz har bir ko‘rgan vizual yoki audio signalni qayta ishlaydi. Ish joyingizdagi tartibsizlik, brauzerdagi ko‘p ochiq tabs, telefondan kelayotgan bildirishnomalar — bularning barchasi miya protsessorining "orqa fon jarayonlari" (background processes) kabi ishlaydi va RAM xotirasini suv bilan ketkazadi. Workspaceni minimalist holatga oling. Brauzerda faqat joriy vazifaga tegishli oynalarni qoldiring.
 
-### 3. delegate to second brain (kognitiv yukni tizimlarga uzatish)
+### 3. Delegate to second brain (kognitiv yukni tizimlarga uzatish)
 
 Miya ma’lumotlarni saqlash uchun emas, balki qayta ishlash va yangi g‘oyalar yaratish uchun mo‘ljallangan. Barcha g‘oyalar, vazifalar va eslatmalarni mushaklar bilan ushlab turishga urinmang. Zamonaviy **PKM (Personal Knowledge Management)** tizimlaridan (Obsidian, Notion, Logseq) foydalangan holda, "Ikkinchi Miya" arxitekturasini yarating. Miyangiz "Men nimadir qilishim kerak edi..." degan doimiy xavotirdan xalos bo‘lishi kerak.
 
-### 4. deep recovery (chuqur kognitiv tiklanish)
+### 4. Deep recovery (chuqur kognitiv tiklanish)
 
 Kognitiv tiklanish — bu ijtimoiy tarmoqlarda lentani aylantirish (Doomscrolling) emas. Social media miyani tiklamaydi, aksincha dofamin chaqnashlari orqali kognitiv zo‘riqishga olib keladi.
 

@@ -11,7 +11,7 @@ tags = ["startap", "PMF", "venchur kapitali", "investitsiya"]
 
 Venchur kapitali olamida **Product-Market Fit (PMF)** - bu muvaffaqiyatning eng muhim ko'rsatkichlaridan biri. Andreessen Horowitz fondi asoschisi Mark Andrissen PMFni bozoringiz mahsulotingizni qo'lingizdan yulqib olayotgandek holat sifatida ta'riflaydi. Biroq, zamonaviy venchur kapitali ekotizimida bu tushuncha "soxta PMF" shaklida xatarli ko'rinishga ega bo‘lmoqda.
 
-### Illyuziya mexanizmi: $1 lik kupyurani 80 senga sotish
+### Illyuziya mexanizmi: $1 Lik kupyurani 80 senga sotish
 
 Soxta PMFni tushunish uchun avval iqtisodiy mantiqsizlikka e'tibor qarataylik. Agar siz bir dollarlik banknotni 80 sentdan sota boshlasangiz, talab portlashi aniq. Ushbu "muvaffaqiyat" esa, aslida beqaror asosga qurilgan bo'lib, haqiqiy mahsulotni emas, balki investorlarning subsidiyalarini odamlarga taqdim etgani uchun amalga oshadi. 
 
@@ -21,7 +21,7 @@ Investorlar, hatto tajribalilari ham, ba'zida soxta PMF illyuziyasiga aldanishad
 
 ### Case study: Amaliyotdagi fojialar
 
-#### Fast.co: $102 millionlik illyuziya
+#### Fast.co: $102 Millionlik illyuziya
 
 **Fast** kompaniyasi "one-click checkout" servisini rivojlantirgan holda 102 million dollar jalb qilgan edi. Biroq, millionlar sarf qilingan platforma yiliga atigi $50,000 daromad keltirgan paytda sepildi. Bu holat, subsidiyalar bilan sun'iy bozorga kirib kelgan, lekin haqiqiy ehtiyoj va qiymat yaratmagan soxta gigantlarning yorqin misolidir.
 
@@ -37,7 +37,7 @@ Startaplar asosan "Vanity Metrics" yordamida o'z o'sishini ko'rsatadi. Bu esa ko
 
 Katta miqdordagi kapital investorlar va asoschilarda soxta xavfsizlik ruhiyatini shakllantiradi. **WeWork** misolida ko'rib turganimizdek, kompaniya moddiy resurslarni samarasizlikka sarflab, uzoq muddatda inqirozga uchraydi.
 
-### Haqiqiy pmfni aniqlash: "zero-subsidy" testi
+### Haqiqiy pmfni aniqlash: "Zero-subsidy" testi
 
 Haqiqiy PMFni aniqlash uchun keshbek va chegirmalar kabi subsidiyalarsiz sinov o'tkazish yoki **Sean Ellis Testi**dan foydalanish mumkin. Bu testlar mahsulotning bozorga haqiqiy qiymatini qat'iyan aniqlashga yordam beradi.
 

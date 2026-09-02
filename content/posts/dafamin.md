@@ -14,7 +14,7 @@ Ko‘zlarimiz ekranni tezroq varaqlashga odatlanib borarkan, hissiyotlarimiz ham
 
 mma narsani shoshqaloqlik bilan "yutish" bizga lahzalik quvonch bag‘ishlasa-da, bu quvonchning eng katta narxi – **ongimiz va qalbimizdagi chuqur iztirobga aylanib borayotganini payqamayapmiz.**
 
-## 🧠 ilmiy haqiqat: Diqqat va nazoratni yo‘qotish
+## 🧠 Ilmiy haqiqat: Diqqat va nazoratni yo‘qotish
 
 So‘nggi yillarda olib borilgan ilmiy kuzatuvlar buni rasman tasdiqlamoqda. Masalan, 98 mingdan ziyod odam ma’lumotlarini o‘z ichiga olgan keng qamrovli meta-tahlil shuni ko‘rsatganki, qisqa videolarni ko‘p ko‘rgan insonlarda diqqat va o‘zini nazorat qilish qobiliyati ancha susayadi.
 
@@ -27,7 +27,7 @@ Tadqiqotlarning o‘zida ham – ko‘p sonli ommaviy ishtirokchilarda kuzatilga
 
 Hatto olimlar *«qisqa videolar – ruhiy halovat uchun aniq zararli»* degan qat’iy to‘xtamga kelishgan.
 
-## 🔄 moslashish va befarqlik (habituation)
+## 🔄 Moslashish va befarqlik (habituation)
 
 Bundan tashqari, tez sur’atda keladigan ma’lumotlar oqimi ongimizni karaxt qiladi: bir xabarni hazm qilib ulgurmay, ikkinchisini yutishga majbur bo‘lamiz. Izlanishlar shuni ko‘rsatadiki, bunday "tezkor ta’sirga haddan ortiq ko‘nikish" jarayonida inson sekin, ko‘proq diqqat talab qiladigan ishlarga nisbatan befarq bo‘lib qoladi.
 
@@ -35,7 +35,7 @@ Bundan tashqari, tez sur’atda keladigan ma’lumotlar oqimi ongimizni karaxt q
 
 Shunday bo‘lsa-da, tarmoqlarda o‘tgan vaqt "yomg‘ir kabi yog‘iladigan yolg‘izlik va uyqusizlikka" to‘la ekani aytilmoqda: mutaxassislar videolarga qaramlik kuchaygani sari odamlar ko‘proq tushkunlik va bezovtalik bilan birga, o‘zlarini yakkalanib qolganini his qilishlarini aniqlashgan. Inson ongini zabt etishga mo‘ljallangan bu zamonaviy uskunalar aslida ko‘zgu emas: ular bizning sun’iy quvonchimizni tinimsiz rag‘batlantirib, eng nozik tuyg‘ularimizni xavf ostiga qo‘yadi.
 
-## 🎓 talabalar va "burnout"
+## 🎓 Talabalar va "burnout"
 
 Bu holat, ayniqsa, talabalarga nihoyatda yaqin. Bilim olish yo‘lida bor kuchini sarflash o‘rniga, ko‘pchilik yoshlar hozirgi kunda qanchalik tezroq zavqlanish mumkin bo‘lsa, shunga intilishga moslashgan.
 
@@ -51,7 +51,7 @@ Boshqacha qilib aytganda:
 
 Natijada, inson oldiga biror to‘siq chiqqanida, xudbin kayfiyatdan chiqib dunyoni xolis baholashga qiynaladi, oddiygina kayfiyatini ko‘tara olmasa, hayotining mazmuni yo‘qolgandek his qiladi.
 
-## 💔 raqamli yolg‘izlik
+## 💔 Raqamli yolg‘izlik
 
 Oqibatda, bunday "qulay yengilliklar" ruhning eng og‘ir dardini – yolg‘izlikni – kuchaytira boshlaydi. Odamning qalbi huvillab qolganini bila turib, uni shunchaki raqamli o‘yinlar yoki videolar bilan ovutish qiyin.
 
@@ -63,7 +63,7 @@ Ruhshunoslarning qaydicha, axborot ummoniga g‘arq bo‘lgan zamonaviy yoshlarn
 
 Shu bilan birga, yolg‘izligidan ijtimoiy tarmoqlar domiga tushib qolgan kishi ruhiy jihatdan yanada tubanlikka tortiladi: axborot asirligida o‘zini hech kimga keraksiz his etib, yanada yakkalanib qoladi. Balki eski, osoyishta kunlarda odamlar do‘stlikni ko‘cha-ko‘ydan, jonli davralardan izlagan bo‘lsa, hozir esa milliardlab "do‘stlar" orasida ham ko‘pchilik ruhiy majruhlik bilan yashamoqda.
 
-## ⏳ sabrning tugashi va ichki bo‘shliq
+## ⏳ Sabrning tugashi va ichki bo‘shliq
 
 Bularning bari shuni anglatmoqdaki, yengil zavqning asl tovonini biz e’tiborimiz yetishmasligi va bardoshimizning yo‘qolishi bilan to‘layapmiz. Shoshqaloqlikka o‘rganib qolgan yuraklarimiz, bir paytlar qadrli bo‘lgan chuqur hissiyot va mashaqqatli muhabbatni unuta boshlagani sari, ichimizdagi bo‘shliq kattalashib boraveradi.
 
@@ -75,7 +75,7 @@ Shunday ekan, zamonamiz yoshlariga murojaat qilishning o‘zi ham bir muammo bo�
 
 * Endi esa ekranning bir burchagida doimo hazil-masoqaralar paydo bo‘lsa, chuqur ma’lumotni hazm qilish hatto bizni noqulay savolga tutadi: **«Bu yo‘l qayergadir olib boradimi o‘zi?»**.
 
-## 🔚 xulosa
+## 🔚 Xulosa
 
 Uzoqdan nazar solsak, e’tiborimiz ham shunga qarab o‘zgarmoqda: o‘zimiz ham sekin yonib, uzoq nur beradigan narsalarni endi kam his etyapmiz. To‘g‘ri, har qanday texnika vositasi odam hayotiga rang qo‘shishi mumkin. Ammo u bo‘yoqlar qanchalik yorqin bo‘lmasin, tez o‘chib ketuvchi ekanligini ham tan olish kerak.
 

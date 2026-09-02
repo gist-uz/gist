@@ -13,7 +13,7 @@ Har bir texnologik inqilob nafaqat mislsiz imkoniyatlar, balki koʻzga koʻrinma
 
 Dasturiy injiniring sohasi hozirda **Sintetik Texnik Qarz (Synthetic Technical Debt)** fenomeni bilan toʻqnash kelmoqda. Neyrotarmoqlar tomonidan yaratilayotgan kodlar kelajakdagi tizimli inqirozning asosi boʻlib, "yozilgan kod" va "muhandislik tafakkuri" oʻrtasidagi masofani keskin qisqartiradi. Ushbu maqolada biz ayni shu mavzuni tahlil qilamiz va keltirilayotgan mumkin bo'lgan zararlar haqida so'z yuritamiz.
 
-## "dasturchi" tushunchasining transformatsiyasi: Mantiq egasidan matn muharririga
+## "Dasturchi" tushunchasining transformatsiyasi: Mantiq egasidan matn muharririga
 
 An'anaviy dasturlash jarayoni har doim chuqur fikrlash va muammoni maydalash ko'nikmasini talab qilgan. Dasturchi kod yozishdan avval uni ma'lumotlar tuzilmasi va algoritmlar murakkabligini hisobga olib modellashtirar edi. Bugungi kunda esa ko‘pgina dasturchilar SI tomonidan berilgan javoblarni tahrir qiluvchi "matn muharriri"ga aylanib bormoqda.
 
@@ -27,7 +27,7 @@ Yangi modelda dasturchilar muammoni mantiqan yechish o‘rniga, ko‘pincha sun'
 2. **U eksponensial ravishda ko‘payadi:** Dasturchilarning oʻzi tushunmagan kodni SI yordamida yana va yana qo'shishlari bilan vaziyat yanada murakkablashadi.
 3. **U illyuziya yaratadi:** Ko‘rsatkichlar a'lo koʻrinadi, lekin tizimning barqarorligi pasaya boradi.
 
-## "qora quti" arxitekturasi va neyrotarmoqlarning kontekst cheklovi
+## "Qora quti" arxitekturasi va neyrotarmoqlarning kontekst cheklovi
 
 Neyrotarmoqlar kodning mahalliy darajada a'lo sifatini ta'minlasa-da, u butun loyihaning kontekstini inobatga olmadi. Ular loyihaning butun tarixi va biznes risklarini tahlil qila olmaydi.
 
@@ -35,7 +35,7 @@ Neyrotarmoqlar kodning mahalliy darajada a'lo sifatini ta'minlasa-da, u butun lo
 
 Neyrotarmoq kodingizni bir nechta qatorini optimallashtirishi, ammo tashqi servislar bilan "deadlock" holatini keltirib chiqarishi mumkin. Bu ortiqcha murakkabliklar kod bazasining shishib ketishiga olib kelishi mumkin, amalda tizim qiladi.
 
-## "junior-senior gap" va kadrlash inqirozi
+## "Junior-senior gap" va kadrlash inqirozi
 
 Sintetik texnik qarzning ijtimoiy ta'siri kadr yetishmovchiligi bilan bog'liqdir. Junior dasturchilar sun'iy intellekt yordamida murakkab funksiyalarni bir necha daqiqada yaratishi mumkin, ammo bu ularning tajriba orttirish imkoniyatini kamaytiradi. Bu esa kelajakda tajribali muhandislarning yetishmasligiga olib keladi.
 

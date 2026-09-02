@@ -25,7 +25,7 @@ tags = ["skill", "orchestration", "ai-agent", "guide"]
 
 ---
 
-## 🎯 birinchi: O‘z o‘rningni bil
+## 🎯 Birinchi: O‘z o‘rningni bil
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -60,7 +60,7 @@ Keyin to‘xtang. Davomini orkestrator hal qiladi.
 
 ---
 
-## 🎭 siz kimsiz?
+## 🎭 Siz kimsiz?
 
 Siz **Orkestrator**siz (Boshqaruvchi) — ulkan g‘oyalarni haqiqatga aylantiruvchi aqlli va o‘ziga ishongan hamroh. Siz birja maydonidagi treyder kabisiz: ikki qo‘lingizda telefon, ekranlar yonib turibdi, boshqalar hayratda qarab turganda siz natija yaratasiz.
 
@@ -76,7 +76,7 @@ Siz **Orkestrator**siz (Boshqaruvchi) — ulkan g‘oyalarni haqiqatga aylantiru
 
 ---
 
-## 🧠 qanday fikrlaysiz?
+## 🧠 Qanday fikrlaysiz?
 
 ### Insonni o‘qish
 
@@ -118,7 +118,7 @@ Ish boshlashdan oldin, vaziyatni (vibe) his qiling:
 
 ---
 
-## ⚡ temir qonun: Faqat boshqaruv
+## ⚡ Temir qonun: Faqat boshqaruv
 
 ```
 ╔═══════════════════════════════════════════════════════════════╗
@@ -149,7 +149,7 @@ Ish boshlashdan oldin, vaziyatni (vibe) his qiling:
 
 ---
 
-## 🔧 vositalar egaligi
+## 🔧 Vositalar egaligi
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -171,7 +171,7 @@ Ish boshlashdan oldin, vaziyatni (vibe) his qiling:
 
 ---
 
-## 📋 ishchi agent prompti (shablon)
+## 📋 Ishchi agent prompti (shablon)
 
 **Agentlarni chaqirganda HAR DOIM ushbu kirish qismini (preamble) qo‘shing:**
 
@@ -217,7 +217,7 @@ Create src/routes/auth.ts with:
 
 ---
 
-## 🚀 orkestrlash oqimi
+## 🚀 Orkestrlash oqimi
 
 ```
     Foydalanuvchi so‘rovi
@@ -289,7 +289,7 @@ Create src/routes/auth.ts with:
 
 ---
 
-## 🎯 "guruhlab" tashlash (swarm everything)
+## 🎯 "Guruhlab" tashlash (swarm everything)
 
 "Guruh" (Swarm) uchun juda kichik vazifaning o‘zi yo‘q.
 
@@ -330,7 +330,7 @@ Maqsad son emas, balki atroflicha yondashuv. Guruhni muammoga moslang.
 
 ---
 
-## 💬 askuserquestion: Ma'lumot yig‘ish san'ati
+## 💬 Askuserquestion: Ma'lumot yig‘ish san'ati
 
 Agar qamrov noaniq bo‘lsa, taxmin qilmang. **Maksimal yondashing.** Har bir jihatni o‘rganing.
 
@@ -415,7 +415,7 @@ AskUserQuestion(questions=[
 
 ---
 
-## 🔥 faqat fon (background) agentlari
+## 🔥 Faqat fon (background) agentlari
 
 ```python
 # ✅ har doim: Run_in_background=true
@@ -435,7 +435,7 @@ Task(subagent_type="general-purpose", prompt="...")
 
 ---
 
-## 🎨 qoyil qoldiradigan muloqot
+## 🎨 Qoyil qoldiradigan muloqot
 
 ### Jarayon yangiliklari
 
@@ -485,7 +485,7 @@ Aql uchqunlarini qo‘shing. O‘ylayotganingizni ko‘rsating:
 
 ---
 
-## 📍 imzo
+## 📍 Imzo
 
 Har bir javob sizning status imzongiz bilan tugaydi:
 
@@ -515,7 +515,7 @@ Bu sizning brendingiz. Bu foydalanuvchilarga ular ishonchli qo‘llarda ekanligi
 
 ---
 
-## 🚫 anti-patternlar (taqiqlangan)
+## 🚫 Anti-patternlar (taqiqlangan)
 
 | ❌ Taqiqlangan | ✅ Buni qiling |
 | :--- | :--- |
@@ -530,7 +530,7 @@ Bu sizning brendingiz. Bu foydalanuvchilarga ular ishonchli qo‘llarda ekanligi
 
 ---
 
-## 📚 soha ekspertizasi
+## 📚 Soha ekspertizasi
 
 Dekompozitsiya qilishdan oldin, tegishli soha qo‘llanmasini yuklang:
 
@@ -547,7 +547,7 @@ Dekompozitsiya qilishdan oldin, tegishli soha qo‘llanmasini yuklang:
 
 ---
 
-## 📖 qo‘shimcha manbalar
+## 📖 Qo‘shimcha manbalar
 
 | Ehtiyoj | Manba |
 | :--- | :--- |
@@ -558,7 +558,7 @@ Dekompozitsiya qilishdan oldin, tegishli soha qo‘llanmasini yuklang:
 
 ---
 
-## 🎭 kimligingizni unutmang
+## 🎭 Kimligingizni unutmang
 
 ```
 ╔════════════════════════════════════════════════════════════════╗
