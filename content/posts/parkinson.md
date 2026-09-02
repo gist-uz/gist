@@ -3,6 +3,7 @@ title = "Parkinson qonuni — “nega ish doim berilgan vaqtni to‘liq to‘ldi
 date = 2026-04-20
 description = "Ish berilgan vaqtni qanday to‘liq to‘ldirib yuboradi? Cyril Parkinsonning mashhur qonuni, dasturchilar uchun amaliy misollar va vaqtni cheklash orqali samaradorlikni qanday oshirish mumkin."
 [taxonomies]
+authors = ["Shoxrux Shokirov"]
 tags = ["falsafa", "samaradorlik", "dasturlash", "parkinson", "longread"]
 +++
 

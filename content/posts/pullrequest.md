@@ -3,6 +3,7 @@ title = "Gist.uz saytiga qanday qilib maqola yuborish mumkin?"
 date = 2025-12-21
 description = "GitHub orqali Pull Request (PR) yuborish va ochiq kodli blogga o'z hissangizni qo'shish bo'yicha qadamma-qadam qo'llanma."
 [taxonomies]
+authors = ["Shoxrux Shokirov"]
 tags = ["github", "tutorial", "opensource", "hamma-uchun"]
 +++
 

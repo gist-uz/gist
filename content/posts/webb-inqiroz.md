@@ -4,6 +4,7 @@ slug = "webb-inqiroz"
 date = 2026-07-27
 description = "James Webb teleskopi kosmologik modellarning yaroqliligini sinovdan o'tkazib, ilmiy paradigmalarni yangilashga majbur qilmoqda."
 [taxonomies]
+authors = ["Shoxrux Shokirov"]
 tags = ["kosmologiya", "fizika", "ilmiy inqiroz", "teleskop"]
 +++
 

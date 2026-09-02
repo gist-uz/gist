@@ -4,6 +4,8 @@ date = 2025-07-25
 description = "Hamma sizga muvaffaqiyatni sotadi, men esa sizga jarayon azobini ko'rsataman. Nega 99% startapchilar 'zerikish' bosqichida sinadi?"
 draft = false
 tags = ["startap", "haqiqat", "sabr", "biznes", "maslahat"]
+[taxonomies]
+authors = ["Shoxrux Shokirov"]
 +++
 
 Keling, bir-birimizni aldamaylik.

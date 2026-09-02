@@ -3,6 +3,7 @@ title = "Tarantino metodi: Kontentni filmdek o‘qitish"
 date = 2026-02-09
 description = "Nolinear kirish, bo‘lim-bo‘lim portlash va dialog ritmi: Tarantino metodi bilan blog, pitch va dokumentatsiyani zerikarli bo‘lmasdan yozing."
 [taxonomies]
+authors = ["Shoxrux Shokirov"]
 tags = ["Yozish_uslubi", "Maqola", "Kreativlik"]
 +++
 

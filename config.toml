@@ -33,6 +33,9 @@ dynamic_note = true           # a note that can be toggled
 mathjax = true
 mathjax_dollar_inline_enable = true
 
+founder_name = "Shoxrux Shokirov"
+founder_url = "https://vipshakh.uz"
+
 repo_url = "https://github.com/gist-uz/gist/"
 
 fediverse = false    # author attribution

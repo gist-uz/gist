@@ -4,6 +4,8 @@ date = 2026-01-26
 draft = false
 description = "Class, Object, Inheritance, Polymorphism — Python misolida OOP asoslarini o'rganing va professional kod yozishni boshlang."
 tags = ["python", "oop", "advanced", "professional", "best-practices"]
+[taxonomies]
+authors = ["Shoxrux Shokirov"]
 +++
 
 # Oop: Dasturlashning haqiqiy kuchi 🚀

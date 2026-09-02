@@ -4,6 +4,8 @@ date = 2026-01-08
 draft = false
 description = "5 ta oltin qoida: Single Responsibility, Open-Closed, Liskov, Interface Segregation, Dependency Inversion — Python misollarida."
 tags = ["python", "solid", "clean-code", "architecture", "senior-level"]
+[taxonomies]
+authors = ["Shoxrux Shokirov"]
 +++
 
 ### Kirish: Oop ni bilish yetarli emasmi? 🏗️

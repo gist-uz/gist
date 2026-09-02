@@ -45,10 +45,17 @@
                             <span class="authors-label">:: Muallif:</span>
                             <span class="authors">
                                 {%- for author in page.taxonomies.authors %}
-                                    <a href="{{ get_taxonomy_url(kind='authors', name=author, lang=page.lang) }}"
-                                       class="post-authors">{{ author }}</a>
+                                    {% if author == "Shoxrux Shokirov" or author == "Shoxrux" %}
+                                        <a href="https://vipshakh.uz" target="_blank" rel="noopener noreferrer" class="post-authors" style="font-weight: 600;">Shoxrux Shokirov (vipshakh.uz)</a>
+                                    {% else %}
+                                        <a href="{{ get_taxonomy_url(kind='authors', name=author, lang=page.lang) }}"
+                                           class="post-authors">{{ author }}</a>
+                                    {% endif %}
                                 {% endfor %}
                             </span>
+                        {% elif page.extra.ai_authors %}
+                            <span class="authors-label">:: Muallif:</span>
+                            <span class="authors" style="opacity: 0.85;">{{ page.extra.ai_authors }}</span>
                         {% endif %}
 
                         {# Teglar #}

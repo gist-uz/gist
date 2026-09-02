@@ -3,6 +3,8 @@ title = "Zeigarnik effekti: Nima uchun tugallanmagan ishlar bizni tinch qo'ymayd
 date = 2026-07-18
 description = "Ushbu maqolada biz Zeigarnik effektining psixologiyadagi oddiy izohini va nima uchun tugallangan vazifalarga qaraganda tugallanmagan vazifalarni yaxshiroq eslab qolishingiz haqida gaplashamiz."
 tags = ["falsafa", "samaradorlik", "Zeigarnik"]
+[taxonomies]
+authors = ["Shoxrux Shokirov"]
 +++
 
 Sizga hech qachon tugatmagan biror ish haqida bezovta qiluvchi fikrlar kelganmi? Balki yarim tugallangan ish loyihasi tunlari uxlashingizga xalaqit berayotgandir, yoki o'qiyotgan romaningizning shov-shuvli syujeti fikringizdan chiqmayotgandir. Nima uchun tugallanmagan va uzilib qolgan ishlar haqida o'ylashni to'xtatish qiyinligining sababi bor — psixologlar buni **Zeigarnik effekti** deb atashadi.

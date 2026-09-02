@@ -28,6 +28,7 @@
         {% for menu in config.extra.menu %}
             <a href={{ get_url(path=menu.url) }} style="margin-right: 0.5em">{{ menu.name }}</a>
         {% endfor %}
+        <a href="https://vipshakh.uz" target="_blank" rel="noopener noreferrer" style="margin-right: 0.5em; font-weight: 500;" title="Asoschi: Shoxrux Shokirov">/founder</a>
 
         {% if config.build_search_index %}
             <button id="search-button"

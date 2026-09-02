@@ -4,6 +4,7 @@ slug = "kognitiv-xato"
 date = 2026-07-27
 description = "Kognitiv xatolar inson tafakkuriga qanday ta'sir qiladi va ularni tanqidiy fikrlash yordamida bartaraf etishning samarali yo'llari."
 [taxonomies]
+authors = ["Shoxrux Shokirov"]
 tags = ["tanqidiy-fikrlash", "kognitiv-psixologiya", "ta'lim", "psixologik-xatolar"]
 +++
 

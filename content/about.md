@@ -18,6 +18,19 @@ Biz o‘quvchilarimizga shunchaki "nima bo‘lganini" emas, balki "nega bunday b
 
 ---
 
+## Loyiha asoschisi (Founder)
+
+<div style="background: rgba(255, 255, 255, 0.05); padding: 1.2rem; border-radius: 8px; border-left: 4px solid #3b82f6; margin: 1rem 0;">
+    <h3 style="margin: 0 0 0.5rem 0; font-size: 1.3rem;">
+        👨‍💻 <a href="https://vipshakh.uz" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline;">Shoxrux Shokirov</a> (vipshakh.uz)
+    </h3>
+    <p style="margin: 0; opacity: 0.9;">
+        Gist.uz loyihasi asoschisi va muallifi. Dasturiy injiniring, sun'iy intellekt, tizimlar arxitekturasi hamda tanqidiy fikrlash yo'nalishida tahliliy kontent yaratadi.
+    </p>
+</div>
+
+---
+
 ## Biz nimalarga tayanamiz?
 
 ### 🔍 Intellektual halollik

@@ -3,6 +3,7 @@ title = "Agentic engineer: Kelajakni qurayotgan kasb"
 date = 2026-05-11
 description = "Prompt yozish davri tugayapti. Agentic Engineering qanday qilib sun’iy intellektni oddiy chatbotdan haqiqiy ishchi tizimga aylantirmoqda?"
 [taxonomies]
+authors = ["Shoxrux Shokirov"]
 tags = ["ai", "agentic-engineering", "llm", "automation", "future", "software-engineering"]
 +++
 ## Kelajak kasbi: Nima uchun "agentic engineer"lar dunyoni o'zgartiradi?

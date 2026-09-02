@@ -3,6 +3,7 @@ title = "Deep work: Chalg‘itishlar asrida haqiqiy ish qilish san‘ati"
 date = 2026-04-28
 description = "Raqamli dunyoda diqqatni qanday saqlash mumkin? Cal Newport falsafasi, dasturchilar uchun amaliy strategiyalar va 'strategik dangasalik'ning ikkinchi bosqichi."
 [taxonomies]
+authors = ["Shoxrux Shokirov"]
 tags = ["falsafa", "samaradorlik", "dasturlash", "deepwork", "longread"]
 +++
 

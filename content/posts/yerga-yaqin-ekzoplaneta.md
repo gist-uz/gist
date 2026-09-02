@@ -4,6 +4,7 @@ slug = "yerga-yaqin-ekzoplaneta"
 date = 2026-07-27
 description = "Yangi ekzoplanetalar va ularning yerga yaqinligi bizning kelajagimizda qanday ro'l o'ynashi mumkinligini o'rganamiz."
 [taxonomies]
+authors = ["Shoxrux Shokirov"]
 tags = ["kosmos", "ekzoplaneta", "astronomiya", "ilm-fan"]
 +++
 

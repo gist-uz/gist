@@ -4,6 +4,7 @@ slug = "chalg‘ituvchi-texnologiya-sun‘iy-intellekt-davrida-dasturchining-eti
 date = 2026-07-27
 description = "Sun'iy intellektning keskin rivojlanishi bilan dasturchilar qanday etika dilemmalariga duch kelishyapti va bu dilemmalar IT sohasiga qanday ta'sir qiladi?"
 [taxonomies]
+authors = ["Shoxrux Shokirov"]
 tags = ["dasturchi", "sun'iy intellekt", "etika", "texnologiya"]
 +++
 

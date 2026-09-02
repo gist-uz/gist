@@ -4,6 +4,7 @@ slug = "sintetik-qarz"
 date = 2026-07-27
 description = "Neyrotarmoqlar yordamida kod yozishning tezkorligi va bu jarayondagi xavf-xatarlar haqida tahliliy maqola. Siz o'zingizni bu texnik qarzlardan qanday himoya qila olasiz?"
 [taxonomies]
+authors = ["Shoxrux Shokirov"]
 tags = ["sun'iy intellekt", "texnik qarz", "neyraltarmoqlar", "kod xavfsizligi"]
 +++
 
