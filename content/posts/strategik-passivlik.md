@@ -1,4 +1,3 @@
-toml
 +++
 title = "Strategik Passivlik Paradoxi: Zamonaviy Karyerada Hech Narsa Qilmaslik San'ati"
 slug = "strategik-passivlik"
