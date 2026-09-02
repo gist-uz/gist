@@ -93,6 +93,9 @@ ${excludePrompt}
 O'zingiz aniq va qiziqarli, o'quvchini jalb qiladigan, zamonaviy va biroz provokatsion sarlavha o'ylab toping.
 Keyin shu mavzuda keng qamrovli, tahliliy, mantiqiy ketma-ketlikka ega bo'lgan maqola yozing. Matn hajmi juda katta va batafsil (kamida 1200-1500 so'z) bo'lishi SHART. Har bir paragrafda chuqur fi[...]
 Matn faqat o'zbek tilida (kirill yozuvidan qochib, lotin alifbosida) bo'lishi shart.
+MUHIM uslub qoidasi: barcha title, subtitle, header va oddiy matn Sentence case bo'lsin.
+Faqat birinchi so'z bosh harf bilan yozilsin, qolgan so'zlar kichik harf bo'lsin (proper noun va rasmiy acronym bundan mustasno).
+Never use Title Case (capitalizing the first letter of every word).
 `;
 
   let draftText = "";
@@ -136,9 +139,9 @@ tags = ["tag1", "tag2", "tag3", "tag4"]
 
 Frontmatterdan keyin esa darhol maqolaning o'zi, markdown formatida (## sarlavhalar, *qalin yozuvlar*, ro'yxatlar) kelishi kerak. Matn uzun, batafsil va sifatli bo'lsin. Hech qanday markdown kod [...]
 
-MUHIM QOIDA: Matn ichidagi barcha ## va ### sarlavhalar bosh harf bilan boshlansin.
-Sarlavhaning birinchi so'zi albatta katta harf bilan yozilsin.
-Frontmatter title ham bosh harf bilan boshlansin.
+MUHIM QOIDA: Barcha title, subtitle, header (##, ###) va oddiy matn Sentence case bo'lsin.
+Faqat birinchi so'z bosh harf bilan yozilsin, qolgan so'zlar kichik harf bo'lsin (proper noun va rasmiy acronym bundan mustasno).
+Never use Title Case (capitalizing the first letter of every word).
 
 MUHIM: slug maydonida FAQAT 1-2 so'zdan iborat juda qisqa nom yozing. Masalan: "etika-dilemma", "kvant-kompyuter", "startap-xato". HECH QACHON uzun slug yozmang!
 
@@ -174,9 +177,9 @@ tags = ["tag1", "tag2", "tag3", "tag4"]
 
 Frontmatterdan keyin esa darhol maqolaning o'zi, markdown formatida (## sarlavhalar, *qalin yozuvlar*, ro'yxatlar) kelishi kerak. Matn uzun, batafsil va sifatli bo'lsin. Hech qanday markdown kod [...]
 
-MUHIM QOIDA: Matn ichidagi barcha ## va ### sarlavhalar bosh harf bilan boshlansin.
-Sarlavhaning birinchi so'zi albatta katta harf bilan yozilsin.
-Frontmatter title ham bosh harf bilan boshlansin.
+MUHIM QOIDA: Barcha title, subtitle, header (##, ###) va oddiy matn Sentence case bo'lsin.
+Faqat birinchi so'z bosh harf bilan yozilsin, qolgan so'zlar kichik harf bo'lsin (proper noun va rasmiy acronym bundan mustasno).
+Never use Title Case (capitalizing the first letter of every word).
 
 MUHIM: slug maydonida FAQAT 1-2 so'zdan iborat juda qisqa nom yozing. Masalan: "etika-dilemma", "kvant-kompyuter", "startap-xato". HECH QACHON uzun slug yozmang!
 
