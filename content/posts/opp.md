@@ -371,8 +371,8 @@ donald.quack() # O'ziniku
 
 ```python
 print(Duck.__mro__)
-# (<class 'duck'>, <class 'animal'>, <class 'flyable'>, 
-# <class 'swimmable'>, <class 'object'>)
+# (<Class 'duck'>, <class 'animal'>, <class 'flyable'>,
+# <Class 'swimmable'>, <class 'object'>)
 
 # Python chapdan o'ngga, yuqoridan pastga qidiradi
 ```
@@ -996,7 +996,7 @@ from dataclasses import dataclass, field
 from typing import List
 from datetime import datetime
 
-# 1. product hierarchy (inheritance + abstraction)
+# 1. Product hierarchy (inheritance + abstraction)
 class Product(ABC):
     """Abstrak mahsulot klassi"""
     
@@ -1039,7 +1039,7 @@ class Clothing(Product):
     def get_category(self):
         return "Clothing"
 
-# 2. shopping cart (encapsulation + composition)
+# 2. Shopping cart (encapsulation + composition)
 class ShoppingCart:
     """Xarid savati - composition misoli"""
     
@@ -1081,7 +1081,7 @@ class ShoppingCart:
         """for item in cart uchun"""
         return iter(self._items)
 
-# 3. user system (inheritance + polymorphism)
+# 3. User system (inheritance + polymorphism)
 class User:
     """Asosiy foydalanuvchi"""
     
@@ -1110,7 +1110,7 @@ class PremiumUser(User):
         }
         return discounts.get(self.membership_level, 0)
 
-# 4. order processing (factory pattern + strategy pattern)
+# 4. Order processing (factory pattern + strategy pattern)
 @dataclass
 class Order:
     """Buyurtma - dataclass misoli"""
@@ -1141,7 +1141,7 @@ class Order:
         self.status = "processed"
         print(f"✅ Buyurtma qabul qilindi! Jami: ${self.calculate_total():.2f}")
 
-# 5. ishlatish - demo
+# 5. Ishlatish - demo
 def main():
     # Mahsulotlar yaratish
     laptop = Electronics("MacBook Pro", 2000, 10, 12)

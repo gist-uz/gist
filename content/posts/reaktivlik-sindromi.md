@@ -7,7 +7,7 @@ description = "Tezkor javobni samaradorlik deb qabul qilishning aslida intellekt
 tags = ["ish usuli", "karyera", "produktivit", "neyrobiologiya"]
 +++
 
-# Reaktivlik Sindromi: Nega Tezkor Javob Berish Sizni Karyera Cho‘qqisiga Emas, Intellektual Qullikka Yetaklaydi?
+# Reaktivlik sindromi: Nega tezkor javob berish sizni karyera cho‘qqisiga emas, intellektual qullikka yetaklaydi?
 
 Zamonaviy mehnat madaniyatida bir yozilmagan, ammo qat’iy amal qilinadigan qoida mavjud: **"Kim tezkor javob bersa, o‘sha yaxshi ishlamoqda."** Slack, Telegram, Microsoft Teams va elektron pochtadagi yashil chiroqcha — xodimning mavjudligi, uning loyihaga sodiqligi va unumdorligining bosh mezoni sifatida qabul qilinadi. Kompaniyalar o‘z xodimlarining "reaktivligi" (tezkor javob berish tezligi) bilan faxrlanadilar, rahbarlar esa yarim tunda yuborilgan xabarlarga ikki daqiqada javob yozgan mutaxassisni ich-ichidan olqishlaydilar.
 

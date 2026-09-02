@@ -420,11 +420,11 @@ AskUserQuestion(questions=[
 ## 🔥 Faqat fon (background) agentlari
 
 ```python
-# ✅ har doim: Run_in_background=true
+# ✅ Har doim: Run_in_background=true
 Task(subagent_type="Explore", prompt="...", run_in_background=True)
 Task(subagent_type="general-purpose", prompt="...", run_in_background=True)
 
-# ❌ hech qachon: Bloklovchi agentlar (orkestrator vaqtini yeydi)
+# ❌ Hech qachon: Bloklovchi agentlar (orkestrator vaqtini yeydi)
 Task(subagent_type="general-purpose", prompt="...")
 ```
 

@@ -7,7 +7,7 @@ description = "Raqamli dunyoning fizik chegaralari, axborotning massaga ega bo�
 tags = ["axborot", "mass-energiya", "dasturlash", "qorong'u-materiya"]
 +++
 
-# Axborotning Fizik Massasi: Nega Raqamli Dunyo Materiyani Yutmoqda va Koinotning 5-Holati Dasturlashni Qanday O‘zgartiradi?
+# Axborotning fizik massasi: Nega raqamli dunyo materiyani yutmoqda va koinotning 5-holati dasturlashni qanday o‘zgartiradi?
 
 Zamonaviy insoniyat uchun raqamli ma'lumotlar mavhum, vaznsiz va moddiy dunyodan ayro tuyuladi. Biz “bulutli texnologiyalar” haqida gapirganda, tasavvurimizda osmondagi yengil va moddiylikka ega bo‘lmagan narsa paydo bo‘ladi. Smartfoningiz xotirasiga 1 terabayt video yuklasangiz, uning og‘irligi grammning milliarddan bir ulushiga ham o‘zgarmaganidek tuyulishi mumkin. Axborot — shunchaki mantiqiy nol va birlar ketma-ketligi, birgina abstraksiya, to‘g‘rimi?
 

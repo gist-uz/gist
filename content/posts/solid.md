@@ -95,7 +95,7 @@ class Click(Payment):
 class Payme(Payment):
     def pay(self): print("Payme to'lov.")
 
-# Yangi to'lov kerakmi? shunchaki yangi class ochasiz.
+# Yangi to'lov kerakmi? Shunchaki yangi class ochasiz.
 class Uzum(Payment):
     def pay(self): print("Uzum to'lov.")
 ```

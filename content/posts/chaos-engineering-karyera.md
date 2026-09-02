@@ -7,7 +7,7 @@ description = "Karyerada chaos engineering metodologiyasini qo'llash imkoniyatla
 tags = ["karyera", "chaos-engineering", "rivojlanish", "antifragility"]
 +++
 
-# Karyeraviy Chaos Engineering: Nega Kasbiy Barqarorlik Tuzoq va O'z Tizimingizni Sun'iy Inqirozlarga Uchrashish Vaqti Keldi?
+# Karyeraviy Chaos Engineering: Nega kasbiy barqarorlik tuzoq va o'z tizimingizni sun'iy inqirozlarga uchrashish vaqti keldi?
 
 2011-yilda Netflix muhandislari bulutli infratuzilmaga o'tayotganda kutilmagan, ammo inqilobiy bir g'oyani ilgari surishdi. Ular tizimning chidamliligini oshirish uchun serverlarni tasodifiy ravishda ishdan chiqaradigan "Chaos Monkey" deb nomlangan maxsus dasturni yaratdilar. Mantiq sodda edi: agar siz kutilmagan halokatlarning oldini olmoqchi bo'lsangiz, tizimingizni ish vaqtida, nazorat qilingan muhitda doimiy va kichik dozalardagi sun'iy inqirozlarga duchor etib turishingiz kerak.
 
