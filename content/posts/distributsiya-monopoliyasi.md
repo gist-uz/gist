@@ -1,6 +1,3 @@
-Here's a refined version of the article draft, formatted for Zola:
-
-```markdown
 +++
 title = "Mahsulotmi yoxud distributsiya: Zamonaviy startaplardagi texnik ustunlikning yolg'on paradokslari"
 slug = "distributsiya-monopoliyasi"

@@ -1,4 +1,3 @@
-toml
 +++
 title = "Metakognitiv paralich va intellektual turg'unlikning siri"
 slug = "metakognitiv"

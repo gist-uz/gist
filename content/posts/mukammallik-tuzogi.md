@@ -1,4 +1,3 @@
-toml
 +++
 title = "Ortiqcha muvofiqlik tuzog‘i: startaplar uchun mukammallikdan voz kechish muhim"
 slug = "mukammallik-tuzogi"

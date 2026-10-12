@@ -1,4 +1,3 @@
-toml
 +++
 title = "Optsionallik tuzog'i: Nega barcha eshiklarni ochiq qoldirish istagi professional inqirozga yetaklaydi"
 slug = "optsionallik-tuzogi"

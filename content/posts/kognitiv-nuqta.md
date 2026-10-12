@@ -1,4 +1,3 @@
-toml
 +++
 title = "Kognitiv ko'r nuqta: Nega kognitiv xatolarni bilish sizni ulardan himoya qilmaydi?"
 slug = "kognitiv-nuqta"

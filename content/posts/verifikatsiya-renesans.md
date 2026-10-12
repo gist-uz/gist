@@ -1,4 +1,3 @@
-toml
 +++
 title = "Formal verifikatsiya renesansi: AI davrida kod yozishdan matematik isbotlashga"
 slug = "verifikatsiya-renesans"

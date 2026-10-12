@@ -1,4 +1,3 @@
-toml
 +++
 title = "Vertikal karyera illuziyasi: Nega professional zinapoyadan ko'ra labirintda yurishni o'rganish muhimroq?"
 slug = "karyera-labirinti"

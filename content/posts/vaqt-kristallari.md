@@ -1,4 +1,3 @@
-toml
 +++
 title = "Vaqt kristallari va entropiya illyuziyasi"
 slug = "vaqt-kristallari"

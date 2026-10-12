@@ -64,4 +64,3 @@ Kognitiv substitutsiyadan butunlay qutulish mumkin emas, lekin:
 ### Xulosa: intellektual halollik sari
 
 Kognitiv substitutsiya — bizning kundalik hayotimizni va qarorlarimizni shakllantiradigan yashirin kuchdir. Ehtiyot bo‘lishimiz kerak. Buning uchun miyamizning cheklovlari va zaifliklarini tan olib, haqiqiy tanqidiy fikrlashning boshlanishi uchun o‘zimizga savol berishimiz zarur: "Men hozir qiyin savolga javob berayapmanmi yoki oson javobni tanlayapmanmi?".
-```

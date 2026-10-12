@@ -1,6 +1,3 @@
-Here is the revised version of your draft in a professional and polished format, along with the required TOML front matter in Markdown:
-
-```markdown
 +++
 title = "Cheksiz kontekst xatosi: nega katta kontekst oynalari dasturiy arxitektura va modullikni o‘ldirmoqda"
 slug = "kontekst-xato"
