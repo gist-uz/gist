@@ -1,4 +1,4 @@
-+++ 
++++
 title = "Litsenziya o'limi: Sun'iy intellekt davrida SaaS modelining inqirozi va natijaga asoslangan yangi biznes-arxitektura"
 slug = "ai-saas-inqiroz"
 date = 2026-10-08

@@ -1,4 +1,3 @@
-toml
 +++
 title = "Diqqat taqchilligi iqtisodiyoti va intellektual monopoliya: Multitaskingning karyera uchun zararli ta'siri"
 slug = "diqqat-taqchilligi"

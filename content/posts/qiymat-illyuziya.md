@@ -1,4 +1,3 @@
-toml
 +++
 title = "Qiymat yaratish illyuziyasi: Zamonaviy startaplar iqtisodiyotidagi muammolar"
 slug = "qiymat-illyuziya"

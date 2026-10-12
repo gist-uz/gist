@@ -1,4 +1,3 @@
-toml
 +++
 title = "Raqamli o'rmondagi izolyatsiya: 'offline-first' arxitekturasining insoniy kafolati"
 slug = "offline-first"

@@ -1,4 +1,3 @@
-toml
 +++
 title = "Intellektual amortizatsiya: professional bilimingizning yarim yemirilish davri qisqarganda karyeralik muvozanat"
 slug = "intellektual-amortizatsiya"

@@ -1,4 +1,3 @@
-toml
 +++
 title = "Boltzman miyasi paradoksi: tasodifiy yaratilgan ongning voqelikni idrok etishiga bo'lgan ishonchi"
 slug = "boltzman-miyasi"

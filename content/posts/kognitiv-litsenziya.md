@@ -1,4 +1,3 @@
-toml
 +++
 title = "Kognitiv litsenziyalash tuzog'i: Nega aytilgan bilimlar bizni dangasa qilishi mumkin?"
 slug = "kognitiv-litsenziya"

@@ -1,4 +1,3 @@
-toml
 +++
 title = "Sulaymon paradoksi: boshqalarning muammolarini hal qilish oson, lekin o’zimiznikiga kelganda miyamiz qandaydir muzlab qoladi"
 slug = "sulaymon-paradoksi"

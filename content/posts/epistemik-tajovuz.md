@@ -1,4 +1,3 @@
-toml
 +++
 title = "Epistemik tajovuz: mutaxassislarning begona hududdagi xatolari"
 slug = "epistemik-tajovuz"

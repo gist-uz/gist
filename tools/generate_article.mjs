@@ -58,6 +58,29 @@ function sentenceCaseHeadings(markdown) {
     .join('\n');
 }
 
+function sanitizeGeneratedMarkdown(markdown) {
+  let cleaned = markdown.trim();
+
+  // Strip opening code fence if model wrapped the whole response
+  cleaned = cleaned.replace(/^```(?:markdown|md|toml)?\s*\n/i, '').trimStart();
+
+  // If front matter exists later in the text, drop accidental wrapper prose/prefix lines
+  const frontMatterStart = cleaned.search(/^\+\+\+\s*$/m);
+  if (frontMatterStart > 0) {
+    cleaned = cleaned.slice(frontMatterStart).trimStart();
+  }
+
+  // Strip trailing wrapper fence, including when it was followed by newlines/spaces
+  cleaned = cleaned.trimEnd().replace(/\n```[\t ]*$/, '').trimEnd();
+
+  const frontMatterDelimiters = cleaned.match(/^\+\+\+\s*$/gm) || [];
+  if (!cleaned.startsWith('+++') || frontMatterDelimiters.length < 2) {
+    throw new Error("Generated content does not contain valid TOML front matter.");
+  }
+
+  return cleaned;
+}
+
 function getExistingTopics() {
   const postsDir = path.join(__dirname, '..', 'content', 'posts');
   let topics = [];
@@ -200,18 +223,7 @@ Important formatting rule for TOML front matter:
     });
 
     finalMarkdown = completion.choices[0].message.content;
-
-    // Remove markdown code block wrapping if GPT still added it
-    if (finalMarkdown.startsWith("```markdown")) {
-      finalMarkdown = finalMarkdown.substring(11);
-    }
-    if (finalMarkdown.startsWith("```")) {
-      finalMarkdown = finalMarkdown.substring(3);
-    }
-    if (finalMarkdown.endsWith("```")) {
-      finalMarkdown = finalMarkdown.substring(0, finalMarkdown.length - 3);
-    }
-    finalMarkdown = finalMarkdown.trim();
+    finalMarkdown = sanitizeGeneratedMarkdown(finalMarkdown);
 
     // Enforce heading capitalization for ##/### as a post-processing safety step
     finalMarkdown = sentenceCaseHeadings(finalMarkdown);

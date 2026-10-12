@@ -1,4 +1,3 @@
-toml
 +++
 title = "Karyeraviy prokrastinatsiya: Harakat simulyatsiyasi orqali o'zimizni aldash san'ati"
 slug = "karyera-prokrastinatsiya"

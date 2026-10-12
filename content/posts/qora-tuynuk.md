@@ -1,4 +1,3 @@
-toml
 +++
 title = "Qora tuynuk axborot paradoksi va fazo-vaqtning o‘limi: olam qanday qilib o‘tmishni o‘chirib tashlamoqda?"
 slug = "qora-tuynuk"

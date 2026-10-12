@@ -1,6 +1,3 @@
-To create an improved and professional article draft for "Gist.uz", let's follow your instructions and create a quality article with the required format in Markdown.
-
-```markdown
 +++
 title = "O'lik metrika poygasi: nega 'haqiqiy foydalanuvchi' illyuziyasi startaplarni jarlikka yetaklaydi?"
 slug = "metrika-poygasi"

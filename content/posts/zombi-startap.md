@@ -90,4 +90,3 @@ Muvaffaqiyatsizlikni tan olish va loyihani o‘z vaqtida yopish san'ati shakllan
 ## Xulosa: Illuziyadan voqelikka
 
 "Gist.uz" o‘quvchilariga yaxshi ma'lumki, har qanday tech va biznes taraqqiyotning zamirida tanqidiy fikrlash yotadi. Zombi-startaplar zamonaviy venchur kapitalizmining ravshan aks-sadosidir. Ular bizga venchur moliyalashtirish biznesning maqsadi emas, balki tezlatgich ekanligini eslatadi. Haqiqiy tadbirkorlik va injiniring — bu real dunyo muammolariga iqtisodiy jihatdan o‘zini oqlaydigan yechimlar topishdir. Ba'zan eng katta jasorat — o‘z loyihangizga obyektiv nazar tashlash va yangi, toza sahifadagi boshlanishdir.
-```

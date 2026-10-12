@@ -1,4 +1,3 @@
-toml
 +++
 title = "Sintetik abstraksiya va semantik kolaps: Nega sun'iy intellekt yozgan kod dasturchini o'z tizimidan quvg'in qilmoqda?"
 slug = "semantik-kolaps"

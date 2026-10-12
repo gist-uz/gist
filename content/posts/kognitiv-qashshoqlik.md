@@ -1,4 +1,3 @@
-toml
 +++
 title = "Kognitiv qashshoqlik arxitekturasi: nima uchun bandlik illyuziyasi kasbiy o'sishni yutib yubormoqda?"
 slug = "kognitiv-qashshoqlik"
